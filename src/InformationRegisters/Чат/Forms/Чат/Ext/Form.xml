@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>ЧАТ</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoURL>false</AutoURL>
+	<Customizable>false</Customizable>
+	<CommandBarLocation>Top</CommandBarLocation>
+	<CommandSet>
+		<ExcludedCommand>Abort</ExcludedCommand>
+		<ExcludedCommand>Cancel</ExcludedCommand>
+		<ExcludedCommand>Change</ExcludedCommand>
+		<ExcludedCommand>ChangeHistory</ExcludedCommand>
+		<ExcludedCommand>Copy</ExcludedCommand>
+		<ExcludedCommand>Create</ExcludedCommand>
+		<ExcludedCommand>Delete</ExcludedCommand>
+		<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+		<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+		<ExcludedCommand>Ignore</ExcludedCommand>
+		<ExcludedCommand>ListSettings</ExcludedCommand>
+		<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
+		<ExcludedCommand>No</ExcludedCommand>
+		<ExcludedCommand>OK</ExcludedCommand>
+		<ExcludedCommand>OutputList</ExcludedCommand>
+		<ExcludedCommand>RestoreValues</ExcludedCommand>
+		<ExcludedCommand>Retry</ExcludedCommand>
+		<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
+		<ExcludedCommand>SaveValues</ExcludedCommand>
+		<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+		<ExcludedCommand>Yes</ExcludedCommand>
+	</CommandSet>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="УменьшитьМасштабФормы" id="45">
+				<Type>CommandBarButton</Type>
+				<Width>3</Width>
+				<CommandName>Form.Command.УменьшитьМасштабФормы</CommandName>
+				<ExtendedTooltip name="УменьшитьМасштабФормыРасширеннаяПодсказка" id="46"/>
+			</Button>
+			<Button name="УвеличитьМасштабФормы" id="43">
+				<Type>CommandBarButton</Type>
+				<Width>3</Width>
+				<CommandName>Form.Command.УвеличитьМасштабФормы</CommandName>
+				<ExtendedTooltip name="УвеличитьМасштабФормыРасширеннаяПодсказка" id="44"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа_УправлениеРасположением" id="53">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Управление расположением (свернуть)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа управление расположением</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Collapsible</Behavior>
+			<CollapsedRepresentationTitle>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>...</v8:content>
+				</v8:item>
+			</CollapsedRepresentationTitle>
+			<ExtendedTooltip name="Группа_УправлениеРасположениемРасширеннаяПодсказка" id="54"/>
+			<ChildItems>
+				<LabelDecoration name="ИнформацияОЗакрепленииОкна" id="55">
+					<Title formatted="true">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;fontsize 10&gt;&lt;colorstyle -24&gt;Чтобы появилась возможность одновременного распожения окна &lt;/&gt;&lt;/&gt;&lt;fontsize 10&gt;&lt;b&gt;&lt;colorstyle -24&gt;ЧАТ&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;fontsize 10&gt;&lt;colorstyle -24&gt; и игрового стола рекомендуется: &lt;/&gt;&lt;/&gt;&lt;colorstyle -24&gt;
+&lt;/&gt;&lt;fontsize 10&gt;&lt;bgcolorstyle -1&gt;&lt;colorstyle -24&gt;Нажать правой кнопкой мышки по заголовку (надпись &lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;fontsize 10&gt;&lt;b&gt;&lt;bgcolorstyle -1&gt;&lt;colorstyle -24&gt;ЧАТ&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;fontsize 10&gt;&lt;bgcolorstyle -1&gt;&lt;colorstyle -24&gt;) &gt;&gt;&gt;&gt; &lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;fontsize 10&gt;&lt;i&gt;&lt;bgcolorstyle -1&gt;&lt;colorstyle -24&gt;Закрепить справа (слева)&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ИнформацияОЗакрепленииОкнаКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="ИнформацияОЗакрепленииОкнаРасширеннаяПодсказка" id="57"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Visible>false</Visible>
+			<Enabled>false</Enabled>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<UsualGroup name="Группа_Чат" id="39">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа чат</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа чат</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа_ЧатРасширеннаяПодсказка" id="40"/>
+			<ChildItems>
+				<Table name="Список" id="3">
+					<Representation>List</Representation>
+					<CommandBarLocation>None</CommandBarLocation>
+					<DefaultItem>true</DefaultItem>
+					<Header>false</Header>
+					<VerticalScrollBar>UseAlways</VerticalScrollBar>
+					<HorizontalLines>false</HorizontalLines>
+					<VerticalLines>false</VerticalLines>
+					<UseAlternationRowColor>true</UseAlternationRowColor>
+					<InitialListView>End</InitialListView>
+					<InitialTreeView>ExpandTopLevel</InitialTreeView>
+					<DataPath>Список</DataPath>
+					<RowPictureDataPath>Список.ИндексКартинки</RowPictureDataPath>
+					<RowsPicture>
+						<xr:Ref>CommonPicture.ПиктограммкиЧат</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</RowsPicture>
+					<CommandSet>
+						<ExcludedCommand>CancelSearch</ExcludedCommand>
+						<ExcludedCommand>Change</ExcludedCommand>
+						<ExcludedCommand>ChangeHistory</ExcludedCommand>
+						<ExcludedCommand>Copy</ExcludedCommand>
+						<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+						<ExcludedCommand>Create</ExcludedCommand>
+						<ExcludedCommand>Delete</ExcludedCommand>
+						<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+						<ExcludedCommand>Find</ExcludedCommand>
+						<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+						<ExcludedCommand>ListSettings</ExcludedCommand>
+						<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
+						<ExcludedCommand>OutputList</ExcludedCommand>
+						<ExcludedCommand>Refresh</ExcludedCommand>
+						<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
+						<ExcludedCommand>SearchHistory</ExcludedCommand>
+						<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+					</CommandSet>
+					<RefreshRequest>PullFromBottom</RefreshRequest>
+					<AutoRefresh>false</AutoRefresh>
+					<AutoRefreshPeriod>90</AutoRefreshPeriod>
+					<Period>
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</Period>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<RestoreCurrentRow>false</RestoreCurrentRow>
+					<TopLevelParent xsi:nil="true"/>
+					<ShowRoot>true</ShowRoot>
+					<AllowRootChoice>false</AllowRootChoice>
+					<UpdateOnDataChange>Auto</UpdateOnDataChange>
+					<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+					<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+					<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
+					<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+					<SearchStringAddition name="СписокСтрокаПоиска" id="7">
+						<AdditionSource>
+							<Item>Список</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="8"/>
+						<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="СписокСостояниеПросмотра" id="10">
+						<AdditionSource>
+							<Item>Список</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="11"/>
+						<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="СписокУправлениеПоиском" id="13">
+						<AdditionSource>
+							<Item>Список</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
+						<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<ColumnGroup name="ФорматСообщения" id="30">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Формат сообщения</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Формат сообщения</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ExtendedTooltip name="ФорматСообщенияРасширеннаяПодсказка" id="31"/>
+							<ChildItems>
+								<ColumnGroup name="ВремяОтправитель" id="28">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Время отправитель</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Время отправитель</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>InCell</Group>
+									<ExtendedTooltip name="ВремяОтправительРасширеннаяПодсказка" id="29"/>
+									<ChildItems>
+										<LabelField name="Отправитель" id="19">
+											<DataPath>Список.Отправитель</DataPath>
+											<DefaultItem>true</DefaultItem>
+											<TextColor>web:DimGray</TextColor>
+											<Font ref="style:NormalTextFont" bold="true" italic="true" underline="false" strikeout="false" kind="StyleItem"/>
+											<ContextMenu name="ОтправительКонтекстноеМеню" id="20"/>
+											<ExtendedTooltip name="ОтправительРасширеннаяПодсказка" id="21"/>
+										</LabelField>
+										<LabelField name="ДатаСообщения" id="16">
+											<DataPath>Список.ДатаСообщения</DataPath>
+											<DefaultItem>true</DefaultItem>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Время</v8:content>
+												</v8:item>
+											</Title>
+											<Format>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>ДФ='[ЧЧ:мм] dd/MM/yy'</v8:content>
+												</v8:item>
+											</Format>
+											<ContextMenu name="ДатаСообщенияКонтекстноеМеню" id="17"/>
+											<ExtendedTooltip name="ДатаСообщенияРасширеннаяПодсказка" id="18"/>
+										</LabelField>
+									</ChildItems>
+								</ColumnGroup>
+								<LabelField name="ТекстСообщения" id="25">
+									<DataPath>Список.ТекстСообщения</DataPath>
+									<DefaultItem>true</DefaultItem>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сообщение</v8:content>
+										</v8:item>
+									</Title>
+									<AutoCellHeight>true</AutoCellHeight>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<VerticalStretch>true</VerticalStretch>
+									<TextColor>web:Gray</TextColor>
+									<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+									<ContextMenu name="ТекстСообщенияКонтекстноеМеню" id="26"/>
+									<ExtendedTooltip name="ТекстСообщенияРасширеннаяПодсказка" id="27"/>
+								</LabelField>
+								<LabelField name="Игра" id="47">
+									<DataPath>Список.Игра</DataPath>
+									<Visible>false</Visible>
+									<ContextMenu name="ИграКонтекстноеМеню" id="48"/>
+									<ExtendedTooltip name="ИграРасширеннаяПодсказка" id="49"/>
+								</LabelField>
+								<CheckBoxField name="ЭтоАвторСообщения" id="50">
+									<DataPath>Список.ЭтоАвторСообщения</DataPath>
+									<Visible>false</Visible>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ЭтоАвторСообщенияКонтекстноеМеню" id="51"/>
+									<ExtendedTooltip name="ЭтоАвторСообщенияРасширеннаяПодсказка" id="52"/>
+								</CheckBoxField>
+								<LabelField name="Получатель" id="22">
+									<DataPath>~Список.Получатель</DataPath>
+									<Visible>false</Visible>
+									<DefaultItem>true</DefaultItem>
+									<ContextMenu name="ПолучательКонтекстноеМеню" id="23"/>
+									<ExtendedTooltip name="ПолучательРасширеннаяПодсказка" id="24"/>
+								</LabelField>
+							</ChildItems>
+						</ColumnGroup>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа_ОтправкаСообщения" id="41">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа отправка сообщения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа отправка сообщения</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа_ОтправкаСообщенияРасширеннаяПодсказка" id="42"/>
+			<ChildItems>
+				<InputField name="ТекстСообшения" id="32">
+					<DataPath>ТекстСообшения</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Height>3</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<MultiLine>true</MultiLine>
+					<ContextMenu name="ТекстСообшенияКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ТекстСообшенияРасширеннаяПодсказка" id="34"/>
+					<Events>
+						<Event name="EditTextChange">ТекстСообшенияИзменениеТекстаРедактирования</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа_Подвал" id="35">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подвал</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подвал</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа_ПодвалРасширеннаяПодсказка" id="36"/>
+			<ChildItems>
+				<Button name="Отправить" id="37">
+					<Type>UsualButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<CommandName>Form.Command.Отправить</CommandName>
+					<BackColor>#C0C0C0</BackColor>
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ExtendedTooltip name="ОтправитьРасширеннаяПодсказка" id="38"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>~Список.Получатель</Field>
+				<Field>Список.DefaultPicture</Field>
+				<Field>Список.ДатаСообщения</Field>
+				<Field>Список.Игра</Field>
+				<Field>Список.ИндексКартинки</Field>
+				<Field>Список.Отправитель</Field>
+				<Field>Список.ТекстСообщения</Field>
+				<Field>Список.ЭтоАвторСообщения</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	РегистрСведенийЧат.Игра КАК Игра,
+	ДОБАВИТЬКДАТЕ(РегистрСведенийЧат.ДатаСообщения, СЕКУНДА, -&amp;СинхронизацияСВременемСервера) КАК ДатаСообщения,
+	РегистрСведенийЧат.Отправитель КАК Отправитель,
+	РегистрСведенийЧат.ТекстСообщения КАК ТекстСообщения,
+	ВЫБОР
+		КОГДА РегистрСведенийЧат.Отправитель = &amp;ТекущийПользователь
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК ЭтоАвторСообщения,
+	ВЫБОР
+		КОГДА Константы.АдминистраторИгры = РегистрСведенийЧат.Отправитель
+			ТОГДА 0
+		КОГДА РегистрСведенийЧат.Отправитель = &amp;ТекущийПользователь
+			ТОГДА 2
+		ИНАЧЕ 1
+	КОНЕЦ КАК ИндексКартинки
+ИЗ
+	РегистрСведений.Чат КАК РегистрСведенийЧат
+		ЛЕВОЕ СОЕДИНЕНИЕ Константы КАК Константы
+		ПО (ИСТИНА)</QueryText>
+				<MainTable>InformationRegister.Чат</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>ДатаСообщения</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ТекстСообшения" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст сообшения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВремяОбновленияДанныхИгрока" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время обновления данных игрока</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КлючПредыдущейЗаписи" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ключ предыдущей записи</v8:content>
+				</v8:item>
+			</Title>
+			<Type/>
+		</Attribute>
+		<Attribute name="ТекущаяДатаСеансаНаСервере" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущая дата сеанса на сервере</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СинхронизацияСВременемСервера" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Синхронизация с временем сервера</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>12</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>Список</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Список.ЭтоАвторСообщения</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#CDF8C1</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="Отправить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить (Ctrl+Enter)</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Отправить</Action>
+		</Command>
+		<Command name="УвеличитьМасштабФормы" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Увеличить масштаб формы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Увеличить масштаб формы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Ctrl+Alt+Q</Shortcut>
+			<Picture>
+				<xr:Ref>CommonPicture.УвеличитьМасштабФормы</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УвеличитьМасштабФормы</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="УменьшитьМасштабФормы" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уменьшить масштаб формы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уменьшить масштаб формы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Ctrl+Alt+W</Shortcut>
+			<Picture>
+				<xr:Ref>CommonPicture.УменьшитьМасштабФормы</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УменьшитьМасштабФормы</Action>
+			<Representation>Picture</Representation>
+		</Command>
+	</Commands>
+</Form>

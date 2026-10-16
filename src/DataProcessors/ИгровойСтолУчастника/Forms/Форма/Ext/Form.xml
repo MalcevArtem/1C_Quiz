@@ -1,0 +1,1162 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Игровой стол участника</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoURL>false</AutoURL>
+	<CommandBarLocation>None</CommandBarLocation>
+	<CommandSet>
+		<ExcludedCommand>Abort</ExcludedCommand>
+		<ExcludedCommand>Cancel</ExcludedCommand>
+		<ExcludedCommand>Help</ExcludedCommand>
+		<ExcludedCommand>Ignore</ExcludedCommand>
+		<ExcludedCommand>No</ExcludedCommand>
+		<ExcludedCommand>OK</ExcludedCommand>
+		<ExcludedCommand>RestoreValues</ExcludedCommand>
+		<ExcludedCommand>Retry</ExcludedCommand>
+		<ExcludedCommand>SaveValues</ExcludedCommand>
+		<ExcludedCommand>Yes</ExcludedCommand>
+	</CommandSet>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа_Вопрос" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Условие вопроса</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа вопрос</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа_ВопросРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<UsualGroup name="Группа_Данные" id="256">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа данные</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа данные</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа_ДанныеРасширеннаяПодсказка" id="257"/>
+					<ChildItems>
+						<FormattedDocumentField name="ФорматированныйДокумент" id="135" DisplayImportance="VeryLow">
+							<DataPath>Объект.ДанныеФорматированныйДокумент</DataPath>
+							<DefaultItem>true</DefaultItem>
+							<ReadOnly>true</ReadOnly>
+							<SkipOnInput>true</SkipOnInput>
+							<TitleLocation>None</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Вопрос</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>None</ToolTipRepresentation>
+							<CommandSet>
+								<ExcludedCommand>AlignCenter</ExcludedCommand>
+								<ExcludedCommand>AlignJustify</ExcludedCommand>
+								<ExcludedCommand>AlignLeft</ExcludedCommand>
+								<ExcludedCommand>AlignRight</ExcludedCommand>
+								<ExcludedCommand>BackColor</ExcludedCommand>
+								<ExcludedCommand>Bold</ExcludedCommand>
+								<ExcludedCommand>BulletedList</ExcludedCommand>
+								<ExcludedCommand>Char</ExcludedCommand>
+								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+								<ExcludedCommand>CutToClipboard</ExcludedCommand>
+								<ExcludedCommand>DecreaseFontSize</ExcludedCommand>
+								<ExcludedCommand>DecreaseIndent</ExcludedCommand>
+								<ExcludedCommand>Font</ExcludedCommand>
+								<ExcludedCommand>Hyperlink</ExcludedCommand>
+								<ExcludedCommand>IncreaseFontSize</ExcludedCommand>
+								<ExcludedCommand>IncreaseIndent</ExcludedCommand>
+								<ExcludedCommand>Italic</ExcludedCommand>
+								<ExcludedCommand>LineSpacing</ExcludedCommand>
+								<ExcludedCommand>NumberedList</ExcludedCommand>
+								<ExcludedCommand>PasteFromClipboard</ExcludedCommand>
+								<ExcludedCommand>Picture</ExcludedCommand>
+								<ExcludedCommand>Preview</ExcludedCommand>
+								<ExcludedCommand>Print</ExcludedCommand>
+								<ExcludedCommand>Redo</ExcludedCommand>
+								<ExcludedCommand>SaveAs</ExcludedCommand>
+								<ExcludedCommand>SelectAll</ExcludedCommand>
+								<ExcludedCommand>Strikeout</ExcludedCommand>
+								<ExcludedCommand>TextColor</ExcludedCommand>
+								<ExcludedCommand>Underline</ExcludedCommand>
+								<ExcludedCommand>Undo</ExcludedCommand>
+							</CommandSet>
+							<Output>Disable</Output>
+							<ContextMenu name="ФорматированныйДокументКонтекстноеМеню" id="136">
+								<Autofill>false</Autofill>
+								<ChildItems>
+									<ButtonGroup name="ОценкаВопроса" id="184">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Оценка вопроса</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Оценка вопроса</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ExtendedTooltip name="ОценкаВопросаРасширеннаяПодсказка" id="185"/>
+										<ChildItems>
+											<Button name="Оценка_Лайк" id="166">
+												<Type>CommandBarButton</Type>
+												<Representation>PictureAndText</Representation>
+												<CommandName>Form.Command.Лайк</CommandName>
+												<Picture>
+													<xr:Ref>CommonPicture.ПалецВверхЗеленый</xr:Ref>
+													<xr:LoadTransparent>true</xr:LoadTransparent>
+												</Picture>
+												<ExtendedTooltip name="Оценка_ЛайкРасширеннаяПодсказка" id="167"/>
+											</Button>
+											<Button name="Оценка_Дизлайк" id="168">
+												<Type>CommandBarButton</Type>
+												<Representation>PictureAndText</Representation>
+												<CommandName>Form.Command.Дизлайк</CommandName>
+												<Picture>
+													<xr:Ref>CommonPicture.ПалецВнизСерый</xr:Ref>
+													<xr:LoadTransparent>true</xr:LoadTransparent>
+												</Picture>
+												<ExtendedTooltip name="Оценка_ДизлайкРасширеннаяПодсказка" id="169"/>
+											</Button>
+											<Button name="Оценка_ОставитьОтзывНаВопрос" id="152">
+												<Type>CommandBarButton</Type>
+												<Representation>PictureAndText</Representation>
+												<CommandName>Form.Command.ОставитьКомментарийКВопросу</CommandName>
+												<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+												<Picture>
+													<xr:Ref>CommonPicture.Комментарий</xr:Ref>
+													<xr:LoadTransparent>true</xr:LoadTransparent>
+												</Picture>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Оставить комментарий к вопросу ...</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="Оценка_ОставитьОтзывНаВопросРасширеннаяПодсказка" id="153"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+									<ButtonGroup name="УвеличитьУменьшитьМасштабФормы" id="182">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Увеличить уменьшить масштаб формы</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Увеличить уменьшить масштаб формы</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ExtendedTooltip name="УвеличитьУменьшитьМасштабФормыРасширеннаяПодсказка" id="183"/>
+										<ChildItems>
+											<Button name="Масштаб_УвеличитьМасштабФормы" id="178">
+												<Type>CommandBarButton</Type>
+												<Representation>PictureAndText</Representation>
+												<CommandName>Form.Command.УвеличитьМасштабФормы</CommandName>
+												<Picture>
+													<xr:Ref>CommonPicture.УвеличитьМасштабФормы</xr:Ref>
+													<xr:LoadTransparent>true</xr:LoadTransparent>
+												</Picture>
+												<ExtendedTooltip name="Масштаб_УвеличитьМасштабФормыРасширеннаяПодсказка" id="179"/>
+											</Button>
+											<Button name="Масштаб_УменьшитьМасштабФормы" id="180">
+												<Type>CommandBarButton</Type>
+												<Representation>PictureAndText</Representation>
+												<CommandName>Form.Command.УменьшитьМасштабФормы</CommandName>
+												<Picture>
+													<xr:Ref>CommonPicture.УменьшитьМасштабФормы</xr:Ref>
+													<xr:LoadTransparent>true</xr:LoadTransparent>
+												</Picture>
+												<ExtendedTooltip name="Масштаб_УменьшитьМасштабФормыРасширеннаяПодсказка" id="181"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+									<ButtonGroup name="ОбновлениеДанныхФормы" id="214">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Обновление данных формы</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Обновление данных формы</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ExtendedTooltip name="ОбновлениеДанныхФормыРасширеннаяПодсказка" id="215"/>
+										<ChildItems>
+											<Button name="ОбновитьВсеДанные" id="216">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ОбновитьВсеДанные</CommandName>
+												<Picture>
+													<xr:Ref>StdPicture.Refresh</xr:Ref>
+													<xr:LoadTransparent>true</xr:LoadTransparent>
+												</Picture>
+												<ExtendedTooltip name="ОбновитьВсеДанныеРасширеннаяПодсказка" id="217"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+								</ChildItems>
+							</ContextMenu>
+							<ExtendedTooltip name="ФорматированныйДокументРасширеннаяПодсказка" id="137"/>
+						</FormattedDocumentField>
+						<HTMLDocumentField name="HTML" id="265">
+							<DataPath>HTML</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ContextMenu name="HTMLКонтекстноеМеню" id="266">
+								<Autofill>false</Autofill>
+							</ContextMenu>
+							<ExtendedTooltip name="HTMLРасширеннаяПодсказка" id="267"/>
+						</HTMLDocumentField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа_КомандыУправления" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команды управления</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа команды управления</v8:content>
+				</v8:item>
+			</ToolTip>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа_КомандыУправленияРасширеннаяПодсказка" id="4"/>
+			<ChildItems>
+				<Button name="БыстрыйВводОтвета" id="202">
+					<Type>UsualButton</Type>
+					<Representation>Text</Representation>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>Form.Command.БыстрыйВводОтвета</CommandName>
+					<TextColor>style:FieldTextColor</TextColor>
+					<BackColor>web:LightGreen</BackColor>
+					<Font ref="style:NormalTextFont" height="13" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<ExtendedTooltip name="БыстрыйВводОтветаРасширеннаяПодсказка" id="203"/>
+				</Button>
+				<InputField name="Информация_СтрокаСостояния" id="129">
+					<DataPath>Объект.СтрокаСостояния</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<TitleLocation>None</TitleLocation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка состояния отправленных ответов команд</v8:content>
+						</v8:item>
+					</ToolTip>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
+					<TextColor>#000000</TextColor>
+					<BorderColor>style:FormBackColor</BorderColor>
+					<Font ref="style:NormalTextFont" faceName="Times New Roman" height="14" kind="StyleItem"/>
+					<ContextMenu name="Информация_СтрокаСостоянияКонтекстноеМеню" id="130">
+						<Autofill>false</Autofill>
+					</ContextMenu>
+					<ExtendedTooltip name="Информация_СтрокаСостоянияРасширеннаяПодсказка" id="131"/>
+				</InputField>
+				<Button name="ОткрытьВопрос" id="143">
+					<Type>UsualButton</Type>
+					<Representation>Picture</Representation>
+					<Width>3</Width>
+					<CommandName>Form.Command.ОткрытьВопрос</CommandName>
+					<Picture>
+						<xr:Ref>StdPicture.FormHelp</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="ОткрытьВопросРасширеннаяПодсказка" id="144"/>
+				</Button>
+				<Button name="Лайк" id="154">
+					<Type>UsualButton</Type>
+					<Representation>Picture</Representation>
+					<Width>3</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Height>1</Height>
+					<CommandName>Form.Command.Лайк</CommandName>
+					<Picture>
+						<xr:Ref>CommonPicture.ПалецВверхЗеленый</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>:)</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ЛайкРасширеннаяПодсказка" id="155"/>
+				</Button>
+				<Button name="ДизЛайк" id="156">
+					<Type>UsualButton</Type>
+					<Representation>Picture</Representation>
+					<Width>3</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Height>1</Height>
+					<CommandName>Form.Command.Дизлайк</CommandName>
+					<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<Picture>
+						<xr:Ref>CommonPicture.ПалецВнизСерый</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>=(</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ДизЛайкРасширеннаяПодсказка" id="157"/>
+				</Button>
+				<Button name="ОставитьКомментарийКВопросу" id="158">
+					<Type>UsualButton</Type>
+					<Representation>Picture</Representation>
+					<Width>3</Width>
+					<CommandName>Form.Command.ОставитьКомментарийКВопросу</CommandName>
+					<Picture>
+						<xr:Ref>CommonPicture.Комментарий</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="ОставитьКомментарийКВопросуРасширеннаяПодсказка" id="159"/>
+				</Button>
+				<Button name="Отчеты" id="208">
+					<Type>UsualButton</Type>
+					<Representation>Picture</Representation>
+					<Width>3</Width>
+					<CommandName>Form.Command.Отчеты</CommandName>
+					<Picture>
+						<xr:Ref>StdPicture.Report</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчёты</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ОтчетыРасширеннаяПодсказка" id="209"/>
+				</Button>
+				<Button name="ИзменитьФорму" id="206">
+					<Type>UsualButton</Type>
+					<Visible>false</Visible>
+					<Representation>Picture</Representation>
+					<Width>3</Width>
+					<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
+					<Picture>
+						<xr:Ref>StdPicture.CustomizeList</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="ИзменитьФормуРасширеннаяПодсказка" id="207"/>
+				</Button>
+				<Button name="УвеличитьМасштабФормы" id="210">
+					<Type>UsualButton</Type>
+					<Representation>Picture</Representation>
+					<Width>3</Width>
+					<CommandName>Form.Command.УвеличитьМасштабФормы</CommandName>
+					<Picture>
+						<xr:Ref>CommonPicture.УвеличитьМасштабФормы</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="УвеличитьМасштабФормыРасширеннаяПодсказка" id="211"/>
+				</Button>
+				<Button name="УменьшитьМасштабФормы" id="212">
+					<Type>UsualButton</Type>
+					<Representation>Picture</Representation>
+					<Width>3</Width>
+					<CommandName>Form.Command.УменьшитьМасштабФормы</CommandName>
+					<Picture>
+						<xr:Ref>CommonPicture.УменьшитьМасштабФормы</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="УменьшитьМасштабФормыРасширеннаяПодсказка" id="213"/>
+				</Button>
+				<Button name="ОткрытьЧат" id="254">
+					<Type>UsualButton</Type>
+					<Representation>Picture</Representation>
+					<Width>4</Width>
+					<CommandName>Form.Command.ОткрытьЧат</CommandName>
+					<Picture>
+						<xr:Ref>CommonPicture.ЧАТ</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Чат</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ОткрытьЧатРасширеннаяПодсказка" id="255"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа_Ответы" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа ответы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа_ОтветыРасширеннаяПодсказка" id="6"/>
+			<ChildItems>
+				<Table name="ОтветыИгроков" id="7">
+					<Representation>List</Representation>
+					<CommandBarLocation>None</CommandBarLocation>
+					<SkipOnInput>true</SkipOnInput>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.ОтветыИгроков</DataPath>
+					<CommandSet>
+						<ExcludedCommand>Add</ExcludedCommand>
+						<ExcludedCommand>CancelSearch</ExcludedCommand>
+						<ExcludedCommand>Copy</ExcludedCommand>
+						<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+						<ExcludedCommand>Delete</ExcludedCommand>
+						<ExcludedCommand>EndEdit</ExcludedCommand>
+						<ExcludedCommand>Find</ExcludedCommand>
+						<ExcludedCommand>MoveDown</ExcludedCommand>
+						<ExcludedCommand>MoveUp</ExcludedCommand>
+						<ExcludedCommand>OutputList</ExcludedCommand>
+						<ExcludedCommand>SelectAll</ExcludedCommand>
+						<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+						<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+						<ExcludedCommand>SortListAsc</ExcludedCommand>
+						<ExcludedCommand>SortListDesc</ExcludedCommand>
+					</CommandSet>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ОтветыИгроковКонтекстноеМеню" id="8">
+						<Autofill>false</Autofill>
+						<ChildItems>
+							<ButtonGroup name="БыстрыйВвод1" id="198">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Быстрый ввод</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Быстрый ввод</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ExtendedTooltip name="БыстрыйВвод1РасширеннаяПодсказка" id="199"/>
+								<ChildItems>
+									<Button name="БыстрыйВводОтвета1" id="200">
+										<Type>CommandBarButton</Type>
+										<Representation>Text</Representation>
+										<CommandName>Form.Command.БыстрыйВводОтвета</CommandName>
+										<BackColor>#FF00FF</BackColor>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>ОТВЕТ (Ctrl+Enter)</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="БыстрыйВводОтвета1РасширеннаяПодсказка" id="201"/>
+									</Button>
+								</ChildItems>
+							</ButtonGroup>
+							<ButtonGroup name="УвеличитьУменьшитьВысотуТаблицыОтветов" id="190">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Увеличить уменьшить высоту таблицы ответов</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Увеличить уменьшить высоту таблицы ответов</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ExtendedTooltip name="УвеличитьУменьшитьВысотуТаблицыОтветовРасширеннаяПодсказка" id="191"/>
+								<ChildItems>
+									<Button name="ТЧ_УвеличитьВысотуТаблицыОтветов" id="186">
+										<Type>CommandBarButton</Type>
+										<Representation>PictureAndText</Representation>
+										<CommandName>Form.Command.УвеличитьВысотуТаблицыОтветов</CommandName>
+										<Picture>
+											<xr:Ref>CommonPicture.УвеличитьВысотуТаблицы</xr:Ref>
+											<xr:LoadTransparent>true</xr:LoadTransparent>
+										</Picture>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Увеличить высоту таблицы ответов</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ТЧ_УвеличитьВысотуТаблицыОтветовРасширеннаяПодсказка" id="187"/>
+									</Button>
+									<Button name="ТЧ_УменьшитьВысотуТаблицыОтветов" id="188">
+										<Type>CommandBarButton</Type>
+										<Representation>PictureAndText</Representation>
+										<CommandName>Form.Command.УменьшитьВысотуТаблицыОтветов</CommandName>
+										<Picture>
+											<xr:Ref>CommonPicture.УменьшитьВысотуТаблицы</xr:Ref>
+											<xr:LoadTransparent>true</xr:LoadTransparent>
+										</Picture>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Уменьшить высоту таблицы ответов</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ТЧ_УменьшитьВысотуТаблицыОтветовРасширеннаяПодсказка" id="189"/>
+									</Button>
+								</ChildItems>
+							</ButtonGroup>
+						</ChildItems>
+					</ContextMenu>
+					<AutoCommandBar name="ОтветыИгроковКоманднаяПанель" id="9"/>
+					<ExtendedTooltip name="ОтветыИгроковРасширеннаяПодсказка" id="10"/>
+					<SearchStringAddition name="ОтветыИгроковСтрокаПоиска" id="11">
+						<AdditionSource>
+							<Item>ОтветыИгроков</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ОтветыИгроковСтрокаПоискаКонтекстноеМеню" id="12"/>
+						<ExtendedTooltip name="ОтветыИгроковСтрокаПоискаРасширеннаяПодсказка" id="13"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ОтветыИгроковСостояниеПросмотра" id="14">
+						<AdditionSource>
+							<Item>ОтветыИгроков</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ОтветыИгроковСостояниеПросмотраКонтекстноеМеню" id="15"/>
+						<ExtendedTooltip name="ОтветыИгроковСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ОтветыИгроковУправлениеПоиском" id="17">
+						<AdditionSource>
+							<Item>ОтветыИгроков</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ОтветыИгроковУправлениеПоискомКонтекстноеМеню" id="18"/>
+						<ExtendedTooltip name="ОтветыИгроковУправлениеПоискомРасширеннаяПодсказка" id="19"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="OnEditEnd">ОтветыИгроковПриОкончанииРедактирования</Event>
+						<Event name="BeforeAddRow">ОтветыИгроковПередНачаломДобавления</Event>
+						<Event name="BeforeDeleteRow">ОтветыИгроковПередУдалением</Event>
+						<Event name="BeforeRowChange">ОтветыИгроковПередНачаломИзменения</Event>
+						<Event name="OnActivateCell">ОтветыИгроковПриАктивизацииЯчейки</Event>
+					</Events>
+					<ChildItems>
+						<LabelField name="ОтветыИгроковНомерСтроки" id="20">
+							<DataPath>Объект.ОтветыИгроков.LineNumber</DataPath>
+							<TitleFont ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<EditMode>EnterOnInput</EditMode>
+							<FixingInTable>Left</FixingInTable>
+							<Width>2</Width>
+							<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<ContextMenu name="ОтветыИгроковНомерСтрокиКонтекстноеМеню" id="21"/>
+							<ExtendedTooltip name="ОтветыИгроковНомерСтрокиРасширеннаяПодсказка" id="22"/>
+						</LabelField>
+						<InputField name="ОтветыИгроковПредставление" id="132">
+							<DataPath>Объект.ОтветыИгроков.Представление</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<TitleFont ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<EditMode>EnterOnInput</EditMode>
+							<FixingInTable>Left</FixingInTable>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>16</Width>
+							<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<ContextMenu name="ОтветыИгроковПредставлениеКонтекстноеМеню" id="133"/>
+							<ExtendedTooltip name="ОтветыИгроковПредставлениеРасширеннаяПодсказка" id="134"/>
+						</InputField>
+						<InputField name="ОтветыИгроковПравильныйОтвет" id="149">
+							<DataPath>Объект.ОтветыИгроков.ПравильныйОтвет</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Правильный ответ</v8:content>
+								</v8:item>
+							</Title>
+							<TitleBackColor>web:LimeGreen</TitleBackColor>
+							<TitleFont ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>16</Width>
+							<BackColor>web:LimeGreen</BackColor>
+							<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<ContextMenu name="ОтветыИгроковПравильныйОтветКонтекстноеМеню" id="150"/>
+							<ExtendedTooltip name="ОтветыИгроковПравильныйОтветРасширеннаяПодсказка" id="151"/>
+						</InputField>
+						<InputField name="ОтветыИгроковОтвет1" id="23">
+							<DataPath>Объект.ОтветыИгроков.Ответ1</DataPath>
+							<SkipOnInput>true</SkipOnInput>
+							<TitleTextColor>#0000FF</TitleTextColor>
+							<TitleBackColor>style:BorderColor</TitleBackColor>
+							<TitleFont ref="style:NormalTextFont" height="14" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>16</Width>
+							<QuickChoice>true</QuickChoice>
+							<BackColor>style:ButtonBorderColor</BackColor>
+							<BorderColor>style:ToolTipTextColor</BorderColor>
+							<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
+							<ContextMenu name="ОтветыИгроковОтвет1КонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="ОтветыИгроковОтвет1РасширеннаяПодсказка" id="25"/>
+							<Events>
+								<Event name="StartChoice">ОтветыИгроковОтветНачалоВыбора</Event>
+								<Event name="ChoiceProcessing">ОтветыИгроковОтветОбработкаВыбора</Event>
+							</Events>
+						</InputField>
+						<InputField name="ОтветыИгроковОтвет2" id="26">
+							<DataPath>Объект.ОтветыИгроков.Ответ2</DataPath>
+							<SkipOnInput>true</SkipOnInput>
+							<TitleBackColor>style:BorderColor</TitleBackColor>
+							<TitleFont ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>16</Width>
+							<BackColor>style:ButtonBorderColor</BackColor>
+							<BorderColor>style:ToolTipTextColor</BorderColor>
+							<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<ContextMenu name="ОтветыИгроковОтвет2КонтекстноеМеню" id="27"/>
+							<ExtendedTooltip name="ОтветыИгроковОтвет2РасширеннаяПодсказка" id="28"/>
+							<Events>
+								<Event name="StartChoice">ОтветыИгроковОтветНачалоВыбора</Event>
+								<Event name="ChoiceProcessing">ОтветыИгроковОтветОбработкаВыбора</Event>
+							</Events>
+						</InputField>
+						<InputField name="ОтветыИгроковОтвет3" id="29">
+							<DataPath>Объект.ОтветыИгроков.Ответ3</DataPath>
+							<SkipOnInput>true</SkipOnInput>
+							<TitleBackColor>style:BorderColor</TitleBackColor>
+							<TitleFont ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>16</Width>
+							<QuickChoice>true</QuickChoice>
+							<BackColor>style:ButtonBorderColor</BackColor>
+							<BorderColor>style:ToolTipTextColor</BorderColor>
+							<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<ContextMenu name="ОтветыИгроковОтвет3КонтекстноеМеню" id="30"/>
+							<ExtendedTooltip name="ОтветыИгроковОтвет3РасширеннаяПодсказка" id="31"/>
+							<Events>
+								<Event name="StartChoice">ОтветыИгроковОтветНачалоВыбора</Event>
+								<Event name="ChoiceProcessing">ОтветыИгроковОтветОбработкаВыбора</Event>
+							</Events>
+						</InputField>
+						<InputField name="ОтветыИгроковОтвет4" id="32">
+							<DataPath>Объект.ОтветыИгроков.Ответ4</DataPath>
+							<SkipOnInput>true</SkipOnInput>
+							<TitleBackColor>style:BorderColor</TitleBackColor>
+							<TitleFont ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>16</Width>
+							<BackColor>style:ButtonBorderColor</BackColor>
+							<BorderColor>style:ToolTipTextColor</BorderColor>
+							<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<ContextMenu name="ОтветыИгроковОтвет4КонтекстноеМеню" id="33"/>
+							<ExtendedTooltip name="ОтветыИгроковОтвет4РасширеннаяПодсказка" id="34"/>
+							<Events>
+								<Event name="StartChoice">ОтветыИгроковОтветНачалоВыбора</Event>
+								<Event name="ChoiceProcessing">ОтветыИгроковОтветОбработкаВыбора</Event>
+							</Events>
+						</InputField>
+						<InputField name="ОтветыИгроковОтвет5" id="35">
+							<DataPath>Объект.ОтветыИгроков.Ответ5</DataPath>
+							<SkipOnInput>true</SkipOnInput>
+							<TitleBackColor>style:BorderColor</TitleBackColor>
+							<TitleFont ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>16</Width>
+							<BackColor>style:ButtonBorderColor</BackColor>
+							<BorderColor>style:ToolTipTextColor</BorderColor>
+							<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<ContextMenu name="ОтветыИгроковОтвет5КонтекстноеМеню" id="36"/>
+							<ExtendedTooltip name="ОтветыИгроковОтвет5РасширеннаяПодсказка" id="37"/>
+							<Events>
+								<Event name="StartChoice">ОтветыИгроковОтветНачалоВыбора</Event>
+								<Event name="ChoiceProcessing">ОтветыИгроковОтветОбработкаВыбора</Event>
+							</Events>
+						</InputField>
+						<InputField name="ОтветыИгроковОтвет6" id="38">
+							<DataPath>Объект.ОтветыИгроков.Ответ6</DataPath>
+							<SkipOnInput>true</SkipOnInput>
+							<TitleBackColor>style:BorderColor</TitleBackColor>
+							<TitleFont ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>16</Width>
+							<BackColor>style:ButtonBorderColor</BackColor>
+							<BorderColor>style:ToolTipTextColor</BorderColor>
+							<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<ContextMenu name="ОтветыИгроковОтвет6КонтекстноеМеню" id="39"/>
+							<ExtendedTooltip name="ОтветыИгроковОтвет6РасширеннаяПодсказка" id="40"/>
+							<Events>
+								<Event name="StartChoice">ОтветыИгроковОтветНачалоВыбора</Event>
+								<Event name="ChoiceProcessing">ОтветыИгроковОтветОбработкаВыбора</Event>
+							</Events>
+						</InputField>
+						<InputField name="ОтветыИгроковОтвет7" id="41">
+							<DataPath>Объект.ОтветыИгроков.Ответ7</DataPath>
+							<SkipOnInput>true</SkipOnInput>
+							<TitleBackColor>style:BorderColor</TitleBackColor>
+							<TitleFont ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>16</Width>
+							<BackColor>style:ButtonBorderColor</BackColor>
+							<BorderColor>style:ToolTipTextColor</BorderColor>
+							<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<ContextMenu name="ОтветыИгроковОтвет7КонтекстноеМеню" id="42"/>
+							<ExtendedTooltip name="ОтветыИгроковОтвет7РасширеннаяПодсказка" id="43"/>
+							<Events>
+								<Event name="StartChoice">ОтветыИгроковОтветНачалоВыбора</Event>
+								<Event name="ChoiceProcessing">ОтветыИгроковОтветОбработкаВыбора</Event>
+							</Events>
+						</InputField>
+						<InputField name="ОтветыИгроковОтвет8" id="44">
+							<DataPath>Объект.ОтветыИгроков.Ответ8</DataPath>
+							<SkipOnInput>true</SkipOnInput>
+							<TitleBackColor>style:BorderColor</TitleBackColor>
+							<TitleFont ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>16</Width>
+							<BackColor>style:ButtonBorderColor</BackColor>
+							<BorderColor>style:ToolTipTextColor</BorderColor>
+							<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<ContextMenu name="ОтветыИгроковОтвет8КонтекстноеМеню" id="45"/>
+							<ExtendedTooltip name="ОтветыИгроковОтвет8РасширеннаяПодсказка" id="46"/>
+							<Events>
+								<Event name="StartChoice">ОтветыИгроковОтветНачалоВыбора</Event>
+								<Event name="ChoiceProcessing">ОтветыИгроковОтветОбработкаВыбора</Event>
+							</Events>
+						</InputField>
+						<InputField name="ОтветыИгроковОтвет9" id="47">
+							<DataPath>Объект.ОтветыИгроков.Ответ9</DataPath>
+							<SkipOnInput>true</SkipOnInput>
+							<TitleBackColor>style:BorderColor</TitleBackColor>
+							<TitleFont ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<EditMode>EnterOnInput</EditMode>
+							<HeaderHorizontalAlign>Center</HeaderHorizontalAlign>
+							<Width>16</Width>
+							<BackColor>style:ButtonBorderColor</BackColor>
+							<BorderColor>style:ToolTipTextColor</BorderColor>
+							<Font ref="style:NormalTextFont" height="14" kind="StyleItem"/>
+							<ContextMenu name="ОтветыИгроковОтвет9КонтекстноеМеню" id="48"/>
+							<ExtendedTooltip name="ОтветыИгроковОтвет9РасширеннаяПодсказка" id="49"/>
+							<Events>
+								<Event name="StartChoice">ОтветыИгроковОтветНачалоВыбора</Event>
+								<Event name="ChoiceProcessing">ОтветыИгроковОтветОбработкаВыбора</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ИгровойСтолУчастника</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Информация_СтрокаСостояния" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информация строка состояния</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВремяОбновленияДанныхИгрока" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время обновления данных игрока</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="РасчетнаяВысотаТЧОтветыИгроков" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расчетная высота ТЧ.ОтветыИгроков</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СписокКнопокОтчеты" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список кнопок отчеты</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РежимДемонстрационногоПросмотраВопроса" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Режим демонстрационного просмотра вопроса</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="HTML" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>HTML</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОбновитьВсеДанные" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить все данные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить все данные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.Refresh</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ОбновитьВсеДанные</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ОтправитьОтвет" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить ответ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить ответ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьОтвет</Action>
+		</Command>
+		<Command name="ОткрытьВопрос" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть вопрос</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть вопрос</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьВопрос</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ПеречитатьДанныеВопроса" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перечитать данные вопроса</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перечитать данные вопроса</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПеречитатьДанныеВопроса</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="Лайк" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нравится вопрос!</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нравится вопрос!</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Лайк</Action>
+		</Command>
+		<Command name="Дизлайк" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Не нравится вопрос</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Не нравится вопрос</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДизЛайк</Action>
+		</Command>
+		<Command name="ОставитьКомментарийКВопросу" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оставить комментарий к вопросу ...</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оставить комментарий к вопросу ...</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОставитьКомментарийКВопросу</Action>
+		</Command>
+		<Command name="ТекущийРезультатИгры" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущий результат игры</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущий результат игры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ТекущийРезультатИгры</Action>
+		</Command>
+		<Command name="РейтингИгроков" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рейтинг игроков</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рейтинг игроков</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РейтингИгроков</Action>
+		</Command>
+		<Command name="ИгрокиКоманд" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Игроки команд</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состав игроков команд</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ИгрокиКоманд</Action>
+		</Command>
+		<Command name="УвеличитьМасштабФормы" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Увеличить масштаб формы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Увеличить масштаб формы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Ctrl+Alt+Q</Shortcut>
+			<Action>УвеличитьМасштабФормы</Action>
+		</Command>
+		<Command name="УменьшитьМасштабФормы" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уменьшить масштаб формы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уменьшить масштаб формы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Ctrl+Alt+W</Shortcut>
+			<Action>УменьшитьМасштабФормы</Action>
+		</Command>
+		<Command name="УвеличитьВысотуТаблицыОтветов" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Увеличить высоту таблицы ответов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Увеличить высоту таблицы ответов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УвеличитьВысотуТаблицыОтветов</Action>
+		</Command>
+		<Command name="УменьшитьВысотуТаблицыОтветов" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уменьшить высоту таблицы ответов</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уменьшить высоту таблицы ответов</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УменьшитьВысотуТаблицыОтветов</Action>
+		</Command>
+		<Command name="БыстрыйВводОтвета" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ОТВЕТ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ОТВЕТ (Ctrl+Enter)</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>БыстрыйВводОтвета</Action>
+		</Command>
+		<Command name="Отчеты" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчеты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчёты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Отчеты</Action>
+		</Command>
+		<Command name="ОткрытьЧат" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть чат</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть "ЧАТ"</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьЧат</Action>
+		</Command>
+	</Commands>
+</Form>

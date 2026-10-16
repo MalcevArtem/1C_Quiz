@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>Набор</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Вопрос</dataPath>
+			<field>Вопрос</field>
+			<orderExpression>
+				<dcscom:expression>НомерВопроса</dcscom:expression>
+				<dcscom:orderType>Asc</dcscom:orderType>
+				<dcscom:autoOrder>true</dcscom:autoOrder>
+			</orderExpression>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">10</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ответ</dataPath>
+			<field>Ответ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Команда</dataPath>
+			<field>Команда</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">20</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяОтвета</dataPath>
+			<field>ВремяОтвета</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтветПравильный</dataPath>
+			<field>ОтветПравильный</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комментарий</dataPath>
+			<field>Комментарий</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ответственный</dataPath>
+			<field>Ответственный</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АвтоматическаяПроверка</dataPath>
+			<field>АвтоматическаяПроверка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерВопроса</dataPath>
+			<field>НомерВопроса</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер вопроса</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерПодвопроса</dataPath>
+			<field>НомерПодвопроса</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>№ подвопр.</v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">10</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номинал</dataPath>
+			<field>Номинал</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номинал</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Баллы</dataPath>
+			<field>Баллы</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Баллы</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Этап</dataPath>
+			<field>Этап</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Представление</dataPath>
+			<field>Представление</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Представление</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">30</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОбщаяЭмоциональнаяОценка</dataPath>
+			<field>ОбщаяЭмоциональнаяОценка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Общая эмоциональная оценка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоЛайков</dataPath>
+			<field>КоличествоЛайков</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>:)</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ЦветТекста</dcscor:parameter>
+					<dcscor:value xmlns:d6p1="http://v8.1c.ru/8.1/data/ui/colors/web" xsi:type="v8ui:Color">d6p1:DarkGreen</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">10</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоДизлайков</dataPath>
+			<field>КоличествоДизлайков</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>=(</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ЦветТекста</dcscor:parameter>
+					<dcscor:value xmlns:d6p1="http://v8.1c.ru/8.1/data/ui/colors/web" xsi:type="v8ui:Color">d6p1:DarkRed</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">10</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭтоТекущийВопрос</dataPath>
+			<field>ЭтоТекущийВопрос</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content> </v8:content>
+				</v8:item>
+			</title>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+				<dcscom:required>true</dcscom:required>
+			</role>
+			<presentationExpression>" "</presentationExpression>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">1</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ИграСписокВопросов.Ссылка КАК Игра,
+	ИграСписокВопросов.НомерСтроки КАК НомерВопроса,
+	ИграСписокВопросов.Вопрос КАК Вопрос,
+	ИграСписокВопросов.Этап КАК Этап
+ПОМЕСТИТЬ СтруктураИгры
+ИЗ
+	Документ.Игра.СписокВопросов КАК ИграСписокВопросов
+ГДЕ
+	ИграСписокВопросов.Ссылка = &amp;Игра
+	И НЕ ИграСписокВопросов.ДемонстрацияОтвета
+	И (ИграСписокВопросов.Вопрос.ВидВопроса = ЗНАЧЕНИЕ(Перечисление.ВидВопроса.Тест)
+			ИЛИ ИграСписокВопросов.Вопрос.ВидВопроса = ЗНАЧЕНИЕ(Перечисление.ВидВопроса.ВопросСОтветом))
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СтруктураИгры.Вопрос КАК Вопрос,
+	СтруктураИгры.Игра КАК Игра
+ПОМЕСТИТЬ ОТБОР_Вопросы
+ИЗ
+	СтруктураИгры КАК СтруктураИгры
+
+СГРУППИРОВАТЬ ПО
+	СтруктураИгры.Вопрос,
+	СтруктураИгры.Игра
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ЭмоциональныеОценкиВопросов.Вопрос КАК Вопрос,
+	СУММА(ЭмоциональныеОценкиВопросов.Оценка) КАК ОбщаяЭмоциональнаяОценка,
+	СУММА(ВЫБОР
+			КОГДА ЭмоциональныеОценкиВопросов.Оценка &gt; 0
+				ТОГДА ЭмоциональныеОценкиВопросов.Оценка
+			ИНАЧЕ 0
+		КОНЕЦ) КАК КоличествоЛайков,
+	СУММА(ВЫБОР
+			КОГДА ЭмоциональныеОценкиВопросов.Оценка &lt; 0
+				ТОГДА -ЭмоциональныеОценкиВопросов.Оценка
+			ИНАЧЕ 0
+		КОНЕЦ) КАК КоличествоДизлайков
+ПОМЕСТИТЬ Г_ЭмоциональнаяОценкаВопросовИгры
+ИЗ
+	ОТБОР_Вопросы КАК ОТБОР_Вопросы
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.ЭмоциональныеОценкиВопросов КАК ЭмоциональныеОценкиВопросов
+		ПО ОТБОР_Вопросы.Вопрос = ЭмоциональныеОценкиВопросов.Вопрос
+			И ОТБОР_Вопросы.Игра = ЭмоциональныеОценкиВопросов.Игра
+
+СГРУППИРОВАТЬ ПО
+	ЭмоциональныеОценкиВопросов.Вопрос
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВопросыОтветыНаВопрос.Ссылка КАК Вопрос,
+	ВопросыОтветыНаВопрос.НомерСтроки КАК НомерСтр,
+	ВЫБОР
+		КОГДА ОТБОР_Вопросы.Вопрос.ИспользоватьПредставление
+			ТОГДА ВопросыОтветыНаВопрос.Представление
+		ИНАЧЕ ВопросыОтветыНаВопрос.НомерСтроки
+	КОНЕЦ КАК Представление
+ПОМЕСТИТЬ Вопрос_НомерСтроки_Представление
+ИЗ
+	Справочник.Вопросы.ОтветыНаВопрос КАК ВопросыОтветыНаВопрос
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ОТБОР_Вопросы КАК ОТБОР_Вопросы
+		ПО ВопросыОтветыНаВопрос.Ссылка = ОТБОР_Вопросы.Вопрос
+			И (ОТБОР_Вопросы.Вопрос.ВидВопроса = ЗНАЧЕНИЕ(Перечисление.ВидВопроса.ВопросСОтветом))
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ОТБОР_Вопросы.Вопрос,
+	1,
+	"тест"
+ИЗ
+	ОТБОР_Вопросы КАК ОТБОР_Вопросы
+ГДЕ
+	ОТБОР_Вопросы.Вопрос.ВидВопроса = ЗНАЧЕНИЕ(Перечисление.ВидВопроса.Тест)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ ПЕРВЫЕ 1
+	МаршрутПроведенияИгры.Вопрос КАК Вопрос
+ПОМЕСТИТЬ ТекущийВопросМаршрута
+ИЗ
+	РегистрСведений.МаршрутПроведенияИгры КАК МаршрутПроведенияИгры
+ГДЕ
+	МаршрутПроведенияИгры.Игра = &amp;Игра
+	И МаршрутПроведенияИгры.АктивныйВопрос
+
+УПОРЯДОЧИТЬ ПО
+	МаршрутПроведенияИгры.НомерСледования УБЫВ
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СтруктураИгры.Этап КАК Этап,
+	СтруктураИгры.Вопрос КАК Вопрос,
+	СтруктураИгры.НомерВопроса КАК НомерВопроса,
+	ОтветыКоманд.Команда КАК Команда,
+	ОтветыКоманд.НомерСтр КАК НомерПодвопроса,
+	ОтветыКоманд.Ответ КАК Ответ,
+	ОтветыКоманд.ОтветПравильный КАК ОтветПравильный,
+	ОтветыКоманд.Баллы КАК Баллы,
+	ОтветыКоманд.БаллыНоминальные КАК Номинал,
+	ОтветыКоманд.ВремяОтвета КАК ВремяОтвета,
+	ОтветыКоманд.Комментарий КАК Комментарий,
+	ОтветыКоманд.Ответственный КАК Ответственный,
+	ОтветыКоманд.АвтоматическаяПроверка КАК АвтоматическаяПроверка,
+	Вопрос_НомерСтроки_Представление.Представление КАК Представление,
+	ЕСТЬNULL(Г_ЭмоциональнаяОценкаВопросовИгры.ОбщаяЭмоциональнаяОценка, 0) КАК ОбщаяЭмоциональнаяОценка,
+	ЕСТЬNULL(Г_ЭмоциональнаяОценкаВопросовИгры.КоличествоЛайков, 0) КАК КоличествоЛайков,
+	ЕСТЬNULL(Г_ЭмоциональнаяОценкаВопросовИгры.КоличествоДизлайков, 0) КАК КоличествоДизлайков,
+	ВЫБОР
+		КОГДА НЕ ТекущийВопросМаршрута.Вопрос ЕСТЬ NULL
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК ЭтоТекущийВопрос
+ИЗ
+	СтруктураИгры КАК СтруктураИгры
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ОтветыКоманд КАК ОтветыКоманд
+			ЛЕВОЕ СОЕДИНЕНИЕ Вопрос_НомерСтроки_Представление КАК Вопрос_НомерСтроки_Представление
+			ПО ОтветыКоманд.Вопрос = Вопрос_НомерСтроки_Представление.Вопрос
+				И ОтветыКоманд.НомерСтр = Вопрос_НомерСтроки_Представление.НомерСтр
+		ПО СтруктураИгры.Вопрос = ОтветыКоманд.Вопрос
+			И СтруктураИгры.Игра = ОтветыКоманд.Игра
+		ЛЕВОЕ СОЕДИНЕНИЕ Г_ЭмоциональнаяОценкаВопросовИгры КАК Г_ЭмоциональнаяОценкаВопросовИгры
+		ПО СтруктураИгры.Вопрос = Г_ЭмоциональнаяОценкаВопросовИгры.Вопрос
+		ЛЕВОЕ СОЕДИНЕНИЕ ТекущийВопросМаршрута КАК ТекущийВопросМаршрута
+		ПО СтруктураИгры.Вопрос = ТекущийВопросМаршрута.Вопрос
+
+УПОРЯДОЧИТЬ ПО
+	Этап,
+	НомерВопроса,
+	НомерПодвопроса</query>
+	</dataSet>
+	<totalField>
+		<dataPath>Баллы</dataPath>
+		<expression>Сумма(Баллы)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Номинал</dataPath>
+		<expression>Сумма(Номинал)</expression>
+	</totalField>
+	<parameter>
+		<name>Игра</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Игра</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.Игра</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Общий результат</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Общий результат</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Баллы</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>Номинал</dcsset:field>
+				</dcsset:item>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>fcfffce6-3126-428d-904f-b41ea5c17820</dcsset:userSettingID>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>6c4e39f5-3046-4735-87a1-e27a36bd7228</dcsset:userSettingID>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Игра</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>1ac65816-1ec7-4088-b1e8-78b0be113db9</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Этап</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>НомерВопроса</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>НомерПодвопроса</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>1e91c0d7-25e0-46b0-8acf-e8ad81930a86</dcsset:userSettingID>
+			</dcsset:order>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection/>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">ЭтоТекущийВопрос</dcsset:left>
+							<dcsset:comparisonType>Equal</dcsset:comparisonType>
+							<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ЦветФона</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">web:GreenYellow</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#00FFFF</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:useInHierarchicalGroup>DontUse</dcsset:useInHierarchicalGroup>
+					<dcsset:useInOverall>DontUse</dcsset:useInOverall>
+					<dcsset:useInFieldsHeader>DontUse</dcsset:useInFieldsHeader>
+					<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+					<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+					<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+				</dcsset:item>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>e64fad00-2a37-466e-8f0d-590735e88e6a</dcsset:userSettingID>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Море</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеПолейГруппировки</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionGroupFieldsPlacement">Together</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеГруппировки</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionGroupPlacement">Begin</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеРесурсов</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionResourcesPlacement">Horizontally</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType"/>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:column>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Команда</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:column>
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Этап</dcsset:field>
+							<dcsset:groupType>Hierarchy</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item>
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>Вопрос</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>КоличествоЛайков</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>КоличествоДизлайков</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ЭтоТекущийВопрос</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item>
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>Представление</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>ОтветПравильный</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:row>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+			<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+			<dcsset:itemsUserSettingID>4c61bf10-5692-491a-90dd-ab95847a4af1</dcsset:itemsUserSettingID>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

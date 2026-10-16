@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.17">
+	<ConfigVersions>
+		<Metadata name="Catalog.Вопросы" id="9224829f-c257-4558-bfda-8ecb8033e68d" configVersion="9907061e93dfae4081cba349728dd26000000000">
+			<Metadata name="Catalog.Вопросы.Attribute.Баллы" id="08ee4918-a2a1-40bc-ba1b-7d4d34924608"/>
+			<Metadata name="Catalog.Вопросы.Attribute.ДанныеHTMLДемонстрацияОтвета" id="1180f221-c71e-4901-9c32-6832bb73a232"/>
+			<Metadata name="Catalog.Вопросы.Attribute.Ответственный" id="27ceef39-1cc2-4c59-b6e7-7c85e5c85ad0"/>
+			<Metadata name="Catalog.Вопросы.TabularSection.ОтветыНаВопрос.Attribute.Представление" id="56b4d405-a27b-43bc-8d0f-55a7a38bfcab"/>
+			<Metadata name="Catalog.Вопросы.TabularSection.ОтветыНаВопрос.Attribute.Ответ" id="5f213cac-2c5c-4bd2-9d02-28ef471cd1b9"/>
+			<Metadata name="Catalog.Вопросы.Attribute.Длительность" id="60a20ff3-957f-46a8-9831-6ee7c895055f"/>
+			<Metadata name="Catalog.Вопросы.Attribute.ВидДанныхОтображения" id="6ee96ccb-c8f9-49b3-8416-efefd08ddb51"/>
+			<Metadata name="Catalog.Вопросы.Attribute.ИспользоватьПредставление" id="76097240-c775-448e-92d9-7715405164ef"/>
+			<Metadata name="Catalog.Вопросы.Attribute.ДанныеHTML" id="7ceec56d-f835-425c-9973-7cb4c17b9189"/>
+			<Metadata name="Catalog.Вопросы.Attribute.ВидДанныхОтображенияДемонстрацияОтвета" id="867cf168-85e0-4697-8bdb-709391794f20"/>
+			<Metadata name="Catalog.Вопросы.Attribute.Заголовок" id="8a18b238-eb9e-48b6-bcb4-5b904f5def81"/>
+			<Metadata name="Catalog.Вопросы.Attribute.ДанныеФорматированныйДокументДемонстрацияОтвета" id="8ebe19a8-ddd3-465d-9223-8f87767e8377"/>
+			<Metadata name="Catalog.Вопросы.Attribute.ВидВопроса" id="9049e9fe-1c04-4a7b-b218-dd1eaaeee7a1"/>
+			<Metadata name="Catalog.Вопросы.TabularSection.ОтветыНаВопрос.Attribute.ОтветНаТест" id="9267f8cb-bff3-4e8e-85c4-c9875be8c83f"/>
+			<Metadata name="Catalog.Вопросы.Attribute.ДанныеФорматированныйДокумент" id="ad428f3a-a9f7-42db-81dd-5585153b78ab"/>
+			<Metadata name="Catalog.Вопросы.Attribute.Комментарий" id="bab4921a-7dc0-4b5b-a9b7-54203e060751"/>
+			<Metadata name="Catalog.Вопросы.Attribute.ИспользуетсяДемонстрацияОтвета" id="c73dce20-db1c-4047-a872-3e21bf615ea5"/>
+			<Metadata name="Catalog.Вопросы.TabularSection.ОтветыНаВопрос" id="db8d150c-00cd-4a04-8d58-50f34ae1b39b"/>
+			<Metadata name="Catalog.Вопросы.Attribute.КоличествоОтветов" id="fb5748fd-9f9c-482e-a460-3d4bcd257ac5"/>
+		</Metadata>
+		<Metadata name="Catalog.Вопросы.Form.ФормаСписка" id="ce5cf305-87e6-4436-b49d-b128d87c706c" configVersion="798b2f2d583e5849a0421a265163cf1a00000000"/>
+		<Metadata name="Catalog.Вопросы.Form.ФормаСписка.Form" id="ce5cf305-87e6-4436-b49d-b128d87c706c.0" configVersion="ccb74ba21e3d0e40bcc2616411a883b000000000"/>
+		<Metadata name="Catalog.Вопросы.Form.ФормаЭлемента" id="d17c4f1e-17d3-4f67-b363-8f0702fc8363" configVersion="0b67e5e40165be4db1e76333496fcb9000000000"/>
+		<Metadata name="Catalog.Вопросы.Form.ФормаЭлемента.Form" id="d17c4f1e-17d3-4f67-b363-8f0702fc8363.0" configVersion="fb59fc04aab1d845bedefd9012201e3f00000000"/>
+		<Metadata name="Catalog.Вопросы.ObjectModule" id="9224829f-c257-4558-bfda-8ecb8033e68d.0" configVersion="82d16f7091c47b4a85d81af3ba38ba3b00000000"/>
+		<Metadata name="Catalog.Команды" id="d983d2b2-945a-4c54-bb96-4b938a649802" configVersion="388133d9871d4a4e8c4811b3fcc138c400000000">
+			<Metadata name="Catalog.Команды.Attribute.Описание" id="05fac52d-e755-4815-9c91-1aed487559be"/>
+			<Metadata name="Catalog.Команды.TabularSection.Игроки" id="33a6e430-fd48-46b0-a183-41b6d2aa43a8"/>
+			<Metadata name="Catalog.Команды.Attribute.Ответственный" id="50b489c0-fcd0-4868-962a-551b106f9b5a"/>
+			<Metadata name="Catalog.Команды.TabularSection.Игроки.Attribute.Игрок" id="7a36f4b2-87c3-47d9-a879-a9434c5aa34d"/>
+			<Metadata name="Catalog.Команды.Attribute.Комментарий" id="c65b7989-05d5-4ab5-9412-e2c54bdcdf9f"/>
+		</Metadata>
+		<Metadata name="Catalog.Команды.Form.ФормаЭлемента" id="e8244faa-2806-4ae9-85bd-e2817cec0dc7" configVersion="b42a8fabd0d1414493c188424669a0db00000000"/>
+		<Metadata name="Catalog.Команды.Form.ФормаЭлемента.Form" id="e8244faa-2806-4ae9-85bd-e2817cec0dc7.0" configVersion="36aaa924f4c06744a118095e336f5c8600000000"/>
+		<Metadata name="Catalog.Команды.ObjectModule" id="d983d2b2-945a-4c54-bb96-4b938a649802.0" configVersion="8eb20bb6cbe95a42962f00e616e4b9ea00000000"/>
+		<Metadata name="Catalog.Пользователи" id="98d84cba-86a5-43e1-a329-f06346ff9052" configVersion="4a06431f12d21a43a695c03280d0837300000000">
+			<Metadata name="Catalog.Пользователи.Attribute.Ответственный" id="004c0d9b-40a3-4965-b274-70aaf2b79957"/>
+			<Metadata name="Catalog.Пользователи.Command.Команды" id="0367316e-c08c-4e43-bde8-1279e1ebd38d"/>
+			<Metadata name="Catalog.Пользователи.Attribute.УникальныйИдентификатор" id="6bad2aa7-ab46-460a-b943-abecd7d0f055"/>
+			<Metadata name="Catalog.Пользователи.Attribute.Комментарий" id="75b52a41-cbb3-4d87-8314-ef1b6aa1cfce"/>
+			<Metadata name="Catalog.Пользователи.Attribute.ДоступныеРоли" id="bbc2b5a3-62b0-4dd3-9c7c-2677715a4129"/>
+		</Metadata>
+		<Metadata name="Catalog.Пользователи.Command.Команды.CommandModule" id="0367316e-c08c-4e43-bde8-1279e1ebd38d.2" configVersion="f759e792cefe8a4c9a135978c7ad535600000000"/>
+		<Metadata name="Catalog.Пользователи.Form.КомандыВКоторыхСостоитИгрок" id="03e107b2-4a73-4244-954c-ed299b174f19" configVersion="a2ef57629738cb4c8395b1dfadbb36c300000000"/>
+		<Metadata name="Catalog.Пользователи.Form.КомандыВКоторыхСостоитИгрок.Form" id="03e107b2-4a73-4244-954c-ed299b174f19.0" configVersion="3736e607f895fa48a96a6ba14683c42000000000"/>
+		<Metadata name="Catalog.Пользователи.Form.ФормаСписка" id="363313b5-511c-4943-852e-ba749f2a5bbc" configVersion="9f4e18ac8c19ec4bbfa2a03ea144088400000000"/>
+		<Metadata name="Catalog.Пользователи.Form.ФормаСписка.Form" id="363313b5-511c-4943-852e-ba749f2a5bbc.0" configVersion="3b9ef9aed566cc4cb622a68660e8b30000000000"/>
+		<Metadata name="Catalog.Пользователи.Form.ФормаЭлемента" id="1292ef65-c4aa-4be1-aff0-27b06061b7e5" configVersion="bfeeb5e52cd66e4cba8ffe070656c51300000000"/>
+		<Metadata name="Catalog.Пользователи.Form.ФормаЭлемента.Form" id="1292ef65-c4aa-4be1-aff0-27b06061b7e5.0" configVersion="6f40e1869699054b976851104cfa51ad00000000"/>
+		<Metadata name="Catalog.Пользователи.ObjectModule" id="98d84cba-86a5-43e1-a329-f06346ff9052.0" configVersion="00c2dde276f8794a97b4bc4a84d558f500000000"/>
+		<Metadata name="Catalog.СтатьиРейтинга" id="e8bb71df-4dff-4631-9218-11eb093934f1" configVersion="edd7c0ced7133b4f8a67ee5e669b999300000000">
+			<Metadata name="Catalog.СтатьиРейтинга.Attribute.Коэффициент" id="32cd0eaf-dc40-441e-a2be-c46494fdf390"/>
+			<Metadata name="Catalog.СтатьиРейтинга.Attribute.Имя" id="f33d28de-c35f-4eee-aeb5-7b0e0583961e"/>
+		</Metadata>
+		<Metadata name="Catalog.СтатьиРейтинга.Form.ФормаЭлемента" id="69d1292d-8923-48b7-9221-89edec56dff1" configVersion="0d47f41c144e1a4c8be6bdd129417cd600000000"/>
+		<Metadata name="Catalog.СтатьиРейтинга.Form.ФормаЭлемента.Form" id="69d1292d-8923-48b7-9221-89edec56dff1.0" configVersion="c33668eac8d2fc4ab33e3cc7f7cf611000000000"/>
+		<Metadata name="Catalog.ЭтапыИгры" id="6c8fa3d9-4f41-457c-8e64-e9b5db7ed351" configVersion="b9be9e26d6da2d4f9c28b3e588e704a400000000">
+			<Metadata name="Catalog.ЭтапыИгры.Attribute.ВладелецИгра" id="4169e0e5-8469-4045-8c4b-c8224ee9f180"/>
+		</Metadata>
+		<Metadata name="Catalog.ЭтапыИгры.Form.ФормаЭлемента" id="7ddfde6e-2064-4bbd-9fba-c241e0331196" configVersion="bea484459d394947aadafc3dc8689fd100000000"/>
+		<Metadata name="Catalog.ЭтапыИгры.Form.ФормаЭлемента.Form" id="7ddfde6e-2064-4bbd-9fba-c241e0331196.0" configVersion="c903e3d3f929364194b41de14c3e868e00000000"/>
+		<Metadata name="CommonForm.ФормаИзмененияПароля" id="43d78f4b-0d38-481a-9da2-bf9a0bb778ae" configVersion="3dde0bdfa138054fb6e8d6ce58c4e9f400000000"/>
+		<Metadata name="CommonForm.ФормаИзмененияПароля.Form" id="43d78f4b-0d38-481a-9da2-bf9a0bb778ae.0" configVersion="f345cb7997813a41a7f940586d47aa2600000000"/>
+		<Metadata name="CommonForm.ФормаИнструкцияИгрока" id="b6b8d792-3ca8-43fe-b889-7bca2e37c08e" configVersion="96f21cf66aaa2f4f8e27d4eb0b776c6a00000000"/>
+		<Metadata name="CommonForm.ФормаИнструкцияИгрока.Form" id="b6b8d792-3ca8-43fe-b889-7bca2e37c08e.0" configVersion="0b80c859959ea74fb4d53ad872f68dc800000000"/>
+		<Metadata name="CommonForm.ФормаКонстант" id="863647ba-b3d0-450b-9bc4-15f18a231f06" configVersion="181d8229d96199489cc9e412a18c51bb00000000"/>
+		<Metadata name="CommonForm.ФормаКонстант.Form" id="863647ba-b3d0-450b-9bc4-15f18a231f06.0" configVersion="3ac49feef5994944bfd631de4c44f24100000000"/>
+		<Metadata name="CommonForm.ФормаОставитьОтзыв" id="c614470d-332e-4ac1-b580-caec784f366c" configVersion="f0823643dc39ed47a8e6fdd758cb865100000000"/>
+		<Metadata name="CommonForm.ФормаОставитьОтзыв.Form" id="c614470d-332e-4ac1-b580-caec784f366c.0" configVersion="f59d63aefcc8b64a81ba48f904816f8200000000"/>
+		<Metadata name="CommonForm.ФормаОтветовКомандыРассмотренныхАпелляций" id="81a8afe4-e214-49d6-9508-cd19ba182ae9" configVersion="a631620482e0d841a5e4b6355f132b3800000000"/>
+		<Metadata name="CommonForm.ФормаОтветовКомандыРассмотренныхАпелляций.Form" id="81a8afe4-e214-49d6-9508-cd19ba182ae9.0" configVersion="d716c7d4008fcf4a8f344cf2c8da4f9700000000"/>
+		<Metadata name="CommonForm.ФормаПодачаАпелляции" id="4dff96d5-1abb-4493-9d80-90b71e22fa71" configVersion="a4198854a0507243a866b6ec0a0214db00000000"/>
+		<Metadata name="CommonForm.ФормаПодачаАпелляции.Form" id="4dff96d5-1abb-4493-9d80-90b71e22fa71.0" configVersion="e6938e92dc93354695ef00767d6fa2d100000000"/>
+		<Metadata name="CommonModule.ИгровойКлиент" id="d3d0b77a-4496-4cf1-98be-08bdcf64e3d8" configVersion="fc44d7fd5ecd154aa7043b054aa0a67d00000000"/>
+		<Metadata name="CommonModule.ИгровойКлиент.Module" id="d3d0b77a-4496-4cf1-98be-08bdcf64e3d8.0" configVersion="591f57a8a9017e4491e0e4615083f95a00000000"/>
+		<Metadata name="CommonModule.ИгровойКлиентСервер" id="f4b80e44-7b1e-4b1e-9795-c849723518e8" configVersion="850e114097532044b8516685c239152c00000000"/>
+		<Metadata name="CommonModule.ИгровойКлиентСервер.Module" id="f4b80e44-7b1e-4b1e-9795-c849723518e8.0" configVersion="2634e4e02aa8354fad8e170c93d0dacf00000000"/>
+		<Metadata name="CommonModule.ИгровойСерверПривилегированный" id="b116b86f-3fda-456c-a9af-ea8ed3d42325" configVersion="1eb26c9386b920458b5dd2b841cf73fe00000000"/>
+		<Metadata name="CommonModule.ИгровойСерверПривилегированный.Module" id="b116b86f-3fda-456c-a9af-ea8ed3d42325.0" configVersion="3b77f64dbd194041a2ad574142be9ac300000000"/>
+		<Metadata name="CommonPicture.БЫСТРЫЙОТВЕТ" id="46bc5b53-e98c-452c-881b-5c25c9cc246b" configVersion="61299addcc5840489c6497fcb5582f1c00000000"/>
+		<Metadata name="CommonPicture.БЫСТРЫЙОТВЕТ.Picture" id="46bc5b53-e98c-452c-881b-5c25c9cc246b.0" configVersion="64a4876452d62448a8bc4c65b4e76e1600000000"/>
+		<Metadata name="CommonPicture.Играть" id="85e3f240-012b-40ef-a3bb-ccb628fdd8f9" configVersion="6277c1a67b0c4146acf5fdf92105fc1a00000000"/>
+		<Metadata name="CommonPicture.Играть.Picture" id="85e3f240-012b-40ef-a3bb-ccb628fdd8f9.0" configVersion="c194ce124eff0a42845d206e1680e47900000000"/>
+		<Metadata name="CommonPicture.ИгратьСреднийРазмерКартинки" id="e73667e4-fd0e-4430-b35f-a28065e329ee" configVersion="0e674c0affecb6488012b6f4db91526400000000"/>
+		<Metadata name="CommonPicture.ИгратьСреднийРазмерКартинки.Picture" id="e73667e4-fd0e-4430-b35f-a28065e329ee.0" configVersion="0c736212176bf94e8b2c29aa22d3e08400000000"/>
+		<Metadata name="CommonPicture.Комментарий" id="9135c339-00d3-47cd-b56a-8f855150f4a8" configVersion="7b950e8c66098e4082975621022c214000000000"/>
+		<Metadata name="CommonPicture.Комментарий.Picture" id="9135c339-00d3-47cd-b56a-8f855150f4a8.0" configVersion="b30db9edf8fb9d4e9308a127622b576100000000"/>
+		<Metadata name="CommonPicture.ПалецВверхЗеленый" id="b77ff29a-e919-48cf-875e-48bfc5cfe2c9" configVersion="dd6423ddb00a10429fd1f94b51281d8e00000000"/>
+		<Metadata name="CommonPicture.ПалецВверхЗеленый.Picture" id="b77ff29a-e919-48cf-875e-48bfc5cfe2c9.0" configVersion="d70d5c931865ec4da44a505ad55e91d400000000"/>
+		<Metadata name="CommonPicture.ПалецВнизКрасный" id="2e72f28e-3638-4236-a030-cfd4f90f79b2" configVersion="523e9debfe68d1488e21caaa15bfbf4b00000000"/>
+		<Metadata name="CommonPicture.ПалецВнизКрасный.Picture" id="2e72f28e-3638-4236-a030-cfd4f90f79b2.0" configVersion="e910f1cf1837cf49a3d10800cee8aad800000000"/>
+		<Metadata name="CommonPicture.ПалецВнизСерый" id="81d7f1dc-ab89-4b46-8a7b-90079f2b59c7" configVersion="50aaef94064bb84ebec147abd0b77afc00000000"/>
+		<Metadata name="CommonPicture.ПалецВнизСерый.Picture" id="81d7f1dc-ab89-4b46-8a7b-90079f2b59c7.0" configVersion="baccdf3c4afbe94d80cc080422166c4700000000"/>
+		<Metadata name="CommonPicture.ПиктограммкиЧат" id="e8637c13-3a96-4c5c-8f25-cd571cd3cc23" configVersion="8592a7a8f5fc9e45bf374e4249a37b3700000000"/>
+		<Metadata name="CommonPicture.ПиктограммкиЧат.Picture" id="e8637c13-3a96-4c5c-8f25-cd571cd3cc23.0" configVersion="129ae6d3fdc654428baa53e2fcd5faf000000000"/>
+		<Metadata name="CommonPicture.РезультатИгры" id="adba6f12-3a53-48f2-9f71-18df983b4469" configVersion="4d7306c1d9360645b53784ea6a7f311900000000"/>
+		<Metadata name="CommonPicture.РезультатИгры.Picture" id="adba6f12-3a53-48f2-9f71-18df983b4469.0" configVersion="4bf63a4703557c4ea25a4a02ec9d491800000000"/>
+		<Metadata name="CommonPicture.РейтингИгроков" id="7140c24f-5180-4f99-916c-324e368322a6" configVersion="959ef8e10ad3954d9bb150eacda636eb00000000"/>
+		<Metadata name="CommonPicture.РейтингИгроков.Picture" id="7140c24f-5180-4f99-916c-324e368322a6.0" configVersion="35890eb26d375e4ab0b74fd9e3f2b51c00000000"/>
+		<Metadata name="CommonPicture.СоставИгры" id="0804c910-f96a-4d73-aa55-3397cfe481ea" configVersion="cd21aa9aca33254daa8e5f1455674bcd00000000"/>
+		<Metadata name="CommonPicture.СоставИгры.Picture" id="0804c910-f96a-4d73-aa55-3397cfe481ea.0" configVersion="a6295977dca3f548a4b64c298d775a2c00000000"/>
+		<Metadata name="CommonPicture.УвеличитьВысотуТаблицы" id="d9c35018-7187-415c-b67f-45f0398b7d0c" configVersion="15b22ddc45a8b24d8d0f47f5066ce2f600000000"/>
+		<Metadata name="CommonPicture.УвеличитьВысотуТаблицы.Picture" id="d9c35018-7187-415c-b67f-45f0398b7d0c.0" configVersion="6eae4a25592f6a4a8ff3520bcc6d8bf100000000"/>
+		<Metadata name="CommonPicture.УвеличитьМасштабФормы" id="90f990fc-4998-43e8-b249-2c4f82d76626" configVersion="5187a7704058de41b7f4a7702fa8849700000000"/>
+		<Metadata name="CommonPicture.УвеличитьМасштабФормы.Picture" id="90f990fc-4998-43e8-b249-2c4f82d76626.0" configVersion="10f11accd38e2642b105ea8d05027b9700000000"/>
+		<Metadata name="CommonPicture.УменьшитьВысотуТаблицы" id="65f67326-3e2f-4686-a508-c59417bde6b8" configVersion="303d096346273c42bbabdbd6ba76e2fa00000000"/>
+		<Metadata name="CommonPicture.УменьшитьВысотуТаблицы.Picture" id="65f67326-3e2f-4686-a508-c59417bde6b8.0" configVersion="e71e2c3534b622428d0312c633897c0d00000000"/>
+		<Metadata name="CommonPicture.УменьшитьМасштабФормы" id="00478885-0833-45c4-9001-128361f24111" configVersion="b2541a6079f18444a7c80e089f17a14300000000"/>
+		<Metadata name="CommonPicture.УменьшитьМасштабФормы.Picture" id="00478885-0833-45c4-9001-128361f24111.0" configVersion="99e3f7a704e7e74ebdfd111dcd119cf300000000"/>
+		<Metadata name="CommonPicture.ЧАТ" id="47bfb409-bbb2-484e-a421-cd2b89fe9d69" configVersion="b03000e99c710c4fb78341e9561970ed00000000"/>
+		<Metadata name="CommonPicture.ЧАТ.Picture" id="47bfb409-bbb2-484e-a421-cd2b89fe9d69.0" configVersion="d6bc159000ae494889b673bbb4d906d200000000"/>
+		<Metadata name="Configuration.NetiQuiz" id="20c3a4c4-db0c-4871-a7b4-6755e4bcf223" configVersion="8813808a90af3940ba0dbe970c98e37500000000"/>
+		<Metadata name="Configuration.NetiQuiz.ClientApplicationInterface" id="2f818fe7-2d16-483b-9f0a-7ad845c220c0.b" configVersion="30e808bdd283e445854946ad95d91fc100000000"/>
+		<Metadata name="Configuration.NetiQuiz.HomePageWorkArea" id="2f818fe7-2d16-483b-9f0a-7ad845c220c0.8" configVersion="676c7929d6912f4fb36bf36a4cdf62f800000000"/>
+		<Metadata name="Configuration.NetiQuiz.Logo" id="2f818fe7-2d16-483b-9f0a-7ad845c220c0.1" configVersion="d183cb5d2da26245833eab99004f2dbc00000000"/>
+		<Metadata name="Configuration.NetiQuiz.MainSectionPicture" id="2f818fe7-2d16-483b-9f0a-7ad845c220c0.c" configVersion="7c8e7c552ce34e49a6c961110911e1a600000000"/>
+		<Metadata name="Configuration.NetiQuiz.ManagedApplicationModule" id="2f818fe7-2d16-483b-9f0a-7ad845c220c0.6" configVersion="7ba5dc7bb24568499eb95ce82450425f00000000"/>
+		<Metadata name="Configuration.NetiQuiz.SessionModule" id="2f818fe7-2d16-483b-9f0a-7ad845c220c0.7" configVersion="524944d482b6e644aea719747bab484400000000"/>
+		<Metadata name="Constant.АдминистраторИгры" id="acda7fad-fe7e-47ac-950d-378b042c3648" configVersion="d3ab564dcce7b944b594b0570ae813b400000000"/>
+		<Metadata name="Constant.ВремяБлокировкиРаботыПользователей" id="576921f3-86d5-4caf-867a-82dca3de68c3" configVersion="847f1265a5aafa469f78c810c343400c00000000"/>
+		<Metadata name="Constant.ВремяОбновленияДанныхИгрока" id="b308f290-c322-423d-882c-49ad12ab61f4" configVersion="2e352605670c7e48835fb84fde63cf3c00000000"/>
+		<Metadata name="Constant.ИнструкцияИгрока" id="8d897987-b142-408d-b966-91bc6c8d6492" configVersion="2e000a357842d64ca808674de9fc71eb00000000"/>
+		<Metadata name="Constant.РазрешитьВходВСистемуПриБлокировке" id="36e15e9c-e511-41ee-b604-bf360d17c590" configVersion="55788372d9752346b4693176bc90401200000000"/>
+		<Metadata name="Constant.ТекущаяИгра" id="536ecdf1-9671-43c0-8049-ab4a23b85e89" configVersion="a95f9d5c2bfcd04994dfbbefa87649fc00000000"/>
+		<Metadata name="Constant.ТекущаяИгра.ValueManagerModule" id="536ecdf1-9671-43c0-8049-ab4a23b85e89.0" configVersion="508d9cd9265c584abc934e0bda957dbd00000000"/>
+		<Metadata name="DataProcessor.БлокировкаРаботыПользователей" id="3373be47-6d5e-4986-a817-9d1f35093288" configVersion="850f5edcc1067a48afcb8252ab054d1800000000">
+			<Metadata name="DataProcessor.БлокировкаРаботыПользователей.Attribute.ВремяБлокировкиРаботыПользователей" id="01f8b089-9c3d-4cc6-98d7-77da9e916787"/>
+			<Metadata name="DataProcessor.БлокировкаРаботыПользователей.Attribute.РазрешитьВходВСистемуПриБлокировке" id="e2b440a8-b33f-4c41-be82-99faec4f2d7d"/>
+		</Metadata>
+		<Metadata name="DataProcessor.БлокировкаРаботыПользователей.Form.Форма" id="8a20ef56-2628-4490-949d-54dadf5043d6" configVersion="2f5627eeb2b10640a4a7e316b9cd55ee00000000"/>
+		<Metadata name="DataProcessor.БлокировкаРаботыПользователей.Form.Форма.Form" id="8a20ef56-2628-4490-949d-54dadf5043d6.0" configVersion="143abe130724934688e1e9775dd2279800000000"/>
+		<Metadata name="DataProcessor.ВидеоСYoutube" id="ad97980a-3778-415a-9afe-9e3cfdac3797" configVersion="78d8c36999edf6439320233e5116e6ac00000000"/>
+		<Metadata name="DataProcessor.ВидеоСYoutube.Form.Форма" id="b7336fe4-f777-4b84-ac51-101ba664a814" configVersion="7000c73462717542bf55600c64f50d1200000000"/>
+		<Metadata name="DataProcessor.ВидеоСYoutube.Form.Форма.Form" id="b7336fe4-f777-4b84-ac51-101ba664a814.0" configVersion="7a87991ef3772d468c90710cf2def32600000000"/>
+		<Metadata name="DataProcessor.ИгровойСтолАдминистратора" id="3261b043-c980-4507-abd1-ef162bd16f58" configVersion="86843f296c6ae644ab7be4a35fa6335e00000000">
+			<Metadata name="DataProcessor.ИгровойСтолАдминистратора.Attribute.СинхронизацияСВременемСервера" id="2d4346ac-5aac-4827-b648-52b3db3b0677"/>
+			<Metadata name="DataProcessor.ИгровойСтолАдминистратора.Attribute.СтрокаСостояния" id="4208b4bd-8d75-47cc-9041-0adc9de44d26"/>
+			<Metadata name="DataProcessor.ИгровойСтолАдминистратора.Attribute.ТекущаяДатаСеансаНаСервере" id="64873150-fdf0-4ec3-bd1d-8f7388bd3e84"/>
+			<Metadata name="DataProcessor.ИгровойСтолАдминистратора.Attribute.ВремяЗавершения" id="6a6ef64f-bf6f-4385-a3b0-fc3b3aafec92"/>
+			<Metadata name="DataProcessor.ИгровойСтолАдминистратора.Attribute.Игра" id="93f6bba6-5547-4128-9808-a9f1b3c6d48e"/>
+			<Metadata name="DataProcessor.ИгровойСтолАдминистратора.Attribute.НомерСледования" id="ac29f543-5367-41ab-a39d-15b384ddffa5"/>
+			<Metadata name="DataProcessor.ИгровойСтолАдминистратора.Attribute.ВопросНаименование" id="bbec4b6d-e857-483f-a29d-c144e15e2c40"/>
+			<Metadata name="DataProcessor.ИгровойСтолАдминистратора.Attribute.ВремяОкончанияПаузы" id="cfe354c6-cea8-4796-be45-9061484335eb"/>
+			<Metadata name="DataProcessor.ИгровойСтолАдминистратора.Attribute.АктивныйХодИгры" id="fd96ebf8-17d7-4a4a-aee9-f4c6bd9576c1"/>
+		</Metadata>
+		<Metadata name="DataProcessor.ИгровойСтолАдминистратора.Form.Форма" id="ffea57e2-3dea-40f7-a83f-6ce39e52dbba" configVersion="4da5e0e07b1fc4418b85a3cc7e2f8f0900000000"/>
+		<Metadata name="DataProcessor.ИгровойСтолАдминистратора.Form.Форма.Form" id="ffea57e2-3dea-40f7-a83f-6ce39e52dbba.0" configVersion="05bf3503e4ccb849891e0158d5bc144400000000"/>
+		<Metadata name="DataProcessor.ИгровойСтолОценкиОтветов" id="e391bd69-87b2-47f1-9b4c-ab41c9474c2f" configVersion="f906d4f63d7e344a99b8920a3a39695100000000">
+			<Metadata name="DataProcessor.ИгровойСтолОценкиОтветов.TabularSection.ТЧСтатьиРейтинга.Attribute.Рассчитывать" id="159a0d63-8d26-4f9d-b0d6-678d3ee509e5"/>
+			<Metadata name="DataProcessor.ИгровойСтолОценкиОтветов.TabularSection.ТЧСтатьиРейтинга.Attribute.Код" id="3988cbcc-14eb-4eb6-a639-a17b3dfa415d"/>
+			<Metadata name="DataProcessor.ИгровойСтолОценкиОтветов.Attribute.Игра" id="46a4ca7a-865e-4e63-b8bc-ad83ed37d7ba"/>
+			<Metadata name="DataProcessor.ИгровойСтолОценкиОтветов.Attribute.Ответственный" id="681341a7-9375-4bf0-a27d-6b4bd6cf1012"/>
+			<Metadata name="DataProcessor.ИгровойСтолОценкиОтветов.Attribute.ОК_Вопрос" id="96cdf1b3-7aa9-4803-9e57-f01263dc31d8"/>
+			<Metadata name="DataProcessor.ИгровойСтолОценкиОтветов.Attribute.ОК_НомерСтр" id="aae09d2c-8204-4dbd-a835-e6d44b0be698"/>
+			<Metadata name="DataProcessor.ИгровойСтолОценкиОтветов.TabularSection.ТЧСтатьиРейтинга" id="b2df6205-5cb4-4fa5-8100-c0371e521954"/>
+			<Metadata name="DataProcessor.ИгровойСтолОценкиОтветов.TabularSection.ТЧСтатьиРейтинга.Attribute.СтатьяРейтинга" id="c19363db-87c6-46c6-b5f5-c2cbb2dc6a5a"/>
+			<Metadata name="DataProcessor.ИгровойСтолОценкиОтветов.TabularSection.ТЧСтатьиРейтинга.Attribute.Коэффициент" id="db48ae73-36b6-4a1e-a710-5e1e3d86d545"/>
+			<Metadata name="DataProcessor.ИгровойСтолОценкиОтветов.Attribute.ДатаОбработки" id="e5d4a264-74c2-472b-9007-658a79caf6cd"/>
+			<Metadata name="DataProcessor.ИгровойСтолОценкиОтветов.Attribute.ОК_Команда" id="fd2cec77-db0c-49c9-a261-81313c756617"/>
+		</Metadata>
+		<Metadata name="DataProcessor.ИгровойСтолОценкиОтветов.Form.Форма" id="1c68fc06-866b-4262-a12a-3801e6874cd8" configVersion="fccdf6755276494d89bc630fa3db2eb100000000"/>
+		<Metadata name="DataProcessor.ИгровойСтолОценкиОтветов.Form.Форма.Form" id="1c68fc06-866b-4262-a12a-3801e6874cd8.0" configVersion="4f261a357ffe314d954c9ace6c273c8200000000"/>
+		<Metadata name="DataProcessor.ИгровойСтолУчастника" id="88b77bd5-63b9-4a67-9102-d38b52cdffb3" configVersion="3854f2a8c699c14f976f1c8cebef7f5a00000000">
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.ИспользоватьПредставление" id="02aa92c4-d3ca-4e0f-b2fa-8823f1f71014"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.ВариантыОтветовНаТест" id="04714f7f-9add-4625-b8c3-982153c878d5"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.TabularSection.ОтветыИгроков.Attribute.ПравильныйОтвет" id="07315b6e-a7e1-4e8c-8b67-374431e6e95d"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.НеСчитыватьОтветыИгроков" id="0fb211e1-4670-44eb-ab56-e87c4e6807a6"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.TabularSection.ОтветыИгроков.Attribute.Ответ9" id="24c1ff52-a3b0-4d9d-8ff0-86c595d91010"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.ВопросЗаголовок" id="2c1045b1-ab0c-42a5-83a4-757ee6140273"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.TabularSection.ОтветыИгроков.Attribute.Ответ8" id="31579b27-b500-4ee9-95d9-8dfc6f207a39"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.Игрок" id="36ee9d96-bc3b-4345-82db-1cfcbd067753"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.TabularSection.ОтветыИгроков.Attribute.Ответ7" id="3b2260c0-7590-4170-9643-94a085997ea3"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.TabularSection.ОтветыИгроков.Attribute.Ответ3" id="3da8f5d4-ebd4-4aeb-adb3-e33252a845f9"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.ВремяЗавершения" id="3e569b4d-6dd8-438e-bbe2-27365f793321"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.Игра" id="404592b9-0879-4ac0-b4c3-1a41e36376f6"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.ДанныеHTML" id="467d7274-c606-4814-9258-0e998d8c806c"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.ВидВопроса" id="4d9890c8-4f89-40ef-a651-bfd00d409ca6"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.TabularSection.ОтветыИгроков.Attribute.Ответ5" id="59018ec8-2e8c-4009-932a-0675414a0fa0"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.TabularSection.ОтветыИгроков" id="59cd3639-6104-434b-aab3-c0f5a3216c35"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.ВидДанныхОтображенияДемонстрацияОтвета" id="661acf8c-9a15-4e31-8231-b18fd2bfd468"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.TabularSection.ОтветыИгроков.Attribute.Ответ2" id="66e7a0d3-257a-48ab-9848-2b614a87c369"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.СтрокаСостояния" id="679b1ddf-9952-4180-80ad-403a5fe76b60"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.НомерИгрока" id="6f0011e4-cac7-4d1c-9be5-295d13a94a0f"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.ДанныеВопросовТекущейИгры" id="742f31ee-199d-49c9-88ba-d13865917aa3"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.ВремяОкончанияПаузы" id="7434465c-2da5-4cde-87c9-cca3f19f0a3d"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.Команда" id="8f29f54b-a6e8-49c1-bedc-73f7bb0c1d77"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.TabularSection.ОтветыИгроков.Attribute.Представление" id="966c1009-3231-494c-8720-fd335cc8c337"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.TabularSection.ОтветыИгроков.Attribute.Ответ6" id="ab144df0-ac4e-4b31-9ff5-d0c1e91919d7"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.СинхронизацияСВременемСервера" id="b07d5621-5a38-4ed7-91a7-3f6cc8400eab"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.ДемонстрацияОтвета" id="b6914252-a30f-4cbf-ba3b-5324a34899da"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.Вопрос" id="bb94b329-9d7d-4ea8-8e22-bc134b462fee"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.ВремяПоследнегоОбновления" id="c03cbfd2-f532-482a-8207-bc92ac2eaa91"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.ВидДанныхОтображения" id="c0ea54ef-9bad-4a88-8584-2977b3beed46"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Command.ОткрытьИгровойСтолУчастника" id="d2131a7a-5523-4d0e-b612-54c864ac2a48"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.ТекущаяДатаСеансаНаСервере" id="d591463d-674b-450c-aa58-1908e8d2890c"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.TabularSection.ОтветыИгроков.Attribute.Ответ1" id="f2bc265c-0c91-401f-8c15-1a6158f18d05"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.ИспользуетсяДемонстрацияОтвета" id="f6dc7345-b379-44ce-bf21-cd8465ae2ecd"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.ДанныеHTMLДемонстрацияОтвета" id="f9dc7dd0-bb5a-4c23-b550-9c34982255d5"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.Attribute.ДанныеФорматированныйДокумент" id="faa5df80-c480-4b3b-99fe-55b00a1fd65c"/>
+			<Metadata name="DataProcessor.ИгровойСтолУчастника.TabularSection.ОтветыИгроков.Attribute.Ответ4" id="fc6aac85-7a02-4855-b518-f1ae284ea84f"/>
+		</Metadata>
+		<Metadata name="DataProcessor.ИгровойСтолУчастника.Command.ОткрытьИгровойСтолУчастника.CommandModule" id="d2131a7a-5523-4d0e-b612-54c864ac2a48.2" configVersion="391443e433b0004eab55b6bb6c3a423d00000000"/>
+		<Metadata name="DataProcessor.ИгровойСтолУчастника.Form.БыстрыйВыборЗначенияТеста" id="27c546e3-9c37-4a63-9042-6bde004bb4dc" configVersion="94d41e2da1b3a74f9a7f8ec7b5f9c9bf00000000"/>
+		<Metadata name="DataProcessor.ИгровойСтолУчастника.Form.БыстрыйВыборЗначенияТеста.Form" id="27c546e3-9c37-4a63-9042-6bde004bb4dc.0" configVersion="51e79b942b5b8e4181cbb9294e00d24500000000"/>
+		<Metadata name="DataProcessor.ИгровойСтолУчастника.Form.БыстрыйВыборТекста" id="1364cec3-29e7-474c-a42b-bfd31a032726" configVersion="3cfccf6afc7cf14e9d0fd61fef81758a00000000"/>
+		<Metadata name="DataProcessor.ИгровойСтолУчастника.Form.БыстрыйВыборТекста.Form" id="1364cec3-29e7-474c-a42b-bfd31a032726.0" configVersion="deac2eab5f53f94f87c3c263c80f29aa00000000"/>
+		<Metadata name="DataProcessor.ИгровойСтолУчастника.Form.Форма" id="5fee2027-7d92-41df-bb89-d432d63190cd" configVersion="301c2a069d78974e8db7a53a9d2ab89800000000"/>
+		<Metadata name="DataProcessor.ИгровойСтолУчастника.Form.Форма.Form" id="5fee2027-7d92-41df-bb89-d432d63190cd.0" configVersion="b122c94a7b627e4292995a001d52353000000000"/>
+		<Metadata name="DataProcessor.ИгровойСтолУчастника.ObjectModule" id="88b77bd5-63b9-4a67-9102-d38b52cdffb3.0" configVersion="a290028d2f8edd4f9615a32feeea535c00000000"/>
+		<Metadata name="DataProcessor.СтартоваяСтраница" id="a862b7ab-ee96-4bd8-84f4-731eab488549" configVersion="d6df51c0ee429448add6e21834ec388f00000000"/>
+		<Metadata name="DataProcessor.СтартоваяСтраница.Form.Форма" id="f0452f67-0113-49dd-8533-ed9546869188" configVersion="4ebea0dd77b75a40baa7010d63281d9c00000000"/>
+		<Metadata name="DataProcessor.СтартоваяСтраница.Form.Форма.Form" id="f0452f67-0113-49dd-8533-ed9546869188.0" configVersion="b5878d909dcd7946b37b851b38322f6100000000"/>
+		<Metadata name="Document.Игра" id="45ad0a3c-22d3-4595-934c-3ba20be8a395" configVersion="507ea9330aa65146a9c6c8bc0565188900000000">
+			<Metadata name="Document.Игра.Attribute.ВремяНачалаИгры" id="136a7049-9f4c-4793-aacf-c34eb2c208d0"/>
+			<Metadata name="Document.Игра.TabularSection.СписокКоманд" id="28d0875c-2b71-42ad-b2bd-c34ed06f18fd"/>
+			<Metadata name="Document.Игра.TabularSection.СписокВопросов.Attribute.ДемонстрацияОтвета" id="323756a3-a53c-467d-81fe-a7692d140908"/>
+			<Metadata name="Document.Игра.TabularSection.СписокВопросов" id="34860b90-6b43-450b-a184-9216e7dee5e1"/>
+			<Metadata name="Document.Игра.TabularSection.СписокВопросов.Attribute.Вопрос" id="4242124b-211c-4764-898b-b29a3f01f154"/>
+			<Metadata name="Document.Игра.Attribute.Комментарий" id="49a8c188-69f7-4766-a2e7-5e4e329056cc"/>
+			<Metadata name="Document.Игра.TabularSection.СписокКоманд.Attribute.Команда" id="4b7c6ae5-4a55-46ca-a837-6e63793615ea"/>
+			<Metadata name="Document.Игра.Attribute.ОписаниеИгры" id="75d659c0-7e67-4bc8-9f5a-42e62cdaaa18"/>
+			<Metadata name="Document.Игра.TabularSection.СписокВопросов.Attribute.Длительность" id="950a7a91-f369-4653-a4b3-f3fec66fe66c"/>
+			<Metadata name="Document.Игра.Attribute.Ответственный" id="98cf8c40-a656-4cb5-ab1c-d687ab5d268c"/>
+			<Metadata name="Document.Игра.TabularSection.СписокВопросов.Attribute.Этап" id="f9d33f6b-ccd7-40b8-8b6e-805c6f81473f"/>
+		</Metadata>
+		<Metadata name="Document.Игра.Form.ДобавлениеЗадачИзГруппы" id="25a43af7-e257-4ffb-99bd-7df9edb1351d" configVersion="32f563be642b234fb1442cd39d83753600000000"/>
+		<Metadata name="Document.Игра.Form.ДобавлениеЗадачИзГруппы.Form" id="25a43af7-e257-4ffb-99bd-7df9edb1351d.0" configVersion="91871d83aad82d49b7507d6fb9d3bcb400000000"/>
+		<Metadata name="Document.Игра.Form.ФормаДокумента" id="e7ccfcc7-4866-4fc9-94c7-303071c44a66" configVersion="3911ff90f5cbd14e94b28249611dc1d500000000"/>
+		<Metadata name="Document.Игра.Form.ФормаДокумента.Form" id="e7ccfcc7-4866-4fc9-94c7-303071c44a66.0" configVersion="f85a23e0e9831c40b31c3a41e81c221d00000000"/>
+		<Metadata name="Document.Игра.ManagerModule" id="45ad0a3c-22d3-4595-934c-3ba20be8a395.2" configVersion="791f01332b1f4847a3bf6cb3b01f3d3200000000"/>
+		<Metadata name="Document.Игра.ObjectModule" id="45ad0a3c-22d3-4595-934c-3ba20be8a395.0" configVersion="b67b6eeb0cf9a34eae8efd0a9a3e7b6600000000"/>
+		<Metadata name="Enum.ВидВопроса" id="6e7ec8d2-df02-4ba8-82d2-dd5ba08d9e79" configVersion="427fd4abc75115488ddb49a25179447100000000">
+			<Metadata name="Enum.ВидВопроса.EnumValue.Заставка" id="040dbe53-de92-4f5e-b6b7-86e96c4f2742"/>
+			<Metadata name="Enum.ВидВопроса.EnumValue.ВопросСОтветом" id="38e3a1b4-3a4e-475c-b52e-d7c24eea0772"/>
+			<Metadata name="Enum.ВидВопроса.EnumValue.Тест" id="cec6fc91-8f4d-4e1c-99df-83e0e0f20304"/>
+		</Metadata>
+		<Metadata name="Enum.ВидДанныхОтображения" id="1a57dee5-9ad9-46c9-abf9-2beaec866ea2" configVersion="170ce89690bf3e41878218cf39c49dae00000000">
+			<Metadata name="Enum.ВидДанныхОтображения.EnumValue.HTML" id="3630973a-a250-4146-8d4e-181cad57e4ca"/>
+			<Metadata name="Enum.ВидДанныхОтображения.EnumValue.ФорматируемыйДокумент" id="b7f7b4d2-1173-4f03-8a8b-f6603cf83bb5"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ВыборКоманды" id="b0509b25-e722-4272-86f9-d1bbf47b9b43" configVersion="52078fe836d5ea4c84f4891b198edeb500000000">
+			<Metadata name="InformationRegister.ВыборКоманды.Dimension.Команда" id="68af7016-f189-4b4e-9370-3c5c8251db29"/>
+			<Metadata name="InformationRegister.ВыборКоманды.Dimension.НомерИгрока" id="9bdcf137-ed14-4552-890c-6532ae5eeaf2"/>
+			<Metadata name="InformationRegister.ВыборКоманды.Resource.Пользователь" id="bc3bde09-3b4f-4448-8a51-24ab34893800"/>
+			<Metadata name="InformationRegister.ВыборКоманды.Dimension.Игра" id="c6d60d9c-5856-4e1b-9973-1f4d46eaa531"/>
+		</Metadata>
+		<Metadata name="InformationRegister.МаршрутПроведенияИгры" id="1c572f1b-42cd-40ad-aea4-f60ca0967a40" configVersion="eb19f814da691b479006e074a93ac00f00000000">
+			<Metadata name="InformationRegister.МаршрутПроведенияИгры.Dimension.Игра" id="0dba3b4d-24c8-46d5-903a-3eeb9cd351f6"/>
+			<Metadata name="InformationRegister.МаршрутПроведенияИгры.Resource.Вопрос" id="0dcfd281-b3c8-4ac4-aed3-e5a32570fb4d"/>
+			<Metadata name="InformationRegister.МаршрутПроведенияИгры.Resource.ВремяСтарта" id="1b6932ba-8116-45db-9f83-d8508215a3e9"/>
+			<Metadata name="InformationRegister.МаршрутПроведенияИгры.Resource.ДемонстрацияОтвета" id="240e1206-d15d-4d29-8e93-caa924e59109"/>
+			<Metadata name="InformationRegister.МаршрутПроведенияИгры.Resource.ВремяНачалаПаузы" id="42edb9cd-afec-4834-ae0c-d8b63876f283"/>
+			<Metadata name="InformationRegister.МаршрутПроведенияИгры.Resource.Длительность" id="63db601c-ef19-4eb9-8a8a-a3e1dd03625d"/>
+			<Metadata name="InformationRegister.МаршрутПроведенияИгры.Dimension.НомерСледования" id="8be7cd95-559d-442c-9c00-cbdb50ffc798"/>
+			<Metadata name="InformationRegister.МаршрутПроведенияИгры.Resource.ВремяЗавершения" id="a65a0158-87e1-4308-a61d-7bd546c1cd77"/>
+			<Metadata name="InformationRegister.МаршрутПроведенияИгры.Resource.СтрокаСостояния" id="aadde7b1-cad5-4cf3-a5c1-1dbe07eb9268"/>
+			<Metadata name="InformationRegister.МаршрутПроведенияИгры.Dimension.АктивныйВопрос" id="b698b06b-eef0-44bf-bcd9-4f45115d65f8"/>
+			<Metadata name="InformationRegister.МаршрутПроведенияИгры.Resource.ВремяОкончанияПаузы" id="ea759ed3-1a1b-4fe6-b447-2722b595e177"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ОтветыИгроков" id="247e448a-8526-4eb9-b687-f8456bfac430" configVersion="64719138ddc1ff489418b6158088fc8300000000">
+			<Metadata name="InformationRegister.ОтветыИгроков.Attribute.ВремяОтвета" id="1e6cd8ce-be5a-4d65-b5db-c93096a750b1"/>
+			<Metadata name="InformationRegister.ОтветыИгроков.Dimension.Команда" id="3e71c4df-986f-44a9-bf5c-6c78102a1cbd"/>
+			<Metadata name="InformationRegister.ОтветыИгроков.Dimension.Игрок" id="ba32df9e-1b6b-4b3c-b380-601e75acb5ab"/>
+			<Metadata name="InformationRegister.ОтветыИгроков.Dimension.Вопрос" id="bc9a114a-cf7d-4d97-b422-c40ac3c98080"/>
+			<Metadata name="InformationRegister.ОтветыИгроков.Dimension.НомерСтр" id="c1a9b0aa-fd1c-477e-a2da-335f60e73977"/>
+			<Metadata name="InformationRegister.ОтветыИгроков.Dimension.НомерИгрока" id="c54b14e9-95d3-49ff-b2ad-c75877a6f423"/>
+			<Metadata name="InformationRegister.ОтветыИгроков.Resource.Ответ" id="f1ed800a-a7bf-46c8-9fca-d7395c473e60"/>
+			<Metadata name="InformationRegister.ОтветыИгроков.Dimension.Игра" id="f3d74233-c635-4f0f-9e40-9d14fe8270ae"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ОтветыКоманд" id="064bc091-c8dd-4f8e-8a19-a25fbf9f5b27" configVersion="46befbcdaf07624a854416ddc3b4602800000000">
+			<Metadata name="InformationRegister.ОтветыКоманд.Attribute.Комментарий" id="256b4b72-8c23-4d86-8eb0-503018cfaba4"/>
+			<Metadata name="InformationRegister.ОтветыКоманд.Dimension.НомерСтр" id="436cf7a3-cf0e-4c00-9a93-1c2281b5c7d3"/>
+			<Metadata name="InformationRegister.ОтветыКоманд.Resource.ОтветПравильный" id="56c2cbee-8790-4dc0-91c5-8702b441b1eb"/>
+			<Metadata name="InformationRegister.ОтветыКоманд.Attribute.АвтоматическаяПроверка" id="64e101b7-c90f-4044-b9da-ded7d284f2cb"/>
+			<Metadata name="InformationRegister.ОтветыКоманд.Dimension.Игра" id="70c58d82-c807-4682-995a-81460d280740"/>
+			<Metadata name="InformationRegister.ОтветыКоманд.Attribute.ВремяОтвета" id="79ed465e-4d8b-454f-a5f7-e8cfeed8b404"/>
+			<Metadata name="InformationRegister.ОтветыКоманд.Attribute.Ответственный" id="96b4fa44-9449-4387-b865-a71a80b495a7"/>
+			<Metadata name="InformationRegister.ОтветыКоманд.Resource.Ответ" id="9be8f8a7-be2d-4ac5-b022-640eef982336"/>
+			<Metadata name="InformationRegister.ОтветыКоманд.Resource.Баллы" id="9feb598e-5db6-4192-8b43-261e458921fa"/>
+			<Metadata name="InformationRegister.ОтветыКоманд.Dimension.Вопрос" id="b8365f6f-64e4-4931-bb0c-ecc8af73c565"/>
+			<Metadata name="InformationRegister.ОтветыКоманд.Dimension.Команда" id="da2f8b6a-23bf-4938-8f97-1aaabe82043c"/>
+			<Metadata name="InformationRegister.ОтветыКоманд.Resource.БаллыНоминальные" id="da9db4de-4ae5-442a-8c12-0afaf4c403cc"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ОтветыКоманд.Form.ФормаЗаписи" id="49caad04-f95e-4eef-9284-7d23575389d4" configVersion="10c0f0923e9d65419da0a69628506e1400000000"/>
+		<Metadata name="InformationRegister.ОтветыКоманд.Form.ФормаЗаписи.Form" id="49caad04-f95e-4eef-9284-7d23575389d4.0" configVersion="f20233b06baafd43a499759048e0fea100000000"/>
+		<Metadata name="InformationRegister.ОтветыКоманд.Form.ФормаСписка" id="cc910bee-c098-40a9-85f7-e6d0792c170a" configVersion="74e8ecd4625c4142bfe39d15f4b1208300000000"/>
+		<Metadata name="InformationRegister.ОтветыКоманд.Form.ФормаСписка.Form" id="cc910bee-c098-40a9-85f7-e6d0792c170a.0" configVersion="3e24bdaa33d1eb478b1bd77393d1fbd600000000"/>
+		<Metadata name="InformationRegister.Отзывы" id="7f6b8e7e-1656-47fc-a482-4360fc66c6af" configVersion="cf75958cdc57ab4d905ed1d5394dc66700000000">
+			<Metadata name="InformationRegister.Отзывы.Dimension.Пользователь" id="80029510-c340-4364-abe7-993c42759f18"/>
+			<Metadata name="InformationRegister.Отзывы.Dimension.ДатаОтзыва" id="a73ca969-af58-4a9f-a18a-78601ff1c7af"/>
+			<Metadata name="InformationRegister.Отзывы.Resource.Отзыв" id="c0e6657f-504f-49f8-b8ec-e7cf37d253da"/>
+			<Metadata name="InformationRegister.Отзывы.Dimension.Игра" id="ca09aae6-5db3-4293-be96-f888efdd4d3b"/>
+			<Metadata name="InformationRegister.Отзывы.Dimension.Вопрос" id="f277e430-528c-4afe-8eb9-2b522e89e6ed"/>
+		</Metadata>
+		<Metadata name="InformationRegister.Отзывы.Form.ФормаЗаписи" id="fd5d32ab-c379-446d-b638-80b9a23668b7" configVersion="4693687f9cd3aa42980092eeaecdac7100000000"/>
+		<Metadata name="InformationRegister.Отзывы.Form.ФормаЗаписи.Form" id="fd5d32ab-c379-446d-b638-80b9a23668b7.0" configVersion="a7aba6332048f14b9c793b738a675edc00000000"/>
+		<Metadata name="InformationRegister.ПодачаАпелляции" id="be13f004-2593-480d-b3eb-a3d3867fc638" configVersion="7742b4baae837f46917ae9099a1f4bdf00000000">
+			<Metadata name="InformationRegister.ПодачаАпелляции.Resource.ОтветственныйЗаРассмотрение" id="095b70b3-68f0-4ce5-a45a-55934aa70856"/>
+			<Metadata name="InformationRegister.ПодачаАпелляции.Resource.Игрок" id="1c027255-1c32-42d7-8a30-c2eb09ffc334"/>
+			<Metadata name="InformationRegister.ПодачаАпелляции.Resource.Рассмотрена" id="256fc981-9d0d-4fb7-9c99-0874c0363347"/>
+			<Metadata name="InformationRegister.ПодачаАпелляции.Dimension.Игра" id="4a8ca9a1-85eb-4899-b024-aa7d40ac7afe"/>
+			<Metadata name="InformationRegister.ПодачаАпелляции.Dimension.Вопрос" id="4e6b9702-c7e2-46cd-8f36-87efce747175"/>
+			<Metadata name="InformationRegister.ПодачаАпелляции.Dimension.НомерСтр" id="72ea4a55-4b2a-42e4-8dd8-c010a49d2b82"/>
+			<Metadata name="InformationRegister.ПодачаАпелляции.Dimension.Команда" id="7735b587-a137-43b5-acf1-a772e9498fbb"/>
+			<Metadata name="InformationRegister.ПодачаАпелляции.Dimension.ВремяПодачи" id="b75c8b4c-58da-4023-bc2c-78f439e5a235"/>
+			<Metadata name="InformationRegister.ПодачаАпелляции.Resource.Решение" id="d7af5297-2ac7-47a1-9996-061e1ae412a9"/>
+			<Metadata name="InformationRegister.ПодачаАпелляции.Resource.Обращение" id="d8cab08d-cc7b-4e4b-bc17-614cb69158ef"/>
+			<Metadata name="InformationRegister.ПодачаАпелляции.Attribute.ВремяРассмотрения" id="e486a53e-208d-47f6-bb07-479f1a6ab2b3"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ПодачаАпелляции.Form.ФормаЗаписи" id="eb50603d-0b73-48f6-8573-4da34633f619" configVersion="f4ebe0919f91a14daf9d6daf3d3d858300000000"/>
+		<Metadata name="InformationRegister.ПодачаАпелляции.Form.ФормаЗаписи.Form" id="eb50603d-0b73-48f6-8573-4da34633f619.0" configVersion="e8f609b67f550a4ebc6433ecc0b59f9400000000"/>
+		<Metadata name="InformationRegister.ПодачаАпелляции.Form.ФормаСписка" id="b96da979-325a-40ee-b380-1083346f87c9" configVersion="8810e02a46e5b843b9d1d964585b634900000000"/>
+		<Metadata name="InformationRegister.ПодачаАпелляции.Form.ФормаСписка.Form" id="b96da979-325a-40ee-b380-1083346f87c9.0" configVersion="e59cd922ccb8574eb46ec35f723d18bb00000000"/>
+		<Metadata name="InformationRegister.РазрешениеРаботыПользователямПриБлокировке" id="32d8b911-9ab5-4552-aea5-dd0478727c31" configVersion="ff9f75046447c34e8944382caec9855900000000">
+			<Metadata name="InformationRegister.РазрешениеРаботыПользователямПриБлокировке.Resource.ТолькоВходВСистему" id="76532e7c-7f2a-4815-a53b-023bae5e18d9"/>
+			<Metadata name="InformationRegister.РазрешениеРаботыПользователямПриБлокировке.Dimension.Пользователь" id="77e4c8f9-4355-4940-9ecf-d3172c21ed56"/>
+		</Metadata>
+		<Metadata name="InformationRegister.РейтингиИгроков" id="81e1b534-7a62-4cf2-bf95-9dfd46c49eef" configVersion="6068bfe561e49743b49cc607d5e2eb4000000000">
+			<Metadata name="InformationRegister.РейтингиИгроков.Dimension.Игра" id="006b770c-8aad-45d1-a964-fb61dcdb1d6d"/>
+			<Metadata name="InformationRegister.РейтингиИгроков.Dimension.НомерСтр" id="1bf5eaad-ed4c-4ca5-a2c0-1c361aef64c3"/>
+			<Metadata name="InformationRegister.РейтингиИгроков.Attribute.ОсновныеБаллы" id="344bb49d-5540-4d0e-9c27-37db97b861a8"/>
+			<Metadata name="InformationRegister.РейтингиИгроков.Dimension.Вопрос" id="38d9f62a-d509-48a1-a354-1dbd11805cf8"/>
+			<Metadata name="InformationRegister.РейтингиИгроков.Attribute.ДатаОбработки" id="89e151d0-2fa1-444c-9c27-2260d64dbb8b"/>
+			<Metadata name="InformationRegister.РейтингиИгроков.Dimension.СтатьяРейтинга" id="ccddb29f-7540-442b-a4e0-7a3fde47e462"/>
+			<Metadata name="InformationRegister.РейтингиИгроков.Attribute.Комментарий" id="de791811-ff49-4db9-b36a-50ede2cf3da0"/>
+			<Metadata name="InformationRegister.РейтингиИгроков.Resource.Баллы" id="f33696ae-58b4-49b0-bea3-399df5205bd5"/>
+			<Metadata name="InformationRegister.РейтингиИгроков.Dimension.Игрок" id="fd844d48-1aa7-4c1f-8ff1-630d417e2815"/>
+		</Metadata>
+		<Metadata name="InformationRegister.Чат" id="16ae59c7-05d7-4ab9-ab6d-6b8cff5caffa" configVersion="ba507fce56b19d4fa1dcf40b48a1c98300000000">
+			<Metadata name="InformationRegister.Чат.Resource.ТекстСообщения" id="1e8324ae-43b8-4cf8-986e-0a6bb912ed7c"/>
+			<Metadata name="InformationRegister.Чат.Dimension.Отправитель" id="55976e4d-d791-4994-9867-935eb039d61d"/>
+			<Metadata name="InformationRegister.Чат.Dimension.ДатаСообщения" id="59192a48-714e-458f-a98c-4e82fab6889f"/>
+			<Metadata name="InformationRegister.Чат.Dimension.Игра" id="9597418a-a602-4af0-8541-36aa3ddde466"/>
+		</Metadata>
+		<Metadata name="InformationRegister.Чат.Form.ФормаСписка" id="eb8ee603-a590-49b4-962c-6ec6afbfb095" configVersion="9f66b239aec72c41be919a17d474a1a500000000"/>
+		<Metadata name="InformationRegister.Чат.Form.ФормаСписка.Form" id="eb8ee603-a590-49b4-962c-6ec6afbfb095.0" configVersion="c9ad318a291bd445aa32c9bf1b9af3fb00000000"/>
+		<Metadata name="InformationRegister.Чат.Form.Чат" id="cfa21f1a-0ed2-4c27-9ce7-f11190799171" configVersion="8573d9101cae684580dce1748645b7e500000000"/>
+		<Metadata name="InformationRegister.Чат.Form.Чат.Form" id="cfa21f1a-0ed2-4c27-9ce7-f11190799171.0" configVersion="9f0acd6e7fef334187f57f55c4b5eb7600000000"/>
+		<Metadata name="InformationRegister.ЭмоциональныеОценкиВопросов" id="45ed4858-0b03-4a37-ba3b-c2cef1a605cd" configVersion="92a2404760ffe94eb03b3db494fc8b0300000000">
+			<Metadata name="InformationRegister.ЭмоциональныеОценкиВопросов.Dimension.Пользователь" id="0a0c2459-049b-4fc9-8a8c-627ee33a930a"/>
+			<Metadata name="InformationRegister.ЭмоциональныеОценкиВопросов.Attribute.ВремяОценки" id="1f46d2e2-ea7d-4b2b-99aa-bd0554f06fee"/>
+			<Metadata name="InformationRegister.ЭмоциональныеОценкиВопросов.Dimension.Вопрос" id="5803379f-ae88-4a39-9cf3-3692feb79882"/>
+			<Metadata name="InformationRegister.ЭмоциональныеОценкиВопросов.Resource.Оценка" id="9addf1a2-8ea4-441d-b76d-93cf865148da"/>
+			<Metadata name="InformationRegister.ЭмоциональныеОценкиВопросов.Dimension.Игра" id="e3dad072-69b1-4114-933f-ad6b11f534c8"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="55af0794-b60c-40b9-8b07-131d9c032c48" configVersion="8c95a66f2af0d54599e8bd55ea4446d900000000"/>
+		<Metadata name="Report.ИгрокиКоманд" id="623539b2-415e-4b2d-9de6-9d7260af5567" configVersion="0be9283e7fac1b4598dd45e4234a089a00000000">
+			<Metadata name="Report.ИгрокиКоманд.Attribute.Игра" id="e31c4abd-3c07-4250-9b06-2634c4029846"/>
+		</Metadata>
+		<Metadata name="Report.ИгрокиКоманд.Form.ФормаОтчета" id="4e931fef-2102-4c2a-8482-ea2f6caeba8d" configVersion="9bfa42f24585b84eaf043805df0cc28100000000"/>
+		<Metadata name="Report.ИгрокиКоманд.Form.ФормаОтчета.Form" id="4e931fef-2102-4c2a-8482-ea2f6caeba8d.0" configVersion="e89b916ee82329439bd174aa1db0080f00000000"/>
+		<Metadata name="Report.ИгрокиКоманд.ObjectModule" id="623539b2-415e-4b2d-9de6-9d7260af5567.0" configVersion="8715918021485e47a700b38f8167c4da00000000"/>
+		<Metadata name="Report.ИгрокиКоманд.Template.ОсновнаяСхемаКомпоновкиДанных" id="7cf8f793-7cfb-47bc-b86a-251160f10b9a" configVersion="b286eae7c233b54890efcf19e5d71f8e00000000"/>
+		<Metadata name="Report.ИгрокиКоманд.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="7cf8f793-7cfb-47bc-b86a-251160f10b9a.0" configVersion="02a78b82d03fc646876468d2cb33564600000000"/>
+		<Metadata name="Report.РезультатИгры" id="564d2368-9476-4ee3-ba1e-68c196a90ad9" configVersion="9b9126c1a11cba4094251e4bf5c53f3600000000"/>
+		<Metadata name="Report.РезультатИгры.Form.ФормаОтчета" id="f2ce178d-87c8-400d-86db-1489c0b813fd" configVersion="1d86a11aeb18d04c954c03adc00940ec00000000"/>
+		<Metadata name="Report.РезультатИгры.Form.ФормаОтчета.Form" id="f2ce178d-87c8-400d-86db-1489c0b813fd.0" configVersion="7bf2bbb85b128f4fa5f3c90727f1fea600000000"/>
+		<Metadata name="Report.РезультатИгры.ObjectModule" id="564d2368-9476-4ee3-ba1e-68c196a90ad9.0" configVersion="d5f79aad380f4c4cb719e680a546b02200000000"/>
+		<Metadata name="Report.РезультатИгры.Template.ОсновнаяСхемаКомпоновкиДанных" id="6518fd75-fa01-492f-a9e3-3ee23e13ce91" configVersion="84d88ed450547140af1a777320b8d31f00000000"/>
+		<Metadata name="Report.РезультатИгры.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="6518fd75-fa01-492f-a9e3-3ee23e13ce91.0" configVersion="72e1084060846e409e1f70bcb888bf7800000000"/>
+		<Metadata name="Report.РезультатИгрыПолный" id="fc05deaf-7b62-4a56-9b1f-6e340ffbcf7e" configVersion="3d3892758ee6a04392d008bd6fea326600000000"/>
+		<Metadata name="Report.РезультатИгрыПолный.ObjectModule" id="fc05deaf-7b62-4a56-9b1f-6e340ffbcf7e.0" configVersion="f57d532a72e6ff44bd37d24ee3c24bbd00000000"/>
+		<Metadata name="Report.РезультатИгрыПолный.Template.ОсновнаяСхемаКомпоновкиДанных" id="eaa687b1-5d82-4847-99df-8c9bf516e1fe" configVersion="11005e5bb26fcf43a898734a5d28309000000000"/>
+		<Metadata name="Report.РезультатИгрыПолный.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="eaa687b1-5d82-4847-99df-8c9bf516e1fe.0" configVersion="2bd3b14c56f12c4a86e95afdc6838e2900000000"/>
+		<Metadata name="Report.РейтингИгроков" id="4cbe175e-668b-4019-b248-39f1aacac020" configVersion="d9c6392666bbe8419e57a24c2b95ca9c00000000"/>
+		<Metadata name="Report.РейтингИгроков.Form.ФормаОтчета" id="895e8d6e-3ea7-4cd8-b9c5-b01c69f27e4f" configVersion="5649576e68be4842942721635a0007f900000000"/>
+		<Metadata name="Report.РейтингИгроков.Form.ФормаОтчета.Form" id="895e8d6e-3ea7-4cd8-b9c5-b01c69f27e4f.0" configVersion="007b020f09010448bc71850a35bca35f00000000"/>
+		<Metadata name="Report.РейтингИгроков.ObjectModule" id="4cbe175e-668b-4019-b248-39f1aacac020.0" configVersion="7d34110f532e6746b765234420ff5efa00000000"/>
+		<Metadata name="Report.РейтингИгроков.Template.ОсновнаяСхемаКомпоновкиДанных" id="6f212e98-1d4a-421a-b256-cb266330ed9b" configVersion="45c582416ceb6343bb85d526e078deb700000000"/>
+		<Metadata name="Report.РейтингИгроков.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="6f212e98-1d4a-421a-b256-cb266330ed9b.0" configVersion="99145fe925308542848729d5f7918cbb00000000"/>
+		<Metadata name="Role.АдминистраторИгры" id="16df583a-4bc4-4531-94f2-77a08ded3ba4" configVersion="831abc70482a9c408f2a022d3793cd1b00000000"/>
+		<Metadata name="Role.АдминистраторИгры.Rights" id="16df583a-4bc4-4531-94f2-77a08ded3ba4.0" configVersion="27876233e132794ba889f420e2ca1dda00000000"/>
+		<Metadata name="Role.Игрок" id="bd19f88c-9693-4b0c-91c3-f864fcb044bc" configVersion="a0b543ad47041345a42b003499800e6000000000"/>
+		<Metadata name="Role.Игрок.Rights" id="bd19f88c-9693-4b0c-91c3-f864fcb044bc.0" configVersion="5d07239ab7c81b4c99e3a07f617ce7bf00000000"/>
+		<Metadata name="Role.ПолныеПрава" id="bf74076f-3f0d-44b9-90bc-cd1d8490a4db" configVersion="25e7fcd404e64943be7cab5dfb9878fd00000000"/>
+		<Metadata name="Role.ПолныеПрава.Rights" id="bf74076f-3f0d-44b9-90bc-cd1d8490a4db.0" configVersion="1050c2925b765541afac5d13ca8bdd4300000000"/>
+		<Metadata name="SessionParameter.ТекущийПользователь" id="f2535b06-6058-409e-913b-c3fc056779d2" configVersion="0aacba21bbce354d9dfa4f2ce601bb3600000000"/>
+		<Metadata name="StyleItem.ЦветТекстаКнопкиИГРАТЬ" id="6b1b7769-dfeb-45a7-a2b2-bcaf04852984" configVersion="2727e13b932b874cab4c5c457a1dc45600000000"/>
+		<Metadata name="Subsystem.Основная" id="62cc93b4-53ef-48aa-ac61-fbf943c812b8" configVersion="aa120e29ede57e41b341119fcdfeff7000000000"/>
+		<Metadata name="Subsystem.Основная.CommandInterface" id="62cc93b4-53ef-48aa-ac61-fbf943c812b8.1" configVersion="870dae8006236b479a12ccea48177fe000000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

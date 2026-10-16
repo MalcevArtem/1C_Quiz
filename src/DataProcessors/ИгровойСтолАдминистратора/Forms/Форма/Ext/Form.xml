@@ -1,0 +1,1818 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<AutoTitle>false</AutoTitle>
+	<AutoURL>false</AutoURL>
+	<CommandBarLocation>None</CommandBarLocation>
+	<CommandSet>
+		<ExcludedCommand>Abort</ExcludedCommand>
+		<ExcludedCommand>Cancel</ExcludedCommand>
+		<ExcludedCommand>Close</ExcludedCommand>
+		<ExcludedCommand>CustomizeForm</ExcludedCommand>
+		<ExcludedCommand>Help</ExcludedCommand>
+		<ExcludedCommand>Ignore</ExcludedCommand>
+		<ExcludedCommand>No</ExcludedCommand>
+		<ExcludedCommand>OK</ExcludedCommand>
+		<ExcludedCommand>RestoreValues</ExcludedCommand>
+		<ExcludedCommand>Retry</ExcludedCommand>
+		<ExcludedCommand>SaveValues</ExcludedCommand>
+		<ExcludedCommand>Yes</ExcludedCommand>
+	</CommandSet>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="Страницы" id="50">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="51"/>
+			<ChildItems>
+				<Page name="Основная" id="52">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Игровой стол</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основная</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<ExtendedTooltip name="ОсновнаяРасширеннаяПодсказка" id="53"/>
+					<ChildItems>
+						<UsualGroup name="Стол_ЛеваяКолонка" id="58">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Стол "Левая колонка"</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Стол левая колонка</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Стол_ЛеваяКолонкаРасширеннаяПодсказка" id="59"/>
+							<ChildItems>
+								<Table name="МаршрутИгры" id="4">
+									<CommandBarLocation>None</CommandBarLocation>
+									<ChangeRowSet>false</ChangeRowSet>
+									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<EnableStartDrag>true</EnableStartDrag>
+									<DataPath>МаршрутИгры</DataPath>
+									<RowPictureDataPath>МаршрутИгры.DefaultPicture</RowPictureDataPath>
+									<CommandSet>
+										<ExcludedCommand>Change</ExcludedCommand>
+										<ExcludedCommand>ChangeHistory</ExcludedCommand>
+										<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+										<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+										<ExcludedCommand>ListSettings</ExcludedCommand>
+										<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
+										<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
+										<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+									</CommandSet>
+									<AutoRefresh>false</AutoRefresh>
+									<AutoRefreshPeriod>60</AutoRefreshPeriod>
+									<Period>
+										<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+										<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+										<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+									</Period>
+									<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+									<RestoreCurrentRow>false</RestoreCurrentRow>
+									<TopLevelParent xsi:nil="true"/>
+									<ShowRoot>true</ShowRoot>
+									<AllowRootChoice>false</AllowRootChoice>
+									<UpdateOnDataChange>Auto</UpdateOnDataChange>
+									<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+									<ContextMenu name="МаршрутИгрыКонтекстноеМеню" id="5">
+										<ChildItems>
+											<Button name="СтартСТекущейСтроки" id="143">
+												<Type>CommandBarButton</Type>
+												<Representation>PictureAndText</Representation>
+												<CommandName>Form.Command.СтартСТекущейСтроки</CommandName>
+												<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+												<Picture>
+													<xr:Ref>StdPicture.GenerateReport</xr:Ref>
+													<xr:LoadTransparent>true</xr:LoadTransparent>
+												</Picture>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Старт с выбранной строки</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="СтартСТекущейСтрокиРасширеннаяПодсказка" id="144"/>
+											</Button>
+										</ChildItems>
+									</ContextMenu>
+									<AutoCommandBar name="МаршрутИгрыКоманднаяПанель" id="6">
+										<Autofill>false</Autofill>
+									</AutoCommandBar>
+									<ExtendedTooltip name="МаршрутИгрыРасширеннаяПодсказка" id="7"/>
+									<SearchStringAddition name="МаршрутИгрыСтрокаПоиска" id="8">
+										<AdditionSource>
+											<Item>МаршрутИгры</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="МаршрутИгрыСтрокаПоискаКонтекстноеМеню" id="9"/>
+										<ExtendedTooltip name="МаршрутИгрыСтрокаПоискаРасширеннаяПодсказка" id="10"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="МаршрутИгрыСостояниеПросмотра" id="11">
+										<AdditionSource>
+											<Item>МаршрутИгры</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="МаршрутИгрыСостояниеПросмотраКонтекстноеМеню" id="12"/>
+										<ExtendedTooltip name="МаршрутИгрыСостояниеПросмотраРасширеннаяПодсказка" id="13"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="МаршрутИгрыУправлениеПоиском" id="14">
+										<AdditionSource>
+											<Item>МаршрутИгры</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="МаршрутИгрыУправлениеПоискомКонтекстноеМеню" id="15"/>
+										<ExtendedTooltip name="МаршрутИгрыУправлениеПоискомРасширеннаяПодсказка" id="16"/>
+									</SearchControlAddition>
+									<Events>
+										<Event name="OnActivateRow">МаршрутИгрыПриАктивизацииСтроки</Event>
+									</Events>
+									<ChildItems>
+										<LabelField name="МкршрутИгрыИгра" id="17">
+											<DataPath>МаршрутИгры.Игра</DataPath>
+											<Visible>false</Visible>
+											<ContextMenu name="МкршрутИгрыИграКонтекстноеМеню" id="18"/>
+											<ExtendedTooltip name="МкршрутИгрыИграРасширеннаяПодсказка" id="19"/>
+										</LabelField>
+										<LabelField name="МкршрутИгрыНомерСледования" id="23">
+											<DataPath>МаршрутИгры.НомерСледования</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>№</v8:content>
+												</v8:item>
+											</Title>
+											<Width>1</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<MaxWidth>1</MaxWidth>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="МкршрутИгрыНомерСледованияКонтекстноеМеню" id="24"/>
+											<ExtendedTooltip name="МкршрутИгрыНомерСледованияРасширеннаяПодсказка" id="25"/>
+										</LabelField>
+										<CheckBoxField name="МкршрутИгрыАктивныйВопрос" id="20">
+											<DataPath>МаршрутИгры.АктивныйВопрос</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Акт.</v8:content>
+												</v8:item>
+											</Title>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="МкршрутИгрыАктивныйВопросКонтекстноеМеню" id="21"/>
+											<ExtendedTooltip name="МкршрутИгрыАктивныйВопросРасширеннаяПодсказка" id="22"/>
+										</CheckBoxField>
+										<LabelField name="МкршрутИгрыВопрос" id="26">
+											<DataPath>МаршрутИгры.Вопрос</DataPath>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>true</HorizontalStretch>
+											<ContextMenu name="МкршрутИгрыВопросКонтекстноеМеню" id="27"/>
+											<ExtendedTooltip name="МкршрутИгрыВопросРасширеннаяПодсказка" id="28"/>
+										</LabelField>
+										<LabelField name="МаршрутИгрыВидВопроса" id="327">
+											<DataPath>МаршрутИгры.ВидВопроса</DataPath>
+											<ContextMenu name="МаршрутИгрыВидВопросаКонтекстноеМеню" id="328"/>
+											<ExtendedTooltip name="МаршрутИгрыВидВопросаРасширеннаяПодсказка" id="329"/>
+										</LabelField>
+										<LabelField name="МаршрутИгрыЗаголовок" id="324">
+											<DataPath>МаршрутИгры.Заголовок</DataPath>
+											<Visible>false</Visible>
+											<ContextMenu name="МаршрутИгрыЗаголовокКонтекстноеМеню" id="325"/>
+											<ExtendedTooltip name="МаршрутИгрыЗаголовокРасширеннаяПодсказка" id="326"/>
+										</LabelField>
+										<CheckBoxField name="МкршрутИгрыДемонстрацияОтвета" id="29">
+											<DataPath>МаршрутИгры.ДемонстрацияОтвета</DataPath>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="МкршрутИгрыДемонстрацияОтветаКонтекстноеМеню" id="30"/>
+											<ExtendedTooltip name="МкршрутИгрыДемонстрацияОтветаРасширеннаяПодсказка" id="31"/>
+										</CheckBoxField>
+										<LabelField name="МкршрутИгрыДлительность" id="32">
+											<DataPath>МаршрутИгры.Длительность</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Время (сек.)</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="МкршрутИгрыДлительностьКонтекстноеМеню" id="33"/>
+											<ExtendedTooltip name="МкршрутИгрыДлительностьРасширеннаяПодсказка" id="34"/>
+										</LabelField>
+										<LabelField name="МкршрутИгрыВремяСтарта" id="35">
+											<DataPath>МаршрутИгры.ВремяСтарта</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Начало</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="МкршрутИгрыВремяСтартаКонтекстноеМеню" id="36"/>
+											<ExtendedTooltip name="МкршрутИгрыВремяСтартаРасширеннаяПодсказка" id="37"/>
+										</LabelField>
+										<LabelField name="МкршрутИгрыВремяЗавершения" id="38">
+											<DataPath>МаршрутИгры.ВремяЗавершения</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Конец</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="МкршрутИгрыВремяЗавершенияКонтекстноеМеню" id="39"/>
+											<ExtendedTooltip name="МкршрутИгрыВремяЗавершенияРасширеннаяПодсказка" id="40"/>
+										</LabelField>
+										<LabelField name="МкршрутИгрыВремяНачалаПаузы" id="41">
+											<DataPath>МаршрутИгры.ВремяНачалаПаузы</DataPath>
+											<Visible>false</Visible>
+											<ContextMenu name="МкршрутИгрыВремяНачалаПаузыКонтекстноеМеню" id="42"/>
+											<ExtendedTooltip name="МкршрутИгрыВремяНачалаПаузыРасширеннаяПодсказка" id="43"/>
+										</LabelField>
+										<LabelField name="МкршрутИгрыВремяОкончанияПаузы" id="44">
+											<DataPath>МаршрутИгры.ВремяОкончанияПаузы</DataPath>
+											<Visible>false</Visible>
+											<ContextMenu name="МкршрутИгрыВремяОкончанияПаузыКонтекстноеМеню" id="45"/>
+											<ExtendedTooltip name="МкршрутИгрыВремяОкончанияПаузыРасширеннаяПодсказка" id="46"/>
+										</LabelField>
+									</ChildItems>
+								</Table>
+								<UsualGroup name="Группа_Подвал_ЛеваяКолонка" id="352">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа подвал левая колонка</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа подвал левая колонка</v8:content>
+										</v8:item>
+									</ToolTip>
+									<HorizontalStretch>true</HorizontalStretch>
+									<VerticalStretch>true</VerticalStretch>
+									<GroupVerticalAlign>Bottom</GroupVerticalAlign>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа_Подвал_ЛеваяКолонкаРасширеннаяПодсказка" id="353"/>
+									<ChildItems>
+										<Button name="УвеличитьМасштабФормы" id="354">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.УвеличитьМасштабФормы</CommandName>
+											<ExtendedTooltip name="УвеличитьМасштабФормыРасширеннаяПодсказка" id="355"/>
+										</Button>
+										<Button name="УменьшитьМасштабФормы" id="356">
+											<Type>UsualButton</Type>
+											<CommandName>Form.Command.УменьшитьМасштабФормы</CommandName>
+											<ExtendedTooltip name="УменьшитьМасштабФормыРасширеннаяПодсказка" id="357"/>
+										</Button>
+										<InputField name="Информация_СтрокаСостояния" id="340">
+											<DataPath>Объект.СтрокаСостояния</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<TitleLocation>None</TitleLocation>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>true</HorizontalStretch>
+											<TextColor>style:ToolTipTextColor</TextColor>
+											<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+											<ContextMenu name="Информация_СтрокаСостоянияКонтекстноеМеню" id="341"/>
+											<ExtendedTooltip name="Информация_СтрокаСостоянияРасширеннаяПодсказка" id="342"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Стол_ПраваяКолонка" id="60">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Стол "Правая колонка"</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Стол правая колонка</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Стол_ПраваяКолонкаРасширеннаяПодсказка" id="61"/>
+							<ChildItems>
+								<UsualGroup name="Группа_СтартСтопИгры" id="343">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа старт стоп игры</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа старт стоп игры</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа_СтартСтопИгрыРасширеннаяПодсказка" id="344"/>
+									<ChildItems>
+										<Button name="СтартИгры" id="345">
+											<Type>UsualButton</Type>
+											<Representation>PictureAndText</Representation>
+											<Width>14</Width>
+											<CommandName>Form.Command.СтартИгры</CommandName>
+											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<Picture>
+												<xr:Ref>StdPicture.GenerateReport</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ExtendedTooltip name="СтартИгрыРасширеннаяПодсказка" id="346"/>
+										</Button>
+										<Button name="СтопИгры" id="347">
+											<Type>UsualButton</Type>
+											<Width>11</Width>
+											<CommandName>Form.Command.СтопИгры</CommandName>
+											<TextColor>#FF2828</TextColor>
+											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<ExtendedTooltip name="СтопИгрыРасширеннаяПодсказка" id="348"/>
+										</Button>
+									</ChildItems>
+								</UsualGroup>
+								<LabelDecoration name="Декорация6" id="135">
+									<ContextMenu name="Декорация6КонтекстноеМеню" id="136"/>
+									<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="137"/>
+								</LabelDecoration>
+								<LabelDecoration name="Декорация5" id="132">
+									<ContextMenu name="Декорация5КонтекстноеМеню" id="133"/>
+									<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="134"/>
+								</LabelDecoration>
+								<UsualGroup name="Группа_Пауза" id="99">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа пауза</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа пауза</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа_ПаузаРасширеннаяПодсказка" id="100"/>
+									<ChildItems>
+										<Button name="Пауза" id="94">
+											<Type>UsualButton</Type>
+											<Width>14</Width>
+											<CommandName>Form.Command.Пауза</CommandName>
+											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Пауза / Игра</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ПаузаРасширеннаяПодсказка" id="95"/>
+										</Button>
+										<InputField name="ДлительностьПаузы" id="101">
+											<DataPath>ДлительностьПаузы</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<Width>4</Width>
+											<ChoiceButton>true</ChoiceButton>
+											<TextEdit>false</TextEdit>
+											<ContextMenu name="ДлительностьПаузыКонтекстноеМеню" id="102"/>
+											<ExtendedTooltip name="ДлительностьПаузыРасширеннаяПодсказка" id="103"/>
+										</InputField>
+										<LabelDecoration name="Декорация1" id="96">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>(сек.)</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация1КонтекстноеМеню" id="97"/>
+											<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="98"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<LabelDecoration name="Декорация10" id="186">
+									<ContextMenu name="Декорация10КонтекстноеМеню" id="187"/>
+									<ExtendedTooltip name="Декорация10РасширеннаяПодсказка" id="188"/>
+								</LabelDecoration>
+								<LabelDecoration name="Декорация11" id="189">
+									<ContextMenu name="Декорация11КонтекстноеМеню" id="190"/>
+									<ExtendedTooltip name="Декорация11РасширеннаяПодсказка" id="191"/>
+								</LabelDecoration>
+								<InputField name="Информация_ПаузаИгра" id="319">
+									<DataPath>Информация_ПаузаИгра</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
+									<HorizontalAlign>Center</HorizontalAlign>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>12</MaxWidth>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ChoiceListHeight>1</ChoiceListHeight>
+									<ContextMenu name="Информация_ПаузаИграКонтекстноеМеню" id="320"/>
+									<ExtendedTooltip name="Информация_ПаузаИграРасширеннаяПодсказка" id="321"/>
+								</InputField>
+								<InputField name="Информация_Время" id="183">
+									<DataPath>Информация_Время</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<TitleLocation>None</TitleLocation>
+									<HorizontalAlign>Center</HorizontalAlign>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>8</MaxWidth>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Font ref="style:NormalTextFont" height="26" kind="StyleItem"/>
+									<ContextMenu name="Информация_ВремяКонтекстноеМеню" id="184"/>
+									<ExtendedTooltip name="Информация_ВремяРасширеннаяПодсказка" id="185"/>
+								</InputField>
+								<LabelDecoration name="Декорация12" id="170">
+									<ContextMenu name="Декорация12КонтекстноеМеню" id="171"/>
+									<ExtendedTooltip name="Декорация12РасширеннаяПодсказка" id="172"/>
+								</LabelDecoration>
+								<LabelDecoration name="Декорация9" id="158">
+									<ContextMenu name="Декорация9КонтекстноеМеню" id="159"/>
+									<ExtendedTooltip name="Декорация9РасширеннаяПодсказка" id="160"/>
+								</LabelDecoration>
+								<UsualGroup name="Группа_ДобавитьВремя" id="104">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа добавить время</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа добавить время</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа_ДобавитьВремяРасширеннаяПодсказка" id="105"/>
+									<ChildItems>
+										<Button name="ДобавитьВремя" id="106">
+											<Type>UsualButton</Type>
+											<Width>14</Width>
+											<CommandName>Form.Command.ДобавитьВремя</CommandName>
+											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<ExtendedTooltip name="ДобавитьВремяРасширеннаяПодсказка" id="107"/>
+										</Button>
+										<InputField name="ДлительностьДобавленногоВремени" id="108">
+											<DataPath>ДлительностьДобавленногоВремени</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<Width>4</Width>
+											<ChoiceButton>true</ChoiceButton>
+											<TextEdit>false</TextEdit>
+											<ContextMenu name="ДлительностьДобавленногоВремениКонтекстноеМеню" id="109"/>
+											<ExtendedTooltip name="ДлительностьДобавленногоВремениРасширеннаяПодсказка" id="110"/>
+										</InputField>
+										<LabelDecoration name="Декорация2" id="111">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>(сек.)</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация2КонтекстноеМеню" id="112"/>
+											<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="113"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа_ОставитьВремя" id="116">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа оставить время</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа оставить время</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа_ОставитьВремяРасширеннаяПодсказка" id="117"/>
+									<ChildItems>
+										<Button name="ОставитьВремя" id="118">
+											<Type>UsualButton</Type>
+											<Width>14</Width>
+											<CommandName>Form.Command.ОставитьВремя</CommandName>
+											<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+											<ExtendedTooltip name="ОставитьВремяРасширеннаяПодсказка" id="119"/>
+										</Button>
+										<InputField name="ДлительностьОставленногоВремени" id="126">
+											<DataPath>ДлительностьОставленногоВремени</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<Width>4</Width>
+											<ChoiceButton>true</ChoiceButton>
+											<TextEdit>false</TextEdit>
+											<ContextMenu name="ДлительностьОставленногоВремениКонтекстноеМеню" id="127"/>
+											<ExtendedTooltip name="ДлительностьОставленногоВремениРасширеннаяПодсказка" id="128"/>
+										</InputField>
+										<LabelDecoration name="Декорация3" id="123">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>(сек.)</v8:content>
+												</v8:item>
+											</Title>
+											<ContextMenu name="Декорация3КонтекстноеМеню" id="124"/>
+											<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="125"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+								<LabelDecoration name="Декорация13" id="192">
+									<VerticalStretch>false</VerticalStretch>
+									<ContextMenu name="Декорация13КонтекстноеМеню" id="193"/>
+									<ExtendedTooltip name="Декорация13РасширеннаяПодсказка" id="194"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="Отчеты" id="56">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчеты</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчеты</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ОтчетыРасширеннаяПодсказка" id="57"/>
+					<ChildItems>
+						<UsualGroup name="Группа_ДеревоУчастниковКоманд" id="148">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Участники команд игроков</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа дерево участников команд</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalStretch>false</HorizontalStretch>
+							<Group>Vertical</Group>
+							<Representation>NormalSeparation</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа_ДеревоУчастниковКомандРасширеннаяПодсказка" id="149"/>
+							<ChildItems>
+								<Table name="ДеревоУчастниковКоманд" id="70">
+									<Representation>Tree</Representation>
+									<CommandBarLocation>Top</CommandBarLocation>
+									<ChangeRowSet>false</ChangeRowSet>
+									<ChangeRowOrder>false</ChangeRowOrder>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<InitialTreeView>ExpandAllLevels</InitialTreeView>
+									<Output>Enable</Output>
+									<DataPath>ДеревоУчастниковКоманд</DataPath>
+									<CommandSet>
+										<ExcludedCommand>Add</ExcludedCommand>
+										<ExcludedCommand>Change</ExcludedCommand>
+										<ExcludedCommand>Copy</ExcludedCommand>
+										<ExcludedCommand>Delete</ExcludedCommand>
+										<ExcludedCommand>EndEdit</ExcludedCommand>
+										<ExcludedCommand>List</ExcludedCommand>
+										<ExcludedCommand>MoveDown</ExcludedCommand>
+										<ExcludedCommand>MoveUp</ExcludedCommand>
+										<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+										<ExcludedCommand>SortListAsc</ExcludedCommand>
+										<ExcludedCommand>SortListDesc</ExcludedCommand>
+									</CommandSet>
+									<ToolTipRepresentation>None</ToolTipRepresentation>
+									<ContextMenu name="ДеревоУчастниковКомандКонтекстноеМеню" id="71"/>
+									<AutoCommandBar name="ДеревоУчастниковКомандКоманднаяПанель" id="72">
+										<ChildItems>
+											<Button name="ОбновитьАктивностьУчастников" id="150">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ОбновитьАктивностьУчастников</CommandName>
+												<ExtendedTooltip name="ОбновитьАктивностьУчастниковРасширеннаяПодсказка" id="151"/>
+											</Button>
+										</ChildItems>
+									</AutoCommandBar>
+									<ExtendedTooltip name="ДеревоУчастниковКомандРасширеннаяПодсказка" id="73"/>
+									<SearchStringAddition name="ДеревоУчастниковКомандСтрокаПоиска" id="74">
+										<AdditionSource>
+											<Item>ДеревоУчастниковКоманд</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ДеревоУчастниковКомандСтрокаПоискаКонтекстноеМеню" id="75"/>
+										<ExtendedTooltip name="ДеревоУчастниковКомандСтрокаПоискаРасширеннаяПодсказка" id="76"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ДеревоУчастниковКомандСостояниеПросмотра" id="77">
+										<AdditionSource>
+											<Item>ДеревоУчастниковКоманд</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ДеревоУчастниковКомандСостояниеПросмотраКонтекстноеМеню" id="78"/>
+										<ExtendedTooltip name="ДеревоУчастниковКомандСостояниеПросмотраРасширеннаяПодсказка" id="79"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ДеревоУчастниковКомандУправлениеПоиском" id="80">
+										<AdditionSource>
+											<Item>ДеревоУчастниковКоманд</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ДеревоУчастниковКомандУправлениеПоискомКонтекстноеМеню" id="81"/>
+										<ExtendedTooltip name="ДеревоУчастниковКомандУправлениеПоискомРасширеннаяПодсказка" id="82"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<InputField name="ДеревоУчастниковКомандНомер" id="349">
+											<DataPath>ДеревоУчастниковКоманд.Номер</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>№.№</v8:content>
+												</v8:item>
+											</Title>
+											<HorizontalAlign>Left</HorizontalAlign>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>3</Width>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ДеревоУчастниковКомандНомерКонтекстноеМеню" id="350"/>
+											<ExtendedTooltip name="ДеревоУчастниковКомандНомерРасширеннаяПодсказка" id="351"/>
+										</InputField>
+										<InputField name="ДеревоУчастниковКомандКомандаИгрок" id="83">
+											<DataPath>ДеревоУчастниковКоманд.КомандаИгрок</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<OpenButton>true</OpenButton>
+											<ContextMenu name="ДеревоУчастниковКомандКомандаИгрокКонтекстноеМеню" id="84"/>
+											<ExtendedTooltip name="ДеревоУчастниковКомандКомандаИгрокРасширеннаяПодсказка" id="85"/>
+										</InputField>
+										<CheckBoxField name="ДеревоУчастниковКомандАктивен" id="86">
+											<DataPath>ДеревоУчастниковКоманд.Активен</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<EditMode>EnterOnInput</EditMode>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ДеревоУчастниковКомандАктивенКонтекстноеМеню" id="87"/>
+											<ExtendedTooltip name="ДеревоУчастниковКомандАктивенРасширеннаяПодсказка" id="88"/>
+										</CheckBoxField>
+									</ChildItems>
+								</Table>
+								<InputField name="КоличествоЖдемИгроков" id="173">
+									<DataPath>КоличествоЖдемИгроков</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+									<Width>4</Width>
+									<ContextMenu name="КоличествоЖдемИгроковКонтекстноеМеню" id="174"/>
+									<ExtendedTooltip name="КоличествоЖдемИгроковРасширеннаяПодсказка" id="175"/>
+								</InputField>
+								<InputField name="КоличествоПодключившихсяИгроков" id="155">
+									<DataPath>КоличествоПодключившихсяИгроков</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+									<Width>4</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>4</MaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="КоличествоПодключившихсяИгроковКонтекстноеМеню" id="156"/>
+									<ExtendedTooltip name="КоличествоПодключившихсяИгроковРасширеннаяПодсказка" id="157"/>
+								</InputField>
+								<InputField name="КоличествоИгроков" id="152">
+									<DataPath>КоличествоВсегоИгроков</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Заявлено на игру</v8:content>
+										</v8:item>
+									</Title>
+									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+									<Width>4</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>4</MaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="КоличествоИгроковКонтекстноеМеню" id="153"/>
+									<ExtendedTooltip name="КоличествоИгроковРасширеннаяПодсказка" id="154"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="Настройки" id="54">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="НастройкиРасширеннаяПодсказка" id="55"/>
+					<ChildItems>
+						<UsualGroup name="Группа_Игра" id="179">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа игра</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа игра</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа_ИграРасширеннаяПодсказка" id="180"/>
+							<ChildItems>
+								<InputField name="Игра" id="1">
+									<DataPath>Объект.Игра</DataPath>
+									<ClearButton>true</ClearButton>
+									<ContextMenu name="ИграКонтекстноеМеню" id="2"/>
+									<ExtendedTooltip name="ИграРасширеннаяПодсказка" id="3"/>
+									<Events>
+										<Event name="OnChange">ИграПриИзменении</Event>
+									</Events>
+								</InputField>
+								<Button name="ПроверитьИгру" id="181">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ПроверитьИгру</CommandName>
+									<ExtendedTooltip name="ПроверитьИгруРасширеннаяПодсказка" id="182"/>
+								</Button>
+								<LabelDecoration name="Декорация7" id="197">
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="Декорация7КонтекстноеМеню" id="198"/>
+									<ExtendedTooltip name="Декорация7РасширеннаяПодсказка" id="199"/>
+								</LabelDecoration>
+								<Button name="ОбновитьДанныеОВремени" id="322">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ОбновитьДанныеОВремени</CommandName>
+									<ExtendedTooltip name="ОбновитьДанныеОВремениРасширеннаяПодсказка" id="323"/>
+								</Button>
+								<Button name="ОткрытьКонстантуАдминистраторИгры" id="335">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ОткрытьКонстантуАдминистраторИгры</CommandName>
+									<ExtendedTooltip name="ОткрытьКонстантуАдминистраторИгрыРасширеннаяПодсказка" id="336"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа_Регистры" id="200">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа регистры</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа регистры</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа_РегистрыРасширеннаяПодсказка" id="201"/>
+							<ChildItems>
+								<UsualGroup name="Группа_МаршрутПроведенияИгрыТехнический" id="202">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Маршрут проведения игры</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа маршрут проведения игры технический</v8:content>
+										</v8:item>
+									</ToolTip>
+									<HorizontalStretch>true</HorizontalStretch>
+									<VerticalStretch>false</VerticalStretch>
+									<Behavior>Collapsible</Behavior>
+									<Collapsed>true</Collapsed>
+									<ExtendedTooltip name="Группа_МаршрутПроведенияИгрыТехническийРасширеннаяПодсказка" id="203"/>
+									<ChildItems>
+										<Table name="МаршрутПроведенияИгры" id="204">
+											<AutoMaxHeight>false</AutoMaxHeight>
+											<MaxHeight>10</MaxHeight>
+											<AutoMaxRowsCount>false</AutoMaxRowsCount>
+											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<VerticalStretch>false</VerticalStretch>
+											<EnableStartDrag>true</EnableStartDrag>
+											<DataPath>МаршрутПроведенияИгры</DataPath>
+											<RowPictureDataPath>МаршрутПроведенияИгры.DefaultPicture</RowPictureDataPath>
+											<AutoRefresh>false</AutoRefresh>
+											<AutoRefreshPeriod>60</AutoRefreshPeriod>
+											<Period>
+												<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+												<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+												<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+											</Period>
+											<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+											<RestoreCurrentRow>false</RestoreCurrentRow>
+											<TopLevelParent xsi:nil="true"/>
+											<ShowRoot>true</ShowRoot>
+											<AllowRootChoice>false</AllowRootChoice>
+											<UpdateOnDataChange>Auto</UpdateOnDataChange>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+											<ContextMenu name="МаршрутПроведенияИгрыКонтекстноеМеню" id="205"/>
+											<AutoCommandBar name="МаршрутПроведенияИгрыКоманднаяПанель" id="206"/>
+											<ExtendedTooltip name="МаршрутПроведенияИгрыРасширеннаяПодсказка" id="207"/>
+											<SearchStringAddition name="МаршрутПроведенияИгрыСтрокаПоиска" id="208">
+												<AdditionSource>
+													<Item>МаршрутПроведенияИгры</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="МаршрутПроведенияИгрыСтрокаПоискаКонтекстноеМеню" id="209"/>
+												<ExtendedTooltip name="МаршрутПроведенияИгрыСтрокаПоискаРасширеннаяПодсказка" id="210"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="МаршрутПроведенияИгрыСостояниеПросмотра" id="211">
+												<AdditionSource>
+													<Item>МаршрутПроведенияИгры</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="МаршрутПроведенияИгрыСостояниеПросмотраКонтекстноеМеню" id="212"/>
+												<ExtendedTooltip name="МаршрутПроведенияИгрыСостояниеПросмотраРасширеннаяПодсказка" id="213"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="МаршрутПроведенияИгрыУправлениеПоиском" id="214">
+												<AdditionSource>
+													<Item>МаршрутПроведенияИгры</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="МаршрутПроведенияИгрыУправлениеПоискомКонтекстноеМеню" id="215"/>
+												<ExtendedTooltip name="МаршрутПроведенияИгрыУправлениеПоискомРасширеннаяПодсказка" id="216"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<LabelField name="МаршрутПроведенияИгрыИгра" id="217">
+													<DataPath>МаршрутПроведенияИгры.Игра</DataPath>
+													<Visible>false</Visible>
+													<ContextMenu name="МаршрутПроведенияИгрыИграКонтекстноеМеню" id="218"/>
+													<ExtendedTooltip name="МаршрутПроведенияИгрыИграРасширеннаяПодсказка" id="219"/>
+												</LabelField>
+												<CheckBoxField name="МаршрутПроведенияИгрыАктивныйВопрос" id="220">
+													<DataPath>МаршрутПроведенияИгры.АктивныйВопрос</DataPath>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="МаршрутПроведенияИгрыАктивныйВопросКонтекстноеМеню" id="221"/>
+													<ExtendedTooltip name="МаршрутПроведенияИгрыАктивныйВопросРасширеннаяПодсказка" id="222"/>
+												</CheckBoxField>
+												<LabelField name="МаршрутПроведенияИгрыНомерСледования" id="223">
+													<DataPath>МаршрутПроведенияИгры.НомерСледования</DataPath>
+													<ContextMenu name="МаршрутПроведенияИгрыНомерСледованияКонтекстноеМеню" id="224"/>
+													<ExtendedTooltip name="МаршрутПроведенияИгрыНомерСледованияРасширеннаяПодсказка" id="225"/>
+												</LabelField>
+												<LabelField name="МаршрутПроведенияИгрыВопрос" id="226">
+													<DataPath>МаршрутПроведенияИгры.Вопрос</DataPath>
+													<ContextMenu name="МаршрутПроведенияИгрыВопросКонтекстноеМеню" id="227"/>
+													<ExtendedTooltip name="МаршрутПроведенияИгрыВопросРасширеннаяПодсказка" id="228"/>
+												</LabelField>
+												<CheckBoxField name="МаршрутПроведенияИгрыДемонстрацияОтвета" id="229">
+													<DataPath>МаршрутПроведенияИгры.ДемонстрацияОтвета</DataPath>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="МаршрутПроведенияИгрыДемонстрацияОтветаКонтекстноеМеню" id="230"/>
+													<ExtendedTooltip name="МаршрутПроведенияИгрыДемонстрацияОтветаРасширеннаяПодсказка" id="231"/>
+												</CheckBoxField>
+												<LabelField name="МаршрутПроведенияИгрыДлительность" id="232">
+													<DataPath>МаршрутПроведенияИгры.Длительность</DataPath>
+													<ContextMenu name="МаршрутПроведенияИгрыДлительностьКонтекстноеМеню" id="233"/>
+													<ExtendedTooltip name="МаршрутПроведенияИгрыДлительностьРасширеннаяПодсказка" id="234"/>
+												</LabelField>
+												<LabelField name="МаршрутПроведенияИгрыВремяСтарта" id="235">
+													<DataPath>МаршрутПроведенияИгры.ВремяСтарта</DataPath>
+													<ContextMenu name="МаршрутПроведенияИгрыВремяСтартаКонтекстноеМеню" id="236"/>
+													<ExtendedTooltip name="МаршрутПроведенияИгрыВремяСтартаРасширеннаяПодсказка" id="237"/>
+												</LabelField>
+												<LabelField name="МаршрутПроведенияИгрыВремяЗавершения" id="238">
+													<DataPath>МаршрутПроведенияИгры.ВремяЗавершения</DataPath>
+													<ContextMenu name="МаршрутПроведенияИгрыВремяЗавершенияКонтекстноеМеню" id="239"/>
+													<ExtendedTooltip name="МаршрутПроведенияИгрыВремяЗавершенияРасширеннаяПодсказка" id="240"/>
+												</LabelField>
+												<LabelField name="МаршрутПроведенияИгрыВремяНачалаПаузы" id="241">
+													<DataPath>МаршрутПроведенияИгры.ВремяНачалаПаузы</DataPath>
+													<ContextMenu name="МаршрутПроведенияИгрыВремяНачалаПаузыКонтекстноеМеню" id="242"/>
+													<ExtendedTooltip name="МаршрутПроведенияИгрыВремяНачалаПаузыРасширеннаяПодсказка" id="243"/>
+												</LabelField>
+												<LabelField name="МаршрутПроведенияИгрыВремяОкончанияПаузы" id="244">
+													<DataPath>МаршрутПроведенияИгры.ВремяОкончанияПаузы</DataPath>
+													<ContextMenu name="МаршрутПроведенияИгрыВремяОкончанияПаузыКонтекстноеМеню" id="245"/>
+													<ExtendedTooltip name="МаршрутПроведенияИгрыВремяОкончанияПаузыРасширеннаяПодсказка" id="246"/>
+												</LabelField>
+												<LabelField name="МаршрутПроведенияИгрыСтрокаСостояния" id="337">
+													<DataPath>МаршрутПроведенияИгры.СтрокаСостояния</DataPath>
+													<ContextMenu name="МаршрутПроведенияИгрыСтрокаСостоянияКонтекстноеМеню" id="338"/>
+													<ExtendedTooltip name="МаршрутПроведенияИгрыСтрокаСостоянияРасширеннаяПодсказка" id="339"/>
+												</LabelField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа_ОтветыКоманд" id="247">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Ответы команд</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа ответы команд</v8:content>
+										</v8:item>
+									</ToolTip>
+									<HorizontalStretch>true</HorizontalStretch>
+									<VerticalStretch>false</VerticalStretch>
+									<Behavior>Collapsible</Behavior>
+									<Collapsed>true</Collapsed>
+									<ExtendedTooltip name="Группа_ОтветыКомандРасширеннаяПодсказка" id="248"/>
+									<ChildItems>
+										<Table name="ОтветыКоманд" id="249">
+											<AutoMaxHeight>false</AutoMaxHeight>
+											<MaxHeight>10</MaxHeight>
+											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<EnableStartDrag>true</EnableStartDrag>
+											<DataPath>ОтветыКоманд</DataPath>
+											<RowPictureDataPath>ОтветыКоманд.DefaultPicture</RowPictureDataPath>
+											<AutoRefresh>false</AutoRefresh>
+											<AutoRefreshPeriod>60</AutoRefreshPeriod>
+											<Period>
+												<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+												<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+												<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+											</Period>
+											<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+											<RestoreCurrentRow>false</RestoreCurrentRow>
+											<TopLevelParent xsi:nil="true"/>
+											<ShowRoot>true</ShowRoot>
+											<AllowRootChoice>false</AllowRootChoice>
+											<UpdateOnDataChange>Auto</UpdateOnDataChange>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+											<ContextMenu name="ОтветыКомандКонтекстноеМеню" id="250"/>
+											<AutoCommandBar name="ОтветыКомандКоманднаяПанель" id="251"/>
+											<ExtendedTooltip name="ОтветыКомандРасширеннаяПодсказка" id="252"/>
+											<SearchStringAddition name="ОтветыКомандСтрокаПоиска" id="253">
+												<AdditionSource>
+													<Item>ОтветыКоманд</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ОтветыКомандСтрокаПоискаКонтекстноеМеню" id="254"/>
+												<ExtendedTooltip name="ОтветыКомандСтрокаПоискаРасширеннаяПодсказка" id="255"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="ОтветыКомандСостояниеПросмотра" id="256">
+												<AdditionSource>
+													<Item>ОтветыКоманд</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ОтветыКомандСостояниеПросмотраКонтекстноеМеню" id="257"/>
+												<ExtendedTooltip name="ОтветыКомандСостояниеПросмотраРасширеннаяПодсказка" id="258"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="ОтветыКомандУправлениеПоиском" id="259">
+												<AdditionSource>
+													<Item>ОтветыКоманд</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="ОтветыКомандУправлениеПоискомКонтекстноеМеню" id="260"/>
+												<ExtendedTooltip name="ОтветыКомандУправлениеПоискомРасширеннаяПодсказка" id="261"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<LabelField name="ОтветыКомандИгра" id="262">
+													<DataPath>ОтветыКоманд.Игра</DataPath>
+													<Visible>false</Visible>
+													<ContextMenu name="ОтветыКомандИграКонтекстноеМеню" id="263"/>
+													<ExtendedTooltip name="ОтветыКомандИграРасширеннаяПодсказка" id="264"/>
+												</LabelField>
+												<LabelField name="ОтветыКомандВопрос" id="265">
+													<DataPath>ОтветыКоманд.Вопрос</DataPath>
+													<ContextMenu name="ОтветыКомандВопросКонтекстноеМеню" id="266"/>
+													<ExtendedTooltip name="ОтветыКомандВопросРасширеннаяПодсказка" id="267"/>
+												</LabelField>
+												<LabelField name="ОтветыКомандКоманда" id="268">
+													<DataPath>ОтветыКоманд.Команда</DataPath>
+													<ContextMenu name="ОтветыКомандКомандаКонтекстноеМеню" id="269"/>
+													<ExtendedTooltip name="ОтветыКомандКомандаРасширеннаяПодсказка" id="270"/>
+												</LabelField>
+												<LabelField name="ОтветыКомандНомерСтр" id="271">
+													<DataPath>ОтветыКоманд.НомерСтр</DataPath>
+													<ContextMenu name="ОтветыКомандНомерСтрКонтекстноеМеню" id="272"/>
+													<ExtendedTooltip name="ОтветыКомандНомерСтрРасширеннаяПодсказка" id="273"/>
+												</LabelField>
+												<LabelField name="ОтветыКомандОтвет" id="274">
+													<DataPath>ОтветыКоманд.Ответ</DataPath>
+													<ContextMenu name="ОтветыКомандОтветКонтекстноеМеню" id="275"/>
+													<ExtendedTooltip name="ОтветыКомандОтветРасширеннаяПодсказка" id="276"/>
+												</LabelField>
+												<LabelField name="ОтветыКомандОтветПравильный" id="277">
+													<DataPath>ОтветыКоманд.ОтветПравильный</DataPath>
+													<ContextMenu name="ОтветыКомандОтветПравильныйКонтекстноеМеню" id="278"/>
+													<ExtendedTooltip name="ОтветыКомандОтветПравильныйРасширеннаяПодсказка" id="279"/>
+												</LabelField>
+												<LabelField name="ОтветыКомандБаллы" id="280">
+													<DataPath>ОтветыКоманд.Баллы</DataPath>
+													<ContextMenu name="ОтветыКомандБаллыКонтекстноеМеню" id="281"/>
+													<ExtendedTooltip name="ОтветыКомандБаллыРасширеннаяПодсказка" id="282"/>
+												</LabelField>
+												<LabelField name="ОтветыКомандБаллыНоминальные" id="283">
+													<DataPath>ОтветыКоманд.БаллыНоминальные</DataPath>
+													<ContextMenu name="ОтветыКомандБаллыНоминальныеКонтекстноеМеню" id="284"/>
+													<ExtendedTooltip name="ОтветыКомандБаллыНоминальныеРасширеннаяПодсказка" id="285"/>
+												</LabelField>
+												<LabelField name="ОтветыКомандВремяОтвета" id="286">
+													<DataPath>ОтветыКоманд.ВремяОтвета</DataPath>
+													<ContextMenu name="ОтветыКомандВремяОтветаКонтекстноеМеню" id="287"/>
+													<ExtendedTooltip name="ОтветыКомандВремяОтветаРасширеннаяПодсказка" id="288"/>
+												</LabelField>
+												<LabelField name="ОтветыКомандОтветственный" id="316">
+													<DataPath>ОтветыКоманд.Ответственный</DataPath>
+													<ContextMenu name="ОтветыКомандОтветственныйКонтекстноеМеню" id="317"/>
+													<ExtendedTooltip name="ОтветыКомандОтветственныйРасширеннаяПодсказка" id="318"/>
+												</LabelField>
+												<LabelField name="ОтветыКомандКомментарий" id="289">
+													<DataPath>ОтветыКоманд.Комментарий</DataPath>
+													<ContextMenu name="ОтветыКомандКомментарийКонтекстноеМеню" id="290"/>
+													<ExtendedTooltip name="ОтветыКомандКомментарийРасширеннаяПодсказка" id="291"/>
+												</LabelField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа_Команды" id="292">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Список всех команд</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа команды</v8:content>
+										</v8:item>
+									</ToolTip>
+									<HorizontalStretch>true</HorizontalStretch>
+									<VerticalStretch>false</VerticalStretch>
+									<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+									<HorizontalAlign>Left</HorizontalAlign>
+									<Behavior>Collapsible</Behavior>
+									<Collapsed>true</Collapsed>
+									<ExtendedTooltip name="Группа_КомандыРасширеннаяПодсказка" id="293"/>
+									<ChildItems>
+										<Table name="Команды" id="294">
+											<AutoMaxHeight>false</AutoMaxHeight>
+											<MaxHeight>10</MaxHeight>
+											<UseAlternationRowColor>true</UseAlternationRowColor>
+											<VerticalStretch>false</VerticalStretch>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<DataPath>Команды</DataPath>
+											<RowPictureDataPath>Команды.DefaultPicture</RowPictureDataPath>
+											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+											<AutoRefresh>false</AutoRefresh>
+											<AutoRefreshPeriod>60</AutoRefreshPeriod>
+											<Period>
+												<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+												<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+												<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+											</Period>
+											<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+											<RestoreCurrentRow>false</RestoreCurrentRow>
+											<TopLevelParent xsi:nil="true"/>
+											<ShowRoot>true</ShowRoot>
+											<AllowRootChoice>false</AllowRootChoice>
+											<UpdateOnDataChange>Auto</UpdateOnDataChange>
+											<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+											<ContextMenu name="КомандыКонтекстноеМеню" id="295"/>
+											<AutoCommandBar name="КомандыКоманднаяПанель" id="296"/>
+											<ExtendedTooltip name="КомандыРасширеннаяПодсказка" id="297"/>
+											<SearchStringAddition name="КомандыСтрокаПоиска" id="298">
+												<AdditionSource>
+													<Item>Команды</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="КомандыСтрокаПоискаКонтекстноеМеню" id="299"/>
+												<ExtendedTooltip name="КомандыСтрокаПоискаРасширеннаяПодсказка" id="300"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="КомандыСостояниеПросмотра" id="301">
+												<AdditionSource>
+													<Item>Команды</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="КомандыСостояниеПросмотраКонтекстноеМеню" id="302"/>
+												<ExtendedTooltip name="КомандыСостояниеПросмотраРасширеннаяПодсказка" id="303"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="КомандыУправлениеПоиском" id="304">
+												<AdditionSource>
+													<Item>Команды</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="КомандыУправлениеПоискомКонтекстноеМеню" id="305"/>
+												<ExtendedTooltip name="КомандыУправлениеПоискомРасширеннаяПодсказка" id="306"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<LabelField name="КомандыНаименование" id="307">
+													<DataPath>Команды.Description</DataPath>
+													<ContextMenu name="КомандыНаименованиеКонтекстноеМеню" id="308"/>
+													<ExtendedTooltip name="КомандыНаименованиеРасширеннаяПодсказка" id="309"/>
+												</LabelField>
+												<LabelField name="КомандыОписание" id="310">
+													<DataPath>Команды.Описание</DataPath>
+													<ContextMenu name="КомандыОписаниеКонтекстноеМеню" id="311"/>
+													<ExtendedTooltip name="КомандыОписаниеРасширеннаяПодсказка" id="312"/>
+												</LabelField>
+												<LabelField name="КомандыКомментарий" id="313">
+													<DataPath>Команды.Комментарий</DataPath>
+													<ContextMenu name="КомандыКомментарийКонтекстноеМеню" id="314"/>
+													<ExtendedTooltip name="КомандыКомментарийРасширеннаяПодсказка" id="315"/>
+												</LabelField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ИгровойСтолАдминистратора</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="МаршрутИгры" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Маршрут игры</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	РегистрСведенийМаршрутПроведенияИгры.Игра КАК Игра,
+	РегистрСведенийМаршрутПроведенияИгры.АктивныйВопрос КАК АктивныйВопрос,
+	РегистрСведенийМаршрутПроведенияИгры.НомерСледования КАК НомерСледования,
+	РегистрСведенийМаршрутПроведенияИгры.Вопрос КАК Вопрос,
+	РегистрСведенийМаршрутПроведенияИгры.Вопрос.ВидВопроса КАК ВидВопроса,
+	РегистрСведенийМаршрутПроведенияИгры.Вопрос.Заголовок КАК Заголовок,
+	РегистрСведенийМаршрутПроведенияИгры.ДемонстрацияОтвета КАК ДемонстрацияОтвета,
+	РегистрСведенийМаршрутПроведенияИгры.Длительность КАК Длительность,
+	РегистрСведенийМаршрутПроведенияИгры.ВремяСтарта КАК ВремяСтарта,
+	РегистрСведенийМаршрутПроведенияИгры.ВремяЗавершения КАК ВремяЗавершения,
+	РегистрСведенийМаршрутПроведенияИгры.ВремяНачалаПаузы КАК ВремяНачалаПаузы,
+	РегистрСведенийМаршрутПроведенияИгры.ВремяОкончанияПаузы КАК ВремяОкончанияПаузы
+ИЗ
+	РегистрСведений.МаршрутПроведенияИгры КАК РегистрСведенийМаршрутПроведенияИгры</QueryText>
+				<MainTable>InformationRegister.МаршрутПроведенияИгры</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemField">
+							<dcsset:field>НомерСледования</dcsset:field>
+							<dcsset:orderType>Asc</dcsset:orderType>
+						</dcsset:item>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ДеревоУчастниковКоманд" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дерево участников команд</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTree</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="КомандаИгрок" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Команда / игрок</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+						<v8:Type>cfg:CatalogRef.Команды</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Активен" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Активен</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Номер" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="АктивныйНомер" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Активный номер</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДлительностьПаузы" id="5">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДлительностьДобавленногоВремени" id="6">
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДлительностьОставленногоВремени" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Длительность оставленного времени</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ФормаДоступнаТолькоНаПросмотр" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Форма доступна только на просмотр</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="КоличествоВсегоИгроков" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Всего игроков</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КоличествоПодключившихсяИгроков" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подключились</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КоличествоЖдемИгроков" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ждём</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Блокировка_РегистрМаршрутаЗанят" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Блокировка регистр маршрута занят</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Блокировка_ВремяУстановкиНаРегистрМаршрута" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Блокировка время установки на регистр маршрута</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Информация_Время" id="14">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информация время</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="МаршрутПроведенияИгры" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Маршрут проведения игры</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.МаршрутПроведенияИгры</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ОтветыКоманд" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответы команд</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.ОтветыКоманд</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="Команды" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команды</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>Catalog.Команды</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="Информация_ПаузаИгра" id="18">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информация пауза игра</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="РазрешениеРаботыПользователямПриБлокировке" id="19">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разрешение работы пользователям при блокировке</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.РазрешениеРаботыПользователямПриБлокировке</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ВремяБлокировкиРаботыПользователей" id="20">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время блокировки работы пользователей</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>DateTime</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>МаршрутИгры</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">МаршрутИгры.АктивныйВопрос</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#A0FF9C</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="СтартСТекущейСтроки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Старт с текущей строки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Старт с текущей строки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СтартСТекущейСтроки</Action>
+		</Command>
+		<Command name="Пауза" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пауза</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пауза</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Пауза</Action>
+		</Command>
+		<Command name="ДобавитьВремя" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить время</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить время</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьВремя</Action>
+		</Command>
+		<Command name="ОставитьВремя" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оставить время</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оставить время</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОставитьВремя</Action>
+		</Command>
+		<Command name="ОбновитьАктивностьУчастников" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить активность игроков</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить активность участников</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьАктивностьУчастников</Action>
+		</Command>
+		<Command name="ПроверитьИгру" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить игру</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить игру</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПроверитьИгру</Action>
+		</Command>
+		<Command name="ОбновитьДанныеОВремени" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить данные о времени</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить данные о времени</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОбновитьДанныеОВремени</Action>
+		</Command>
+		<Command name="ОткрытьКонстантуАдминистраторИгры" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Админ. игры (ПолныеПрава)</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть константу администратор игры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьКонстантуАдминистраторИгры</Action>
+		</Command>
+		<Command name="СтартИгры" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>СТАРТ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Старт игры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СтартИгры</Action>
+		</Command>
+		<Command name="СтопИгры" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>STOP</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Стоп игры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СтопИгры</Action>
+		</Command>
+		<Command name="УменьшитьМасштабФормы" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уменьшить масштаб формы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уменьшить масштаб формы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Ctrl+Alt+W</Shortcut>
+			<Picture>
+				<xr:Ref>CommonPicture.УменьшитьМасштабФормы</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УменьшитьМасштабФормы</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="УвеличитьМасштабФормы" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Увеличить масштаб формы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Увеличить масштаб формы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Ctrl+Alt+Q</Shortcut>
+			<Picture>
+				<xr:Ref>CommonPicture.УвеличитьМасштабФормы</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УвеличитьМасштабФормы</Action>
+			<Representation>Picture</Representation>
+		</Command>
+	</Commands>
+</Form>

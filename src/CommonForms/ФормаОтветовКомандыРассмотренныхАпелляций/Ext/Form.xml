@@ -1,0 +1,706 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Ответы команды, подача апелляций</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа_Вертикальная" id="177">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа вертикальная</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа вертикальная</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа_ВертикальнаяРасширеннаяПодсказка" id="178"/>
+			<ChildItems>
+				<UsualGroup name="Группа_ОтветыКоманды" id="179">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ответы команды</v8:content>
+						</v8:item>
+					</Title>
+					<TitleTextColor>style:FormTextColor</TitleTextColor>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа ответы команды</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Height>14</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="Группа_ОтветыКомандыРасширеннаяПодсказка" id="180"/>
+					<ChildItems>
+						<Table name="ОтветыКоманд" id="46">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>ОтветыКоманд</DataPath>
+							<RowPictureDataPath>ОтветыКоманд.DefaultPicture</RowPictureDataPath>
+							<CommandSet>
+								<ExcludedCommand>CancelSearch</ExcludedCommand>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>ChangeHistory</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+								<ExcludedCommand>Create</ExcludedCommand>
+								<ExcludedCommand>Delete</ExcludedCommand>
+								<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+								<ExcludedCommand>Find</ExcludedCommand>
+								<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+								<ExcludedCommand>ListSettings</ExcludedCommand>
+								<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
+								<ExcludedCommand>OutputList</ExcludedCommand>
+								<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
+								<ExcludedCommand>SearchHistory</ExcludedCommand>
+								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+							</CommandSet>
+							<AutoRefresh>true</AutoRefresh>
+							<AutoRefreshPeriod>30</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="ОтветыКомандКонтекстноеМеню" id="47">
+								<ChildItems>
+									<Button name="ОтветыКомандПодатьНаАпелляцию" id="120">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ПодатьНаАпелляцию</CommandName>
+										<ExtendedTooltip name="ОтветыКомандПодатьНаАпелляциюРасширеннаяПодсказка" id="121"/>
+									</Button>
+								</ChildItems>
+							</ContextMenu>
+							<AutoCommandBar name="ОтветыКомандКоманднаяПанель" id="48">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ОтветыКомандРасширеннаяПодсказка" id="49"/>
+							<SearchStringAddition name="ОтветыКомандСтрокаПоиска" id="50">
+								<AdditionSource>
+									<Item>ОтветыКоманд</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ОтветыКомандСтрокаПоискаКонтекстноеМеню" id="51"/>
+								<ExtendedTooltip name="ОтветыКомандСтрокаПоискаРасширеннаяПодсказка" id="52"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ОтветыКомандСостояниеПросмотра" id="53">
+								<AdditionSource>
+									<Item>ОтветыКоманд</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ОтветыКомандСостояниеПросмотраКонтекстноеМеню" id="54"/>
+								<ExtendedTooltip name="ОтветыКомандСостояниеПросмотраРасширеннаяПодсказка" id="55"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ОтветыКомандУправлениеПоиском" id="56">
+								<AdditionSource>
+									<Item>ОтветыКоманд</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ОтветыКомандУправлениеПоискомКонтекстноеМеню" id="57"/>
+								<ExtendedTooltip name="ОтветыКомандУправлениеПоискомРасширеннаяПодсказка" id="58"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="OnActivateRow">ОтветыКомандПриАктивизацииСтроки</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="ОтветыКомандВремяОтвета" id="83">
+									<DataPath>ОтветыКоманд.ВремяОтвета</DataPath>
+									<DefaultItem>true</DefaultItem>
+									<Width>3</Width>
+									<ContextMenu name="ОтветыКомандВремяОтветаКонтекстноеМеню" id="84"/>
+									<ExtendedTooltip name="ОтветыКомандВремяОтветаРасширеннаяПодсказка" id="85"/>
+								</LabelField>
+								<LabelField name="ОтветыКомандИгра" id="59">
+									<DataPath>ОтветыКоманд.Игра</DataPath>
+									<Visible>false</Visible>
+									<ContextMenu name="ОтветыКомандИграКонтекстноеМеню" id="60"/>
+									<ExtendedTooltip name="ОтветыКомандИграРасширеннаяПодсказка" id="61"/>
+								</LabelField>
+								<LabelField name="ОтветыКомандКоманда" id="65">
+									<DataPath>ОтветыКоманд.Команда</DataPath>
+									<Visible>false</Visible>
+									<ContextMenu name="ОтветыКомандКомандаКонтекстноеМеню" id="66"/>
+									<ExtendedTooltip name="ОтветыКомандКомандаРасширеннаяПодсказка" id="67"/>
+								</LabelField>
+								<LabelField name="ОтветыКомандВопрос" id="62">
+									<DataPath>ОтветыКоманд.Вопрос</DataPath>
+									<ContextMenu name="ОтветыКомандВопросКонтекстноеМеню" id="63"/>
+									<ExtendedTooltip name="ОтветыКомандВопросРасширеннаяПодсказка" id="64"/>
+								</LabelField>
+								<LabelField name="ОтветыКомандНомерСтр" id="68">
+									<DataPath>ОтветыКоманд.НомерСтр</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>№ стр.</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ОтветыКомандНомерСтрКонтекстноеМеню" id="69"/>
+									<ExtendedTooltip name="ОтветыКомандНомерСтрРасширеннаяПодсказка" id="70"/>
+								</LabelField>
+								<LabelField name="ОтветыКомандОтвет" id="71">
+									<DataPath>ОтветыКоманд.Ответ</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Ответ команды</v8:content>
+										</v8:item>
+									</Title>
+									<Width>8</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<ContextMenu name="ОтветыКомандОтветКонтекстноеМеню" id="72"/>
+									<ExtendedTooltip name="ОтветыКомандОтветРасширеннаяПодсказка" id="73"/>
+								</LabelField>
+								<LabelField name="ОтветыКомандОтветПравильный" id="74">
+									<DataPath>ОтветыКоманд.ОтветПравильный</DataPath>
+									<Width>8</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<ContextMenu name="ОтветыКомандОтветПравильныйКонтекстноеМеню" id="75"/>
+									<ExtendedTooltip name="ОтветыКомандОтветПравильныйРасширеннаяПодсказка" id="76"/>
+								</LabelField>
+								<LabelField name="ОтветыКомандБаллы" id="77">
+									<DataPath>ОтветыКоманд.Баллы</DataPath>
+									<Width>1</Width>
+									<ContextMenu name="ОтветыКомандБаллыКонтекстноеМеню" id="78"/>
+									<ExtendedTooltip name="ОтветыКомандБаллыРасширеннаяПодсказка" id="79"/>
+								</LabelField>
+								<LabelField name="ОтветыКомандБаллыНоминальные" id="80">
+									<DataPath>ОтветыКоманд.БаллыНоминальные</DataPath>
+									<Visible>false</Visible>
+									<ContextMenu name="ОтветыКомандБаллыНоминальныеКонтекстноеМеню" id="81"/>
+									<ExtendedTooltip name="ОтветыКомандБаллыНоминальныеРасширеннаяПодсказка" id="82"/>
+								</LabelField>
+								<LabelField name="ОтветыКомандКомментарий" id="86">
+									<DataPath>ОтветыКоманд.Комментарий</DataPath>
+									<Visible>false</Visible>
+									<ContextMenu name="ОтветыКомандКомментарийКонтекстноеМеню" id="87"/>
+									<ExtendedTooltip name="ОтветыКомандКомментарийРасширеннаяПодсказка" id="88"/>
+								</LabelField>
+								<LabelField name="ОтветыКомандОтветственный" id="89">
+									<DataPath>ОтветыКоманд.Ответственный</DataPath>
+									<ContextMenu name="ОтветыКомандОтветственныйКонтекстноеМеню" id="90"/>
+									<ExtendedTooltip name="ОтветыКомандОтветственныйРасширеннаяПодсказка" id="91"/>
+								</LabelField>
+								<CheckBoxField name="ОтветыКомандАвтоматическаяПроверка" id="92">
+									<DataPath>ОтветыКоманд.АвтоматическаяПроверка</DataPath>
+									<Visible>false</Visible>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ОтветыКомандАвтоматическаяПроверкаКонтекстноеМеню" id="93"/>
+									<ExtendedTooltip name="ОтветыКомандАвтоматическаяПроверкаРасширеннаяПодсказка" id="94"/>
+								</CheckBoxField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа_Информация" id="186">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа информация</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа информация</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа_ИнформацияРасширеннаяПодсказка" id="187"/>
+					<ChildItems>
+						<LabelDecoration name="Информация" id="174">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<TextColor>style:FieldSelectionBackColor</TextColor>
+							<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Для подачи апелляции: нажмите правой кнопкой мышки по ответу &gt; "Подать на апелляцию"</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalAlign>Center</HorizontalAlign>
+							<ContextMenu name="ИнформацияКонтекстноеМеню" id="175"/>
+							<ExtendedTooltip name="ИнформацияРасширеннаяПодсказка" id="176"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа_РассмотренныеАпелляции" id="181">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Рассмотренные апелляции</v8:content>
+						</v8:item>
+					</Title>
+					<TitleTextColor>style:FormTextColor</TitleTextColor>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа рассмотренные апелляции</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Height>6</Height>
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="Группа_РассмотренныеАпелляцииРасширеннаяПодсказка" id="182"/>
+					<ChildItems>
+						<Table name="ПодачаАпелляции" id="128">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<DataPath>ПодачаАпелляции</DataPath>
+							<RowPictureDataPath>ПодачаАпелляции.DefaultPicture</RowPictureDataPath>
+							<CommandSet>
+								<ExcludedCommand>CancelSearch</ExcludedCommand>
+								<ExcludedCommand>ChangeHistory</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+								<ExcludedCommand>Create</ExcludedCommand>
+								<ExcludedCommand>Delete</ExcludedCommand>
+								<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
+								<ExcludedCommand>Find</ExcludedCommand>
+								<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+								<ExcludedCommand>ListSettings</ExcludedCommand>
+								<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
+								<ExcludedCommand>OutputList</ExcludedCommand>
+								<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
+								<ExcludedCommand>SearchHistory</ExcludedCommand>
+								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+							</CommandSet>
+							<AutoRefresh>true</AutoRefresh>
+							<AutoRefreshPeriod>30</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="ПодачаАпелляцииКонтекстноеМеню" id="129"/>
+							<AutoCommandBar name="ПодачаАпелляцииКоманднаяПанель" id="130">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ПодачаАпелляцииРасширеннаяПодсказка" id="131"/>
+							<SearchStringAddition name="ПодачаАпелляцииСтрокаПоиска" id="132">
+								<AdditionSource>
+									<Item>ПодачаАпелляции</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПодачаАпелляцииСтрокаПоискаКонтекстноеМеню" id="133"/>
+								<ExtendedTooltip name="ПодачаАпелляцииСтрокаПоискаРасширеннаяПодсказка" id="134"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПодачаАпелляцииСостояниеПросмотра" id="135">
+								<AdditionSource>
+									<Item>ПодачаАпелляции</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПодачаАпелляцииСостояниеПросмотраКонтекстноеМеню" id="136"/>
+								<ExtendedTooltip name="ПодачаАпелляцииСостояниеПросмотраРасширеннаяПодсказка" id="137"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПодачаАпелляцииУправлениеПоиском" id="138">
+								<AdditionSource>
+									<Item>ПодачаАпелляции</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПодачаАпелляцииУправлениеПоискомКонтекстноеМеню" id="139"/>
+								<ExtendedTooltip name="ПодачаАпелляцииУправлениеПоискомРасширеннаяПодсказка" id="140"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ПодачаАпелляцииИгра" id="141">
+									<DataPath>ПодачаАпелляции.Игра</DataPath>
+									<Visible>false</Visible>
+									<ContextMenu name="ПодачаАпелляцииИграКонтекстноеМеню" id="142"/>
+									<ExtendedTooltip name="ПодачаАпелляцииИграРасширеннаяПодсказка" id="143"/>
+								</LabelField>
+								<LabelField name="ПодачаАпелляцииКоманда" id="144">
+									<DataPath>ПодачаАпелляции.Команда</DataPath>
+									<Visible>false</Visible>
+									<ContextMenu name="ПодачаАпелляцииКомандаКонтекстноеМеню" id="145"/>
+									<ExtendedTooltip name="ПодачаАпелляцииКомандаРасширеннаяПодсказка" id="146"/>
+								</LabelField>
+								<LabelField name="ПодачаАпелляцииВремяПодачи" id="153">
+									<DataPath>ПодачаАпелляции.ВремяПодачи</DataPath>
+									<Width>2</Width>
+									<ContextMenu name="ПодачаАпелляцииВремяПодачиКонтекстноеМеню" id="154"/>
+									<ExtendedTooltip name="ПодачаАпелляцииВремяПодачиРасширеннаяПодсказка" id="155"/>
+								</LabelField>
+								<LabelField name="ПодачаАпелляцииВопрос" id="147">
+									<DataPath>ПодачаАпелляции.Вопрос</DataPath>
+									<Width>13</Width>
+									<ContextMenu name="ПодачаАпелляцииВопросКонтекстноеМеню" id="148"/>
+									<ExtendedTooltip name="ПодачаАпелляцииВопросРасширеннаяПодсказка" id="149"/>
+								</LabelField>
+								<LabelField name="ПодачаАпелляцииНомерСтр" id="150">
+									<DataPath>ПодачаАпелляции.НомерСтр</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>№ стр.</v8:content>
+										</v8:item>
+									</Title>
+									<Width>2</Width>
+									<ContextMenu name="ПодачаАпелляцииНомерСтрКонтекстноеМеню" id="151"/>
+									<ExtendedTooltip name="ПодачаАпелляцииНомерСтрРасширеннаяПодсказка" id="152"/>
+								</LabelField>
+								<LabelField name="ПодачаАпелляцииИгрок" id="156">
+									<DataPath>ПодачаАпелляции.Игрок</DataPath>
+									<ContextMenu name="ПодачаАпелляцииИгрокКонтекстноеМеню" id="157"/>
+									<ExtendedTooltip name="ПодачаАпелляцииИгрокРасширеннаяПодсказка" id="158"/>
+								</LabelField>
+								<LabelField name="ПодачаАпелляцииОбращение" id="159">
+									<DataPath>ПодачаАпелляции.Обращение</DataPath>
+									<TitleTextColor>style:SpecialTextColor</TitleTextColor>
+									<Width>37</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="ПодачаАпелляцииОбращениеКонтекстноеМеню" id="160"/>
+									<ExtendedTooltip name="ПодачаАпелляцииОбращениеРасширеннаяПодсказка" id="161"/>
+								</LabelField>
+								<LabelField name="ПодачаАпелляцииРешение" id="162">
+									<DataPath>ПодачаАпелляции.Решение</DataPath>
+									<TitleTextColor>web:ForestGreen</TitleTextColor>
+									<Width>37</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="ПодачаАпелляцииРешениеКонтекстноеМеню" id="163"/>
+									<ExtendedTooltip name="ПодачаАпелляцииРешениеРасширеннаяПодсказка" id="164"/>
+								</LabelField>
+								<LabelField name="ПодачаАпелляцииОтветственныйЗаРассмотрение" id="165">
+									<DataPath>ПодачаАпелляции.ОтветственныйЗаРассмотрение</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Ответственный</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ПодачаАпелляцииОтветственныйЗаРассмотрениеКонтекстноеМеню" id="166"/>
+									<ExtendedTooltip name="ПодачаАпелляцииОтветственныйЗаРассмотрениеРасширеннаяПодсказка" id="167"/>
+								</LabelField>
+								<CheckBoxField name="ПодачаАпелляцииРассмотрена" id="168">
+									<DataPath>ПодачаАпелляции.Рассмотрена</DataPath>
+									<Visible>false</Visible>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПодачаАпелляцииРассмотренаКонтекстноеМеню" id="169"/>
+									<ExtendedTooltip name="ПодачаАпелляцииРассмотренаРасширеннаяПодсказка" id="170"/>
+								</CheckBoxField>
+								<LabelField name="ПодачаАпелляцииВремяРассмотрения" id="171">
+									<DataPath>ПодачаАпелляции.ВремяРассмотрения</DataPath>
+									<ContextMenu name="ПодачаАпелляцииВремяРассмотренияКонтекстноеМеню" id="172"/>
+									<ExtendedTooltip name="ПодачаАпелляцииВремяРассмотренияРасширеннаяПодсказка" id="173"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа_Подвал" id="192">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа подвал</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа подвал</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа_ПодвалРасширеннаяПодсказка" id="193"/>
+					<ChildItems>
+						<Button name="УвеличитьМасштабФормы" id="188">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.УвеличитьМасштабФормы</CommandName>
+							<ExtendedTooltip name="УвеличитьМасштабФормыРасширеннаяПодсказка" id="189"/>
+						</Button>
+						<Button name="УменьшитьМасштабФормы" id="190">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.УменьшитьМасштабФормы</CommandName>
+							<ExtendedTooltip name="УменьшитьМасштабФормыРасширеннаяПодсказка" id="191"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ОтветыКоманд" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответы команд</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<UseAlways>
+				<Field>ОтветыКоманд.DefaultPicture</Field>
+				<Field>ОтветыКоманд.АвтоматическаяПроверка</Field>
+				<Field>ОтветыКоманд.Баллы</Field>
+				<Field>ОтветыКоманд.БаллыНоминальные</Field>
+				<Field>ОтветыКоманд.Вопрос</Field>
+				<Field>ОтветыКоманд.ВремяОтвета</Field>
+				<Field>ОтветыКоманд.Игра</Field>
+				<Field>ОтветыКоманд.Команда</Field>
+				<Field>ОтветыКоманд.Комментарий</Field>
+				<Field>ОтветыКоманд.НомерСтр</Field>
+				<Field>ОтветыКоманд.Ответ</Field>
+				<Field>ОтветыКоманд.ОтветПравильный</Field>
+				<Field>ОтветыКоманд.Ответственный</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.ОтветыКоманд</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ПодачаАпелляции" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подача апелляции</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.ПодачаАпелляции</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ТекущийВопрос" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущий вопрос</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Вопросы</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекущийНомерСтр" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущий номер стр</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекущиеБаллы" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущие баллы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтветКоманды" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответ команды</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>250</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтветПравильный" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответ правильный</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>250</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекущийОтветственный" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущий ответственный</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекущаяКоманда" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущая команда</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Команды</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекущаяИгра" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущая игра</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DocumentRef.Игра</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ПодатьНаАпелляцию" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подать на апелляцию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подать на апелляцию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПодатьНаАпелляцию</Action>
+		</Command>
+		<Command name="УменьшитьМасштабФормы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уменьшить масштаб формы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уменьшить масштаб формы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Ctrl+Alt+W</Shortcut>
+			<Picture>
+				<xr:Ref>CommonPicture.УменьшитьМасштабФормы</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УменьшитьМасштабФормы</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="УвеличитьМасштабФормы" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Увеличить масштаб формы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Увеличить масштаб формы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Shortcut>Ctrl+Alt+Q</Shortcut>
+			<Picture>
+				<xr:Ref>CommonPicture.УвеличитьМасштабФормы</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>УвеличитьМасштабФормы</Action>
+			<Representation>Picture</Representation>
+		</Command>
+	</Commands>
+</Form>

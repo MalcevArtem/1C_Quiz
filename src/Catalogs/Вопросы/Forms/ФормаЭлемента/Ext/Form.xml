@@ -1,0 +1,767 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ПросмотрВИгровомСтоле" id="108">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПросмотрВИгровомСтолеИгрока</CommandName>
+				<ExtendedTooltip name="ПросмотрВИгровомСтолеРасширеннаяПодсказка" id="109"/>
+			</Button>
+			<Button name="ПросмотрВИгровомСтолеИгрокаДемонстрацияОтвета" id="112">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПросмотрВИгровомСтолеИгрокаДемонстрацияОтвета</CommandName>
+				<ExtendedTooltip name="ПросмотрВИгровомСтолеИгрокаДемонстрацияОтветаРасширеннаяПодсказка" id="113"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="Страницы" id="82">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="83"/>
+			<ChildItems>
+				<Page name="СтраницаВопрос" id="84">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вопрос</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница вопрос</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаВопросРасширеннаяПодсказка" id="85"/>
+					<ChildItems>
+						<UsualGroup name="Группа_Шапка" id="70">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа шапка</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа шапка</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа_ШапкаРасширеннаяПодсказка" id="71"/>
+							<ChildItems>
+								<UsualGroup name="Строка1" id="72">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Строка1</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Строка1</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Строка1РасширеннаяПодсказка" id="73"/>
+									<ChildItems>
+										<InputField name="Наименование" id="4">
+											<DataPath>Объект.Description</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>true</HorizontalStretch>
+											<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+											<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+										</InputField>
+										<InputField name="Код" id="1">
+											<DataPath>Объект.Code</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+											<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Строка2" id="74">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Строка1</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Строка1</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Строка2РасширеннаяПодсказка" id="75"/>
+									<ChildItems>
+										<InputField name="Заголовок" id="16">
+											<DataPath>Объект.Заголовок</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Перед счетчим времени</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<HorizontalStretch>true</HorizontalStretch>
+											<ContextMenu name="ЗаголовокКонтекстноеМеню" id="17"/>
+											<ExtendedTooltip name="ЗаголовокРасширеннаяПодсказка" id="18"/>
+										</InputField>
+										<InputField name="ВидВопроса" id="10">
+											<DataPath>Объект.ВидВопроса</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Вид</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ВидВопросаКонтекстноеМеню" id="11"/>
+											<ExtendedTooltip name="ВидВопросаРасширеннаяПодсказка" id="12"/>
+											<Events>
+												<Event name="OnChange">ВидВопросаПриИзменении</Event>
+											</Events>
+										</InputField>
+										<InputField name="Длительность" id="19">
+											<DataPath>Объект.Длительность</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Время(сек.)</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<Width>4</Width>
+											<ContextMenu name="ДлительностьКонтекстноеМеню" id="20"/>
+											<ExtendedTooltip name="ДлительностьРасширеннаяПодсказка" id="21"/>
+										</InputField>
+										<InputField name="Баллы" id="22">
+											<DataPath>Объект.Баллы</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="БаллыКонтекстноеМеню" id="23"/>
+											<ExtendedTooltip name="БаллыРасширеннаяПодсказка" id="24"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа_Данные" id="114">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа данные</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа данные</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа_ДанныеРасширеннаяПодсказка" id="115"/>
+							<ChildItems>
+								<UsualGroup name="Группа_ФорматируемыйДокумент" id="76">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа форматируемый документ</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа форматируемый документ</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа_ФорматируемыйДокументРасширеннаяПодсказка" id="77"/>
+									<ChildItems>
+										<CommandBar name="КоманднаяПанель_ФорматированныйДокумент" id="68">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Командная панель форматированный документ</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Командная панель форматированный документ</v8:content>
+												</v8:item>
+											</ToolTip>
+											<CommandSource>Item.ФорматируемыйДокумент</CommandSource>
+											<ExtendedTooltip name="КоманднаяПанель_ФорматированныйДокументРасширеннаяПодсказка" id="69"/>
+										</CommandBar>
+										<FormattedDocumentField name="ФорматируемыйДокумент" id="65">
+											<DataPath>ФорматированныйДокумент</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<ContextMenu name="ФорматируемыйДокументКонтекстноеМеню" id="66"/>
+											<ExtendedTooltip name="ФорматируемыйДокументРасширеннаяПодсказка" id="67"/>
+										</FormattedDocumentField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа_HTML" id="116">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа HTML</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа HTML</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа_HTMLРасширеннаяПодсказка" id="117"/>
+									<ChildItems>
+										<InputField name="ДанныеHTML" id="146">
+											<DataPath>Объект.ДанныеHTML</DataPath>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<OpenButton>true</OpenButton>
+											<AutoMarkIncomplete>true</AutoMarkIncomplete>
+											<ContextMenu name="ДанныеHTMLКонтекстноеМеню" id="147"/>
+											<ExtendedTooltip name="ДанныеHTMLРасширеннаяПодсказка" id="148"/>
+											<Events>
+												<Event name="OnChange">ДанныеHTMLПриИзменении</Event>
+											</Events>
+										</InputField>
+										<HTMLDocumentField name="НTML" id="118">
+											<DataPath>HTML</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<ContextMenu name="НTMLКонтекстноеМеню" id="119"/>
+											<ExtendedTooltip name="НTMLРасширеннаяПодсказка" id="120"/>
+										</HTMLDocumentField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа_ВидДанныхОтображения" id="124">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа вид данных отображения</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа вид данных отображения</v8:content>
+										</v8:item>
+									</ToolTip>
+									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа_ВидДанныхОтображенияРасширеннаяПодсказка" id="125"/>
+									<ChildItems>
+										<InputField name="ВидДанныхОтображения" id="121">
+											<DataPath>Объект.ВидДанныхОтображения</DataPath>
+											<ContextMenu name="ВидДанныхОтображенияКонтекстноеМеню" id="122"/>
+											<ExtendedTooltip name="ВидДанныхОтображенияРасширеннаяПодсказка" id="123"/>
+											<Events>
+												<Event name="OnChange">ВидДанныхОтображенияПриИзменении</Event>
+											</Events>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаОтвет" id="86">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ответ</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница ответ</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаОтветРасширеннаяПодсказка" id="87"/>
+					<ChildItems>
+						<CheckBoxField name="ИспользуетсяДемонстрацияОтвета" id="98">
+							<DataPath>Объект.ИспользуетсяДемонстрацияОтвета</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Используется демонстрация ответа в дополнительном окне</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользуетсяДемонстрацияОтветаКонтекстноеМеню" id="99"/>
+							<ExtendedTooltip name="ИспользуетсяДемонстрацияОтветаРасширеннаяПодсказка" id="100"/>
+							<Events>
+								<Event name="OnChange">ИспользуетсяДемонстрацияОтветаПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+						<CheckBoxField name="ИспользоватьПредставление" id="88">
+							<DataPath>Объект.ИспользоватьПредставление</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Использовать колонку "Представление"</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьПредставлениеКонтекстноеМеню" id="89"/>
+							<ExtendedTooltip name="ИспользоватьПредставлениеРасширеннаяПодсказка" id="90"/>
+							<Events>
+								<Event name="OnChange">ИспользоватьПредставлениеПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+						<UsualGroup name="Группа_ОтветыНаВопрос" id="78">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа ответы на вопрос</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа ответы на вопрос</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа_ОтветыНаВопросРасширеннаяПодсказка" id="79"/>
+							<ChildItems>
+								<Table name="ОтветыНаВопрос" id="34">
+									<Representation>List</Representation>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<DataPath>Объект.ОтветыНаВопрос</DataPath>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="ОтветыНаВопросКонтекстноеМеню" id="35"/>
+									<AutoCommandBar name="ОтветыНаВопросКоманднаяПанель" id="36">
+										<ChildItems>
+											<Button name="ОтветыНаВопросШаблонДаНет" id="94">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ШаблонДаНет</CommandName>
+												<ExtendedTooltip name="ОтветыНаВопросШаблонДаНетРасширеннаяПодсказка" id="95"/>
+											</Button>
+											<Button name="ОтветыНаВопросШаблонПравдаЛожь" id="96">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ШаблонПравдаЛожь</CommandName>
+												<ExtendedTooltip name="ОтветыНаВопросШаблонПравдаЛожьРасширеннаяПодсказка" id="97"/>
+											</Button>
+										</ChildItems>
+									</AutoCommandBar>
+									<ExtendedTooltip name="ОтветыНаВопросРасширеннаяПодсказка" id="37"/>
+									<SearchStringAddition name="ОтветыНаВопросСтрокаПоиска" id="38">
+										<AdditionSource>
+											<Item>ОтветыНаВопрос</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ОтветыНаВопросСтрокаПоискаКонтекстноеМеню" id="39"/>
+										<ExtendedTooltip name="ОтветыНаВопросСтрокаПоискаРасширеннаяПодсказка" id="40"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ОтветыНаВопросСостояниеПросмотра" id="41">
+										<AdditionSource>
+											<Item>ОтветыНаВопрос</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ОтветыНаВопросСостояниеПросмотраКонтекстноеМеню" id="42"/>
+										<ExtendedTooltip name="ОтветыНаВопросСостояниеПросмотраРасширеннаяПодсказка" id="43"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ОтветыНаВопросУправлениеПоиском" id="44">
+										<AdditionSource>
+											<Item>ОтветыНаВопрос</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ОтветыНаВопросУправлениеПоискомКонтекстноеМеню" id="45"/>
+										<ExtendedTooltip name="ОтветыНаВопросУправлениеПоискомРасширеннаяПодсказка" id="46"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<LabelField name="ОтветыНаВопросНомерСтроки" id="47">
+											<DataPath>Объект.ОтветыНаВопрос.LineNumber</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ОтветыНаВопросНомерСтрокиКонтекстноеМеню" id="48"/>
+											<ExtendedTooltip name="ОтветыНаВопросНомерСтрокиРасширеннаяПодсказка" id="49"/>
+										</LabelField>
+										<InputField name="ОтветыНаВопросПредставление" id="50">
+											<DataPath>Объект.ОтветыНаВопрос.Представление</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ОтветыНаВопросПредставлениеКонтекстноеМеню" id="51"/>
+											<ExtendedTooltip name="ОтветыНаВопросПредставлениеРасширеннаяПодсказка" id="52"/>
+										</InputField>
+										<InputField name="ОтветыНаВопросОтвет" id="53">
+											<DataPath>Объект.ОтветыНаВопрос.Ответ</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ОтветыНаВопросОтветКонтекстноеМеню" id="54"/>
+											<ExtendedTooltip name="ОтветыНаВопросОтветРасширеннаяПодсказка" id="55"/>
+										</InputField>
+										<CheckBoxField name="ОтветыНаВопросОтветНаТест" id="56">
+											<DataPath>Объект.ОтветыНаВопрос.ОтветНаТест</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ОтветыНаВопросОтветНаТестКонтекстноеМеню" id="57"/>
+											<ExtendedTooltip name="ОтветыНаВопросОтветНаТестРасширеннаяПодсказка" id="58"/>
+										</CheckBoxField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="Группа_Подвал" id="80">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа подвал</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа подвал</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа_ПодвалРасширеннаяПодсказка" id="81"/>
+							<ChildItems>
+								<InputField name="Ответственный" id="91">
+									<DataPath>Объект.Ответственный</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Автор вопроса</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ОтветственныйКонтекстноеМеню" id="92"/>
+									<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="93"/>
+								</InputField>
+								<InputField name="Комментарий" id="31">
+									<DataPath>Объект.Комментарий</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="КомментарийКонтекстноеМеню" id="32"/>
+									<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="33"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаДемонстрацияОтвета" id="101">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Демонстрация ответа</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница демонстрация ответа</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаДемонстрацияОтветаРасширеннаяПодсказка" id="102"/>
+					<ChildItems>
+						<UsualGroup name="Группа_ДанныеДемонстрацияОтвета" id="126">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа данные демонстрация ответа</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа данные демонстрация ответа</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Группа_ДанныеДемонстрацияОтветаРасширеннаяПодсказка" id="127"/>
+							<ChildItems>
+								<UsualGroup name="Группа_ФорматируемыйДокументДемонстрацияОтвета" id="128">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа форматируемый документ демонстрация ответа</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа форматируемый документ демонстрация ответа</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа_ФорматируемыйДокументДемонстрацияОтветаРасширеннаяПодсказка" id="129"/>
+									<ChildItems>
+										<CommandBar name="КоманднаяПанель_ФорматированныйДокументДемонстрацияОтвета" id="106">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Командная панель форматированный документ</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Командная панель форматированный документ</v8:content>
+												</v8:item>
+											</ToolTip>
+											<CommandSource>Item.ФорматированныйДокументДемонстрацияОтвета</CommandSource>
+											<ExtendedTooltip name="КоманднаяПанель_ФорматированныйДокументДемонстрацияОтветаРасширеннаяПодсказка" id="107"/>
+										</CommandBar>
+										<FormattedDocumentField name="ФорматированныйДокументДемонстрацияОтвета" id="103">
+											<DataPath>ФорматированныйДокументДемонстрацияОтвета</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<ContextMenu name="ФорматированныйДокументДемонстрацияОтветаКонтекстноеМеню" id="104"/>
+											<ExtendedTooltip name="ФорматированныйДокументДемонстрацияОтветаРасширеннаяПодсказка" id="105"/>
+										</FormattedDocumentField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа_HTMLДемонстрацияОтвета" id="130">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа HTMLДемонстрация ответа</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа HTMLДемонстрация ответа</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа_HTMLДемонстрацияОтветаРасширеннаяПодсказка" id="131"/>
+									<ChildItems>
+										<InputField name="ДанныеHTMLДемонстрацияОтвета" id="143">
+											<DataPath>Объект.ДанныеHTMLДемонстрацияОтвета</DataPath>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<OpenButton>true</OpenButton>
+											<AutoMarkIncomplete>true</AutoMarkIncomplete>
+											<ContextMenu name="ДанныеHTMLДемонстрацияОтветаКонтекстноеМеню" id="144"/>
+											<ExtendedTooltip name="ДанныеHTMLДемонстрацияОтветаРасширеннаяПодсказка" id="145"/>
+											<Events>
+												<Event name="OnChange">ДанныеHTMLДемонстрацияОтветаПриИзменении</Event>
+											</Events>
+										</InputField>
+										<HTMLDocumentField name="HTMLДемонстрацияОтвета" id="140">
+											<DataPath>HTMLДемонстрацияОтвета</DataPath>
+											<TitleLocation>None</TitleLocation>
+											<ContextMenu name="HTMLДемонстрацияОтветаКонтекстноеМеню" id="141"/>
+											<ExtendedTooltip name="HTMLДемонстрацияОтветаРасширеннаяПодсказка" id="142"/>
+										</HTMLDocumentField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="Группа_ВидДанныхОтображенияДемонстрацияОтвета" id="132">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа вид данных отображения демонстрация ответа</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа вид данных отображения демонстрация ответа</v8:content>
+										</v8:item>
+									</ToolTip>
+									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="Группа_ВидДанныхОтображенияДемонстрацияОтветаРасширеннаяПодсказка" id="133"/>
+									<ChildItems>
+										<InputField name="ВидДанныхОтображенияДемонстрацияОтвета" id="134">
+											<DataPath>Объект.ВидДанныхОтображенияДемонстрацияОтвета</DataPath>
+											<ContextMenu name="ВидДанныхОтображенияДемонстрацияОтветаКонтекстноеМеню" id="135"/>
+											<ExtendedTooltip name="ВидДанныхОтображенияДемонстрацияОтветаРасширеннаяПодсказка" id="136"/>
+											<Events>
+												<Event name="OnChange">ВидДанныхОтображенияДемонстрацияОтветаПриИзменении</Event>
+											</Events>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Вопросы</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+		<Attribute name="ФорматированныйДокумент" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Форматированный документ</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ФорматированныйДокументДемонстрацияОтвета" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Форматированный документ демонстрация ответа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type xmlns:fd="http://v8.1c.ru/8.2/data/formatted-document">fd:FormattedDocument</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="HTML" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>HTML</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="HTMLДемонстрацияОтвета" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>HTMLДемонстрация ответа</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ШаблонДаНет" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Да/Нет</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шаблон да нет</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ШаблонДаНет</Action>
+		</Command>
+		<Command name="ШаблонПравдаЛожь" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Правда/Ложь</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шаблон правда ложь</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ШаблонПравдаЛожь</Action>
+		</Command>
+		<Command name="ПросмотрВИгровомСтолеИгрока" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Просмотр вопроса</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Просмотр в игровом столе игрока</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.ShowData</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ПросмотрВИгровомСтоле</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+		<Command name="ПросмотрВИгровомСтолеИгрокаДемонстрацияОтвета" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Просмотр демонстрации ответа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Просмотр в игровом столе игрока демонстрация ответа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.ShowData</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ПросмотрВИгровомСтолеДемонстрацияОтвета</Action>
+			<Representation>TextPicture</Representation>
+		</Command>
+	</Commands>
+</Form>

@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа_Шапка" id="34">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа_ШапкаРасширеннаяПодсказка" id="35"/>
+			<ChildItems>
+				<UsualGroup name="Колонка1" id="36">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Колонка1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Колонка1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Колонка1РасширеннаяПодсказка" id="37"/>
+					<ChildItems>
+						<InputField name="ВремяПодачи" id="13">
+							<DataPath>Запись.ВремяПодачи</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="ВремяПодачиКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ВремяПодачиРасширеннаяПодсказка" id="15"/>
+						</InputField>
+						<InputField name="Команда" id="4">
+							<DataPath>Запись.Команда</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="КомандаКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="КомандаРасширеннаяПодсказка" id="6"/>
+						</InputField>
+						<InputField name="Вопрос" id="7">
+							<DataPath>Запись.Вопрос</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="ВопросКонтекстноеМеню" id="8"/>
+							<ExtendedTooltip name="ВопросРасширеннаяПодсказка" id="9"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Колонка2" id="38">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Колонка1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Колонка2</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Колонка2РасширеннаяПодсказка" id="39"/>
+					<ChildItems>
+						<InputField name="Игра" id="1">
+							<DataPath>Запись.Игра</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="ИграКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="ИграРасширеннаяПодсказка" id="3"/>
+						</InputField>
+						<InputField name="Игрок" id="16">
+							<DataPath>Запись.Игрок</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="ИгрокКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ИгрокРасширеннаяПодсказка" id="18"/>
+						</InputField>
+						<UsualGroup name="Колонка2Строка3" id="46">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Колонка2 строка3</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Колонка2 строка3</v8:content>
+								</v8:item>
+							</ToolTip>
+							<HorizontalStretch>true</HorizontalStretch>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="Колонка2Строка3РасширеннаяПодсказка" id="47"/>
+							<ChildItems>
+								<InputField name="НомерСтр" id="10">
+									<DataPath>Запись.НомерСтр</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>№ стр.</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="НомерСтрКонтекстноеМеню" id="11"/>
+									<ExtendedTooltip name="НомерСтрРасширеннаяПодсказка" id="12"/>
+								</InputField>
+								<Button name="ОткрытьОтветКоманды" id="44">
+									<Type>UsualButton</Type>
+									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+									<CommandName>Form.Command.ОткрытьОтветКоманды</CommandName>
+									<TextColor>#0000FF</TextColor>
+									<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Посмотреть ответ</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ОткрытьОтветКомандыРасширеннаяПодсказка" id="45"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа_ОбращениеРассмотрение" id="40">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа обращение рассмотрение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа обращение рассмотрение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа_ОбращениеРассмотрениеРасширеннаяПодсказка" id="41"/>
+			<ChildItems>
+				<InputField name="Обращение" id="19">
+					<DataPath>Запись.Обращение</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<TitleTextColor>style:NegativeTextColor</TitleTextColor>
+					<TitleFont ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Height>3</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<MultiLine>true</MultiLine>
+					<BorderColor>style:NegativeTextColor</BorderColor>
+					<ContextMenu name="ОбращениеКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ОбращениеРасширеннаяПодсказка" id="21"/>
+				</InputField>
+				<InputField name="Решение" id="22">
+					<DataPath>Запись.Решение</DataPath>
+					<TitleTextColor>web:LimeGreen</TitleTextColor>
+					<TitleFont ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Height>3</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<MultiLine>true</MultiLine>
+					<BorderColor>web:LimeGreen</BorderColor>
+					<ContextMenu name="РешениеКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="РешениеРасширеннаяПодсказка" id="24"/>
+					<Events>
+						<Event name="OnChange">РешениеПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа_Подвал" id="42">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подвал</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подвал</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа_ПодвалРасширеннаяПодсказка" id="43"/>
+			<ChildItems>
+				<InputField name="ОтветственныйЗаРассмотрение" id="25">
+					<DataPath>Запись.ОтветственныйЗаРассмотрение</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ответственный</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ОтветственныйЗаРассмотрениеКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ОтветственныйЗаРассмотрениеРасширеннаяПодсказка" id="27"/>
+				</InputField>
+				<InputField name="ВремяРассмотрения" id="31">
+					<DataPath>Запись.ВремяРассмотрения</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ContextMenu name="ВремяРассмотренияКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="ВремяРассмотренияРасширеннаяПодсказка" id="33"/>
+				</InputField>
+				<CheckBoxField name="Рассмотрена" id="28">
+					<DataPath>Запись.Рассмотрена</DataPath>
+					<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="РассмотренаКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="РассмотренаРасширеннаяПодсказка" id="30"/>
+					<Events>
+						<Event name="OnChange">РассмотренаПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.ПодачаАпелляции</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ОткрытьОтветКоманды" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть ответ команды</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть ответ команды</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьОтветКоманды</Action>
+		</Command>
+	</Commands>
+</Form>

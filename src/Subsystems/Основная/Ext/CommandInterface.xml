@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<CommandsVisibility>
+		<Command name="Catalog.Вопросы.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.Игра.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Команды.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.МаршрутПроведенияИгры.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ОтветыИгроков.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ОтветыКоманд.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.Отзывы.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ПодачаАпелляции.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Пользователи.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.РазрешениеРаботыПользователямПриБлокировке.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.РейтингиИгроков.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.СтатьиРейтинга.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ЭмоциональныеОценкиВопросов.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ЭтапыИгры.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ПодачаАпелляции.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Вопросы.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Вопросы.StandardCommand.CreateFolder">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Document.Игра.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Команды.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Команды.StandardCommand.CreateFolder">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.МаршрутПроведенияИгры.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ОтветыИгроков.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ОтветыКоманд.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.Отзывы.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Пользователи.StandardCommand.CreateFolder">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.Пользователи.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.РазрешениеРаботыПользователямПриБлокировке.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.РейтингиИгроков.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.СтатьиРейтинга.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.ЭмоциональныеОценкиВопросов.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Catalog.ЭтапыИгры.StandardCommand.Create">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Constant.АдминистраторИгры.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.БлокировкаРаботыПользователей.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Constant.ВремяБлокировкиРаботыПользователей.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Constant.ВремяОбновленияДанныхИгрока.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.ИгровойСтолАдминистратора.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.ИгровойСтолОценкиОтветов.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.ИгровойСтолУчастника.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.Игрок">true</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Constant.ИнструкцияИгрока.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">true</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Constant.РазрешитьВходВСистемуПриБлокировке.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="DataProcessor.СтартоваяСтраница.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="Constant.ТекущаяИгра.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="CommonForm.ФормаИзмененияПароля.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="CommonForm.ФормаИнструкцияИгрока.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="CommonForm.ФормаКонстант.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="CommonForm.ФормаОставитьОтзыв.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="CommonForm.ФормаОтветовКомандыРассмотренныхАпелляций.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+		<Command name="CommonForm.ФормаПодачаАпелляции.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+				<xr:Value name="Role.Игрок">false</xr:Value>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+</CommandInterface>

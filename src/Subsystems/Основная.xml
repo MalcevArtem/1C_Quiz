@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<Subsystem uuid="62cc93b4-53ef-48aa-ac61-fbf943c812b8">
+		<Properties>
+			<Name>Основная</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основная</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>false</UseOneCommand>
+			<Explanation/>
+			<Picture>
+				<xr:Ref>StdPicture.Char</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Пользователи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Команды</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидВопроса</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Вопросы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОтветыИгроков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ОтветыКоманд</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ИгровойСтолУчастника</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ТекущаяИгра</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Игра</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.МаршрутПроведенияИгры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ИгровойСтолАдминистратора</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.АдминистраторИгры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ИгровойСтолОценкиОтветов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.РезультатИгрыПолный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЭтапыИгры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВремяОбновленияДанныхИгрока</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.СтартоваяСтраница</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ФормаКонстант</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РазрешениеРаботыПользователямПриБлокировке</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВремяБлокировкиРаботыПользователей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.БлокировкаРаботыПользователей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.РазрешитьВходВСистемуПриБлокировке</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ПодачаАпелляции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Отзывы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИнструкцияИгрока</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЭмоциональныеОценкиВопросов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПалецВверхЗеленый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПалецВнизСерый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ПалецВнизКрасный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ФормаИзмененияПароля</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ФормаПодачаАпелляции</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ФормаОставитьОтзыв</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ФормаИнструкцияИгрока</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Комментарий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.РезультатИгры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.РезультатИгры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.РейтингиИгроков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СтатьиРейтинга</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.РейтингИгроков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ИгрокиКоманд</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ФормаОтветовКомандыРассмотренныхАпелляций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Играть</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Чат</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ВыборКоманды</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ВидеоСYoutube</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидДанныхОтображения</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>
