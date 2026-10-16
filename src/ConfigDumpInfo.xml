@@ -24,10 +24,10 @@
 		</Metadata>
 		<Metadata name="Catalog.Вопросы.Form.ФормаСписка" id="ce5cf305-87e6-4436-b49d-b128d87c706c" configVersion="798b2f2d583e5849a0421a265163cf1a00000000"/>
 		<Metadata name="Catalog.Вопросы.Form.ФормаСписка.Form" id="ce5cf305-87e6-4436-b49d-b128d87c706c.0" configVersion="ccb74ba21e3d0e40bcc2616411a883b000000000"/>
-		<Metadata name="Catalog.Вопросы.Form.ФормаЭлемента" id="d17c4f1e-17d3-4f67-b363-8f0702fc8363" configVersion="0b67e5e40165be4db1e76333496fcb9000000000"/>
-		<Metadata name="Catalog.Вопросы.Form.ФормаЭлемента.Form" id="d17c4f1e-17d3-4f67-b363-8f0702fc8363.0" configVersion="fb59fc04aab1d845bedefd9012201e3f00000000"/>
+		<Metadata name="Catalog.Вопросы.Form.ФормаЭлемента" id="d17c4f1e-17d3-4f67-b363-8f0702fc8363" configVersion="abab5f7d2f9bdc4781073dd1480eb5bf00000000"/>
+		<Metadata name="Catalog.Вопросы.Form.ФормаЭлемента.Form" id="d17c4f1e-17d3-4f67-b363-8f0702fc8363.0" configVersion="5cdda3a9903c3341865a03e15989433900000000"/>
 		<Metadata name="Catalog.Вопросы.ObjectModule" id="9224829f-c257-4558-bfda-8ecb8033e68d.0" configVersion="82d16f7091c47b4a85d81af3ba38ba3b00000000"/>
-		<Metadata name="Catalog.Команды" id="d983d2b2-945a-4c54-bb96-4b938a649802" configVersion="fcab37de55b8904aa00df14f644bfa8c00000000">
+		<Metadata name="Catalog.Команды" id="d983d2b2-945a-4c54-bb96-4b938a649802" configVersion="2301b0a5e673c047a8c2515c50f7839400000000">
 			<Metadata name="Catalog.Команды.Attribute.Описание" id="05fac52d-e755-4815-9c91-1aed487559be"/>
 			<Metadata name="Catalog.Команды.TabularSection.Игроки" id="33a6e430-fd48-46b0-a183-41b6d2aa43a8"/>
 			<Metadata name="Catalog.Команды.Attribute.Ответственный" id="50b489c0-fcd0-4868-962a-551b106f9b5a"/>
@@ -36,7 +36,7 @@
 		</Metadata>
 		<Metadata name="Catalog.Команды.Form.ФормаЭлемента" id="e8244faa-2806-4ae9-85bd-e2817cec0dc7" configVersion="b42a8fabd0d1414493c188424669a0db00000000"/>
 		<Metadata name="Catalog.Команды.Form.ФормаЭлемента.Form" id="e8244faa-2806-4ae9-85bd-e2817cec0dc7.0" configVersion="36aaa924f4c06744a118095e336f5c8600000000"/>
-		<Metadata name="Catalog.Команды.ObjectModule" id="d983d2b2-945a-4c54-bb96-4b938a649802.0" configVersion="d56ea2475183cb4a8e992fe80d5b0b8200000000"/>
+		<Metadata name="Catalog.Команды.ObjectModule" id="d983d2b2-945a-4c54-bb96-4b938a649802.0" configVersion="c50e4ff6bf13694381a5b153e1f8ab0500000000"/>
 		<Metadata name="Catalog.Пользователи" id="98d84cba-86a5-43e1-a329-f06346ff9052" configVersion="4a06431f12d21a43a695c03280d0837300000000">
 			<Metadata name="Catalog.Пользователи.Attribute.Ответственный" id="004c0d9b-40a3-4965-b274-70aaf2b79957"/>
 			<Metadata name="Catalog.Пользователи.Command.Команды" id="0367316e-c08c-4e43-bde8-1279e1ebd38d"/>
